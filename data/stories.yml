@@ -1,0 +1,100 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+# added new story...
+- story: Respond to questions about Cozentus values
+  steps:
+  - intent: ask_cozentus_values
+  - action: utter_cozentus_values
+
+- story: Respond to questions about available positions
+  steps:
+  - intent: ask_available_positions
+  - action: utter_available_positions
+
+- story: Respond to questions about Cozentus
+  steps:
+  - intent: ask_about_cozentus
+  - action: utter_about_cozentus
+
+- story: Respond to questions about email address
+  steps:
+  - intent: ask_email_address
+  - action: utter_email_address
+
+- story: Respond to questions about contact number
+  steps:
+  - intent: ask_contact_number
+  - action: utter_contact_number
+
+- story: Respond to questions about Founder and CEO
+  steps:
+  - intent: ask_founder_ceo
+  - action: utter_founder_ceo
+
+- story: Respond to questions about Co-Founder and COO
+  steps:
+  - intent: ask_cofounder_coo
+  - action: utter_cofounder_coo
+
+- story: Respond to questions about Co-Founder and CGO
+  steps:
+  - intent: ask_co_founder_cgo
+  - action: utter_co_founder_cgo
+
+- story: Respond to questions about EVP - Operations
+  steps:
+  - intent: ask_evp_operations
+  - action: utter_evp_operations
+- story: Respond to questions about EVP - Data Practice
+  steps:
+  - intent: ask_evp_data_practice
+  - action: utter_evp_data_practice
+- story: Respond to questions about EVP - Technology
+  steps:
+  - intent: ask_evp_technology
+  - action: utter_evp_technology
+- story: Respond to questions about AVP - EDI Practice Lead
+  steps:
+  - intent: ask_avp_edi_practice_lead
+  - action: utter_avp_edi_practice_lead
+- story: Respond to questions about General Manager
+  steps:
+  - intent: ask_general_manager
+  - action: utter_general_manager
+- story: Respond to questions about Co-Founders
+  steps:
+  - intent: ask_co_founders
+  - action: utter_co_founders
+
+- story: Respond to questions about management team roles
+  steps:
+  - intent: ask_management_team_roles
+  - action: utter_management_team_roles

@@ -1,0 +1,545 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+# newly added intent......
+- intent: ask_cozentus_values
+  examples: |
+    - What are the values of Cozentus?
+    - Can you tell me the core values of Cozentus?
+    - What core values does Cozentus have?
+    - What are the main principles of Cozentus?
+    
+- intent: ask_available_positions
+  examples: |
+    - What are the available positions?
+    - Can you tell me the available positions?
+    - What jobs are open at Cozentus?
+    - What positions are currently available at Cozentus?
+
+- intent: ask_about_cozentus
+  examples: |
+    - Can you tell me about Cozentus?
+    - What is Cozentus?
+    - Tell me about Cozentus.
+    - What does Cozentus do?
+
+- intent: ask_email_address
+  examples: |
+    - What is your email address?
+    - What email should I use to reach Cozentus?
+    - Is there an email destination I can use to reach you?
+    - How do I progress to out to you via email?
+    - Is there an email accost I can use to reach you?
+    - Is there an email reference I can use to reach you?
+    - How can I reach you via email?
+    - What is your email address?
+    - How do I hand you via email?
+    - What's your email for business inquiries?
+    - How can I inter-group communication you via email?
+    - Can you provide your netmail address?
+    - Is there an email address I can use to strain you?
+    - What email should I use to get in touch?
+    - Is there an email address I can use to pass you?
+    - Can you bring home the bacon your email address?
+    - How do I contact out to you via email?
+    - What email should I use to hand Cozentus?
+    - How do I strain you via email?
+    - What email should I use to turn over Cozentus?
+    - How can I get through you via email?
+    - How can I middleman you via email?
+    - Is there an email address I can use to get to you?
+    - Is there an email address I can use to attain you?
+    - Can I email you?
+    - How do I strive you via email?
+    - Can I netmail you?
+    - Is there an email computer address I can use to reach you?
+    - What email should I use to arrive at Cozentus?
+    - What's your electronic mail for business inquiries?
+    - Do you have an email I can use to get through you?
+    - How do I strain out to you via email?
+    - How do I reach out to you via email?
+    - Do you have an netmail contact?
+    - Is there an email address I can use to stretch you?
+    - Do you have an email I can use to adjoin you?
+    - Do you have an email I can use to contact you?
+    - Can you leave your email address?
+    - Is there an email address I can use to grasp you?
+    - Is there an email address I can use to progress to you?
+    - What email should I use to scope Cozentus?
+    - What email should I use to touch Cozentus?
+    - How do I grasp out to you via email?
+    - Is there an email address I can use to make you?
+    - Do you have an email I can use to impinging you?
+    - Is there an email address I can use to give you?
+    - What email should I use to accomplish Cozentus?
+    - What email should I use to achieve Cozentus?
+    - What email should I use to make Cozentus?
+    - How do I compass you via email?
+    - What electronic mail should I use to get in touch?
+    - How can I netmail you?
+    - How can I email you?
+    - Do you have an email contact?
+    - Can I e-mail you?
+    - How do I compass out to you via email?
+    - What email should I use to gain Cozentus?
+    - What email should I use to reach out Cozentus?
+    - Can you supply your email address?
+    - Do you have an netmail I can use to contact you?
+    - What email should I use to ambit Cozentus?
+    - How do I get hold of out to you via email?
+    - How do I scope out to you via email?
+    - How do I achieve out to you via email?
+    - Is there an email turn to I can use to reach you?
+    - Is there an email handle I can use to reach you?
+    - Do you have an email I can use to liaison you?
+    - What email should I use to pass on Cozentus?
+    - Is there an email address I can use to pass on you?
+    - How do I extend to out to you via email?
+    - Is there an email address I can use to strive you?
+    - How do I give you via email?
+    - How do I accomplish you via email?
+    - How do I arrive at out to you via email?
+    - Is there an email address I can use to compass you?
+    - How do I achieve you via email?
+    - What email should I use to progress to Cozentus?
+    - How do I reaching out to you via email?
+    - How do I accomplish out to you via email?
+    - Do you have an email I can use to meet you?
+    - How can I get hold of you via email?
+    - Do you have an email I can use to link you?
+    - Is there an email address I can use to gain you?
+    - How do I pass you via email?
+    - Is there an email address I can use to range you?
+    - How can I meet you via email?
+    - How do I stretch you via email?
+    - How do I scope you via email?
+    - What is your netmail address?
+    - What email should I use to give Cozentus?
+    - Can you cater your email address?
+    - How can I impinging you via email?
+    - What's your netmail for business inquiries?
+    - How can I physical contact you via email?
+    - Is there an email address I can use to touch you?
+    - How do I strive out to you via email?
+    - How do I get hold of you via email?
+    - How do I pass out to you via email?
+    - How do I get to out to you via email?
+    - Is there an email address I can use to turn over you?
+    - How do I reach out you via email?
+    - How do I orbit you via email?
+    - How can I link you via email?
+    - What email should I use to get to Cozentus?
+    - Is there an email address I can use to get hold of you?
+    - Is there an email address I can use to contact you?
+    - How do I turn over out to you via email?
+    - Is there an email address I can use to get through you?
+    - How do I attain you via email?
+    - Can you render your email address?
+    - Do you have an email I can use to physical contact you?
+    - How do I stretch out to you via email?
+    - How can I contact lens you via email?
+    - Can you provide your e-mail address?
+    - What's your e-mail for business inquiries?
+    - How do I orbit out to you via email?
+    - How do I progress to you via email?
+    - Is there an email direct I can use to reach you?
+    - Can you provide your electronic mail address?
+    - Is there an email address I can use to reaching you?
+    - Is there an email address I can use to ambit you?
+    - Is there an email address I can use to hit you?
+    - Can you furnish your email address?
+    - Do you have an email I can use to reach you?
+    - How do I turn over you via email?
+    - Is there an email treat I can use to reach you?
+    - Is there an email speak I can use to reach you?
+    - How do I get through out to you via email?
+    - How do I arrive at you via email?
+    - What email should I use to stretch Cozentus?
+    - How can I tangency you via email?
+    - How do I hit out to you via email?
+    - Do you have an email I can use to tangency you?
+    - How do I get to you via email?
+    - Can you allow for your email address?
+    - How do I attain out to you via email?
+    - What is your electronic mail address?
+    - Do you have an electronic mail I can use to contact you?
+    - How can I striking you via email?
+    - Is there an email call I can use to reach you?
+    - Is there an email plow I can use to reach you?
+    - How do I contact you via email?
+    - How do I grasp you via email?
+    - Do you have an email I can use to touch you?
+    - What email should I use to strain Cozentus?
+    - What email should I use to reaching Cozentus?
+    - How can I electronic mail you?
+    - Is there an email address I can use to accomplish you?
+    - What email should I use to strive Cozentus?
+    - What email should I use to orbit Cozentus?
+    - Can you offer your email address?
+    - How do I ambit out to you via email?
+    - How can I liaison you via email?
+    - Is there an email address I can use to hand you?
+    - Is there an email come up to I can use to reach you?
+    - What e-mail should I use to reach Cozentus?
+    - Do you have an electronic mail contact?
+    - Is there an email savoir-faire I can use to reach you?
+    - Do you have an e-mail contact?
+    - Do you have an email I can use to middleman you?
+    - How do I hand out to you via email?
+    - What email should I use to compass Cozentus?
+    - How do I get through you via email?
+    - Is there an netmail address I can use to reach you?
+    - Can you provide your email address?
+    - Can you ply your email address?
+    - Is there an email address I can use to reach out you?
+    - What is your e-mail address?
+    - How do I make you via email?
+    - Is there an email address I can use to reach you?
+    - Do you have an email I can use to contact lens you?
+    - Is there an e-mail address I can use to reach you?
+    - How do I ambit you via email?
+    - What email should I use to pass Cozentus?
+    - How do I extend to you via email?
+    - What email should I use to contact Cozentus?
+    - How do I make out to you via email?
+    - What email should I use to hit Cozentus?
+    - How can I e-mail you?
+    - Is there an email address I can use to arrive at you?
+    - How do I hit you via email?
+    - How do I touch you via email?
+    - How can I touch you via email?
+    - What email should I use to extend to Cozentus?
+    - Is there an email name and address I can use to reach you?
+    - Do you have an email I can use to get hold of you?
+    - How can I contact you via email?
+    - What email should I use to get through Cozentus?
+    - How do I range out to you via email?
+    - How do I pass on out to you via email?
+    - How do I gain out to you via email?
+    - What e-mail should I use to get in touch?
+    - What email should I use to get hold of Cozentus?
+    - Can you allow your email address?
+    - Is there an email speech I can use to reach you?
+    - How do I pass on you via email?
+    - How do I give out to you via email?
+    - What electronic mail should I use to reach Cozentus?
+    - Do you have an e-mail I can use to contact you?
+    - What email should I use to range Cozentus?
+    - Is there an email address I can use to orbit you?
+    - Do you have an email I can use to inter-group communication you?
+    - Can you put up your email address?
+    - What netmail should I use to get in touch?
+    - Is there an electronic mail address I can use to reach you?
+    - How do I gain you via email?
+    - Is there an email address I can use to extend to you?
+    - Is there an email deal I can use to reach you?
+    - How can I adjoin you via email?
+    - What email should I use to grasp Cozentus?
+    - What is your email?
+    - How do I reach you via email?
+    - What netmail should I use to reach Cozentus?
+    - How do I reach out out to you via email?
+    - Is there an email address I can use to scope you?
+    - What email should I use to attain Cozentus?
+    - Is there an email cover I can use to reach you?
+    - Do you have an email I can use to striking you?
+    - Is there an email address I can use to achieve you?
+    - Can I electronic mail you?
+    - How do I touch out to you via email?
+    - How do I range you via email?
+    - How do I reaching you via email?
+
+- intent: ask_contact_number
+  examples: |
+    - What is your contact number?
+    - Can you provide your phone number?
+    - How can I contact you by phone?
+    - What is the phone number for Cozentus?
+    - How can I middleman you by phone?
+    - Can you ply your phone number?
+    - Can you bring home the bacon your phone number?
+    - What is the phone number for Cozentus?
+    - How can I get hold of you by phone?
+    - What is your adjoin number?
+    - What is your get through number?
+    - How can I physical contact you by phone?
+    - How can I adjoin you by phone?
+    - Can you offer your phone number?
+    - How can I get through you by phone?
+    - What is your middleman number?
+    - Can you allow your phone number?
+    - Can you render your phone number?
+    - Can you put up your phone number?
+    - What is your link number?
+    - Can you leave your phone number?
+    - What is your physical contact number?
+    - What is your meet number?
+    - How can I inter-group communication you by phone?
+    - What is your get hold of number?
+    - What is your impinging number?
+    - How can I impinging you by phone?
+    - Can you cater your phone number?
+    - How can I tangency you by phone?
+    - What is your touch number?
+    - How can I reach you by phone?
+    - Can you provide your phone number?
+    - What is your tangency number?
+    - How can I contact you by phone?
+    - How can I meet you by phone?
+    - How can I striking you by phone?
+    - What is your contact number?
+    - Can you supply your phone number?
+    - How can I touch you by phone?
+    - Can you allow for your phone number?
+    - What is your striking number?
+    - What is your contact lens number?
+    - What is your inter-group communication number?
+    - How can I contact lens you by phone?
+    - What is your reach number?
+    - How can I link you by phone?
+    - What is your liaison number?
+    - Can you furnish your phone number?
+    - How can I liaison you by phone?
+
+- intent: ask_founder_ceo
+  examples: |
+    - Who is the Founder and CEO of Cozentus?
+    - Who is the Founder and Chief Executive Officer of Cozentus?
+    - Who is the Founder and Chief Executive of Cozentus?
+    - Who is the Founder and CEO of Cozentus?
+    - Who is the Creator and CEO of Cozentus?
+    - Who is the Originator and CEO of Cozentus?
+    - Who is the Founder and Head of Cozentus?
+    - Who is the Founder and Chief of Cozentus?
+    - Who is the Founder and Leader of Cozentus?
+    - Can you tell me who the Founder and CEO of Cozentus is?
+    - Can you tell me who the Founder and Chief Executive Officer of Cozentus is?
+    - Can you tell me who the Founder and Chief Executive of Cozentus is?
+    - Can you tell me who the Creator and CEO of Cozentus is?
+    - Can you tell me who the Originator and CEO of Cozentus is?
+    - Can you tell me who the Founder and Head of Cozentus is?
+    - Can you tell me who the Founder and Chief of Cozentus is?
+    - Can you tell me who the Founder and Leader of Cozentus is?
+    - Who founded Cozentus and is the CEO?
+    - Who created Cozentus and is the CEO?
+    - Who originated Cozentus and is the CEO?
+    - Who founded Cozentus and is the Chief Executive Officer?
+    - Who founded Cozentus and is the Chief Executive?
+    - Who founded Cozentus and is the Head?
+    - Who founded Cozentus and is the Chief?
+    - Who founded Cozentus and is the Leader?
+    - Who is leading Cozentus as Founder and CEO?
+    - Who is guiding Cozentus as Founder and CEO?
+    - Who is directing Cozentus as Founder and CEO?
+    - Who is heading Cozentus as Founder and CEO?
+    - Who is managing Cozentus as Founder and CEO?
+    - Who is running Cozentus as Founder and CEO?
+    - Who is steering Cozentus as Founder and CEO?
+    - Who is leading Cozentus as Founder and Chief Executive Officer?
+    - Who is leading Cozentus as Founder and Chief Executive?
+    - Who is leading Cozentus as Founder and Head?
+    - Who is leading Cozentus as Founder and Chief?
+    - Who is leading Cozentus as Founder and Leader?
+
+- intent: ask_cofounder_coo
+  examples: |
+    - Who is the Co-Founder and COO of Cozentus?
+    - Can you tell me who the Co-Founder and COO of Cozentus is?
+    - Who co-founded Cozentus and is the COO?
+    - Who is leading Cozentus as Co-Founder and COO?
+    - Can you tell me who the Co-Founder and COO of Cozentus is?
+    - Can you tell me who the Collaborator and COO of Cozentus is?
+    - Who is leading Cozentus as Co-Founder and COO?
+    - Who is leading Cozentus as Cofounder and COO?
+    - Who is leading Cozentus as Co-founding and COO?
+    - Who is leading Cozentus as Chief_Operating_Officer and COO?
+    - Who is the Co-Founder and COO of Cozentus?
+    - Who is the Co-Founder and COO of Cozentus?
+    - Who is the Co-Founder and Chief_Operating_Officer of Cozentus?
+    - Who is the Co-Founder and Chief_Operating_Officer of Cozentus?
+    - Who is the Co-Founder and Chief_Operating_Officer of Cozentus?
+    - Who is the Co-Founder and Chief_Operating_Officer of Cozentus?
+    - Who is the Co-Founder and top dog of Cozentus?
+    - Who is the Co-Founder and top dog of Cozentus?
+    - Who co-founded Cozentus and is the COO?
+    - Who co-founded Cozentus and is the COO?
+    - Who is leading Cozentus as Chief_Operating_Officer and COO?
+    - Who is leading Cozentus as Chief_Operating_Officer and COO?
+    - Who is leading Cozentus as Chief_Operating and COO?
+    - Who is leading Cozentus as Chief_Operating and COO?
+
+- intent: ask_co_founder_cgo
+  examples: |
+    - Who is the Co-Founder and CGO of Cozentus?
+    - Can you tell me who the Co-Founder and CGO of Cozentus is?
+    - Who co-founded Cozentus and is the CGO?
+    - Who is serving as Co-Founder and CGO at Cozentus?
+
+- intent: ask_evp_operations
+  examples: |
+    - Who is the Executive Vice President - Operations at Cozentus?
+    - Can you tell me who the EVP - Operations at Cozentus is?
+    - Who heads operations at Cozentus?
+    - Could you give me information about the Executive Vice President in charge of operations?
+    - Who is responsible for overseeing operations at Cozentus?
+    - Tell me about the EVP handling operations at Cozentus.
+
+- intent: ask_evp_data_practice
+  examples: |
+    - Who is the EVP and Head of Data Practice at Cozentus?
+    - Can you tell me who the EVP - Data Practice at Cozentus is?
+    - Who leads the data practice at Cozentus?
+    - Can you provide details about the EVP for data practice?
+    - Who is the person responsible for data practice at Cozentus?
+    - Tell me about the head of the data practice division at Cozentus.
+
+- intent: ask_evp_technology
+  examples: |
+    - Who is the EVP and Head of Technology at Cozentus?
+    - Can you tell me who the EVP - Technology at Cozentus is?
+    - Who is in charge of technology at Cozentus?
+    - Can you provide information about the EVP for technology?
+    - Who oversees the technology department at Cozentus?
+    - Tell me about the person leading technology initiatives at Cozentus.
+
+- intent: ask_avp_edi_practice_lead
+  examples: |
+    - Who is the AVP and EDI Practice Lead at Cozentus?
+    - Can you tell me who the AVP - EDI Practice Lead at Cozentus is?
+    - Who leads the EDI practice at Cozentus?
+    - Can you tell me about the AVP responsible for EDI practice?
+    - Who is the person in charge of EDI practice at Cozentus?
+    - Tell me about the AVP overseeing the EDI practice at Cozentus.
+
+- intent: ask_general_manager
+  examples: |
+    - Who is the General Manager at Cozentus?
+    - Can you provide details about the General Manager at Cozentus?
+    - Who holds the position of General Manager at Cozentus?
+    - Can you provide information about the role of General Manager at Cozentus?
+    - Who is responsible for general management at Cozentus?
+    - Tell me about the leadership position of General Manager at Cozentus.
+
+- intent: ask_co_founders
+  examples: |
+    - Who are the Co-Founders of Cozentus?
+    - Can you tell me about the Co-Founders of Cozentus?
+    - Who established Cozentus as its co-founders?
+    - Can you list the individuals who founded Cozentus?
+    - Who were the founding members of Cozentus?
+    - Tell me about the people who started Cozentus as its co-founders.
+
+- intent: ask_management_team_roles
+  examples: |
+    - Can you tell me about the key team members driving Cozentus's success?
+    - Who are the visionaries behind Cozentus?
+    - Who are the individuals responsible for driving Cozentus forward?
+    - Could you introduce me to the top management of Cozentus?
+    - What are the roles of the management team members at Cozentus?
+    - Who are the primary decision-makers at Cozentus?
+    - What are the roles of the management team members at Cozentus?
+    - Can you tell me about the roles of the management team at Cozentus?
+    - What positions do the management team members hold at Cozentus?
+    - Who is responsible for leadership at Cozentus?
+    - Can you list the roles of the executives at Cozentus?
+    - What are the titles of the key team members at Cozentus?
+    - Tell me about the responsibilities of the management team at Cozentus.
+    - Who are the leaders at Cozentus and what are their roles?
+    - Give me an overview of the management structure at Cozentus.
+    - I'm curious about the leadership roles at Cozentus, could you provide details?
+    - What are the designations of the top management team at Cozentus?
+    - Who holds what position in the management team at Cozentus?
+    - Tell me about the managerial roles within Cozentus.
+    - Can you provide information about the executives' roles at Cozentus?
+    - Who are the key decision-makers at Cozentus and what do they do?
+    - What titles do the senior team members have at Cozentus?
+    - I'd like to know the roles of the management team members, could you help?
+    - Provide an overview of the leadership positions at Cozentus, please.

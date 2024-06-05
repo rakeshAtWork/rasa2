@@ -1,0 +1,83 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - ask_cozentus_values
+  - ask_available_positions
+  - ask_about_cozentus
+  - ask_email_address
+  - ask_contact_number
+  - ask_founder_ceo
+  - ask_cofounder_coo
+  - ask_co_founder_cgo
+  - ask_evp_operations
+  - ask_evp_data_practice
+  - ask_evp_technology
+  - ask_avp_edi_practice_lead
+  - ask_general_manager
+  - ask_co_founders
+  - ask_management_team_roles
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_cozentus_values:
+  - text: "The core values of Cozentus are pride, commitment, quality, and transparency."
+  
+  utter_available_positions:
+  - text: "The available positions at Cozentus are Senior UI Developer, Java Senior Software Developer, Java Module Lead, Lead QC - Automation, Senior QC Engineer (Automation), Java Technical Architect, Senior Azure Developer, Senior PHP Developer, Marketing Head, DevOps Lead, Senior Graphic Designer, Senior EDI Developer, Senior D 365 Developer, and BI Developer."
+  
+  utter_about_cozentus:
+  - text: "Cozentus is a leading provider of innovative business solutions that enhance operational efficiency for enterprises in logistics and supply chain management. Their mission is to enable businesses to move to the next level by delivering innovative digital SCM solutions."
+ 
+  utter_email_address:
+    - text: "The email address for Cozentus is supplychain@cozentus.com."
+
+  utter_contact_number: 
+    - text: "The contact number for Cozentus is +91 977 712 6600."
+  utter_founder_ceo:
+    - text: "The Founder and CEO of Cozentus is Devesh Sinha."
+  utter_cofounder_coo:
+    - text: "The Co-Founder and COO of Cozentus is Shailendra Upadhyay."
+  utter_co_founder_cgo:
+    - text: "The Co-Founder and CGO of Cozentus is Rosalin Mohanty."
+  utter_evp_operations:
+    - text: "The Executive Vice President - Operations at Cozentus is Rajesh Sharma."
+  utter_evp_data_practice:
+    - text: "The EVP and Head of Data Practice at Cozentus is Sudhir Mardikar."
+  utter_evp_technology:
+    - text: "The EVP and Head of Technology at Cozentus is Ranjeet Das."
+  utter_avp_edi_practice_lead:
+    - text: "The AVP and EDI Practice Lead at Cozentus is Siddharth Bihari."
+  utter_general_manager:
+    - text: "The General Manager at Cozentus is a key member of the leadership team. (Note: Specific details about the General Manager are not provided in the document.)"
+  utter_co_founders:
+    - text: "The Co-Founders of Cozentus are Devesh Sinha, Shailendra Upadhyay, and Rosalin Mohanty."
+  utter_management_team_roles:
+    - text: "The roles of the management team members at Cozentus are as follows: Devesh Sinha (CEO and Founder), Shailendra Upadhyay (COO and Co-Founder), Rosalin Mohanty (CGO and Co-Founder), Rajesh Sharma (EVP - Operations), Sudhir Mardikar (EVP and Head of Data Practice), Ranjeet Das (EVP and Head of Technology), Siddharth Bihari (AVP and EDI Practice Lead), and Nirupama Ojha (General Manager)."
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
