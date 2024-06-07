@@ -98,3 +98,13 @@ stories:
   steps:
   - intent: ask_management_team_roles
   - action: utter_management_team_roles
+
+- story: Respond to questions about employee count
+  steps:
+  - intent: ask_employee_count
+  - action: utter_employee_count
+
+- story: Respond to questions about Cozentus location
+  steps:
+  - intent: ask_location
+  - action: utter_location

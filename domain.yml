@@ -23,6 +23,8 @@ intents:
   - ask_general_manager
   - ask_co_founders
   - ask_management_team_roles
+  - ask_employee_count
+  - ask_location
 
 responses:
   utter_greet:
@@ -78,6 +80,11 @@ responses:
     - text: "The Co-Founders of Cozentus are Devesh Sinha, Shailendra Upadhyay, and Rosalin Mohanty."
   utter_management_team_roles:
     - text: "The roles of the management team members at Cozentus are as follows: Devesh Sinha (CEO and Founder), Shailendra Upadhyay (COO and Co-Founder), Rosalin Mohanty (CGO and Co-Founder), Rajesh Sharma (EVP - Operations), Sudhir Mardikar (EVP and Head of Data Practice), Ranjeet Das (EVP and Head of Technology), Siddharth Bihari (AVP and EDI Practice Lead), and Nirupama Ojha (General Manager)."
+  utter_employee_count:
+    - text: "There are 250+ employees in Cozentus."
+  utter_location:
+    - text: "Cozentus has locations in Bhubaneswar, India (SRB Tower, 5th and 6th Floor, Infocity, Bhubaneswar -751024, Odisha, India), Bengaluru, India (Galaxy, MG Road, WeWork Galaxy, 43, Residency Rd, Bangalore 560025 Karnataka, India), and Europe (Ground Floor, Hygeia Building, 66-68 College Road, Harrow Middlesex, HA1 1BE, United Kingdom)."   
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

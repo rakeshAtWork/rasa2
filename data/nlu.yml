@@ -544,3 +544,40 @@ nlu:
     - I'd like to know the roles of the management team members, could you help?
     - Provide an overview of the leadership positions at Cozentus, please.
     - Who is the top leaders at cozentus?
+
+- intent: ask_employee_count
+  examples: |
+    - How many employees are there in Cozentus?
+    - Can you tell me the number of employees in Cozentus?
+    - What is the employee count at Cozentus?
+    - How many people work at Cozentus?
+    - How big is the team at Cozentus?
+    - What is the size of the workforce at Cozentus?
+    - How many staff members are there at Cozentus?
+    - How many employees does Cozentus have?
+    - What is the total number of employees at Cozentus?
+    - Could you tell me how many employees work at Cozentus?
+    - How many employees are part of Cozentus?
+    - How many team members does Cozentus have?
+    - What is the strength of employees at Cozentus?
+    - Can you give me the employee statistics for Cozentus?
+    - How many people are employed by Cozentus?
+    - Number of employee?
+
+- intent: ask_location
+  examples: |
+    - How do I get the location of Cozentus?
+    - Where is Cozentus located?
+    - Can you tell me the location of Cozentus?
+    - What is the address of Cozentus?
+    - Where are the offices of Cozentus located?
+    - Can you provide me with the location of Cozentus?
+    - Where can I find Cozentus?
+    - What are the addresses of Cozentus offices?
+    - How can I find the Cozentus office locations?
+    - Can you tell me where Cozentus is situated?
+    - Where is the main office of Cozentus?
+    - Can you give me the details of Cozentus locations?
+    - Where are the Cozentus headquarters?
+    - Tell me the office locations of Cozentus.
+    - What are the different locations of Cozentus?
