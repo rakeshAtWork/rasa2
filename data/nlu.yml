@@ -581,3 +581,96 @@ nlu:
     - Where are the Cozentus headquarters?
     - Tell me the office locations of Cozentus.
     - What are the different locations of Cozentus?
+# newly added intent ---------------------------------------------------------------
+
+- intent: ask_devesh_sinha
+  examples: |
+    - Who is Devesh Sinha?
+    - Can you tell me about Devesh Sinha?
+    - What can you tell me about Devesh Sinha?
+    - Who is the CEO of Cozentus?
+    - Tell me about Devesh Sinha.
+    - Who is Devesh?
+    - Who is the founder of Cozentus?
+    - I want to know about Devesh Sinha.
+    - Can you provide information about Devesh Sinha?
+    - Who is Devesh Sinha in Cozentus?
+    - What is Devesh Sinha's background?
+    - Give me details about Devesh Sinha.
+- intent: ask_shailendra_upadhyay
+  examples: |
+    - Who is Shailendra Upadhyay?
+    - Can you tell me about Shailendra Upadhyay?
+    - What can you tell me about Shailendra Upadhyay?
+    - Who is the COO of Cozentus?
+    - Tell me about Shailendra Upadhyay.
+    - Who is Shailendra?
+    - Who is the co-founder of Cozentus?
+    - I want to know about Shailendra Upadhyay.
+    - Can you provide information about Shailendra Upadhyay?
+    - Who is Shailendra Upadhyay in Cozentus?
+    - What is Shailendra Upadhyay's background?
+    - Give me details about Shailendra Upadhyay.
+    - Who is Shailu?
+    - Can you provide information about Shailendra Upadhyay?
+    - Can you supply information about Shailendra Upadhyay?
+    - Can you tell me about Shailendra Upadhyay?
+    - Give me details about Shailendra Upadhyay.
+    - Who is the COO of Cozentus?
+    - Can you furnish information about Shailendra Upadhyay?
+    - Can you allow for information about Shailendra Upadhyay?
+    - Can you leave information about Shailendra Upadhyay?
+    - Can you offer information about Shailendra Upadhyay?
+    - What can you tell me about Shailendra Upadhyay?
+    - Can you allow information about Shailendra Upadhyay?
+    - Tell me about Shailendra Upadhyay.
+    - I want to know about Shailendra Upadhyay.
+    - Can you bring home the bacon information about Shailendra Upadhyay?
+    - Who is the co-founder of Cozentus?
+    - Who is Shailendra?
+    - Who is Shailu?
+    - Who is Shailendra Upadhyay?
+    - Can you ply information about Shailendra Upadhyay?
+    - What is Shailendra Upadhyay's background?
+    - Can you cater information about Shailendra Upadhyay?
+    - Can you put up information about Shailendra Upadhyay?
+    - Who is Shailendra Upadhyay in Cozentus?
+    - Can you render information about Shailendra Upadhyay?
+
+- intent: ask_rosalin_mohanty
+  examples: |
+    - Who is Rosalin Mohanty?
+    - Can you tell me about Rosalin Mohanty?
+    - What can you tell me about Rosalin Mohanty?
+    - Who is the CGO of Cozentus?
+    - Tell me about Rosalin Mohanty.
+    - Who is Rosalin?
+    - Who is the co-founder of Cozentus?
+    - I want to know about Rosalin Mohanty.
+    - Can you provide information about Rosalin Mohanty?
+    - Who is Rosalin Mohanty in Cozentus?
+    - What is Rosalin Mohanty's background?
+    - Give me details about Rosalin Mohanty.
+    - Can you cater information about Rosalin Mohanty?
+    - Can you allow for information about Rosalin Mohanty?
+    - What can you tell me about Rosalin Mohanty?
+    - Who is the CGO of Cozentus?
+    - Tell me about Rosalin Mohanty.
+    - Can you bring home the bacon information about Rosalin Mohanty?
+    - Who is the co-founder of Cozentus?
+    - I want to know about Rosalin Mohanty.
+    - Can you supply information about Rosalin Mohanty?
+    - Can you tell me about Rosalin Mohanty?
+    - Who is Rosalin Mohanty in Cozentus?
+    - What is Rosalin Mohanty's background?
+    - Can you put up information about Rosalin Mohanty?
+    - Can you leave information about Rosalin Mohanty?
+    - Can you provide information about Rosalin Mohanty?
+    - Can you allow information about Rosalin Mohanty?
+    - Who is Rosalin Mohanty?
+    - Can you furnish information about Rosalin Mohanty?
+    - Can you render information about Rosalin Mohanty?
+    - Can you offer information about Rosalin Mohanty?
+    - Who is Rosalin?
+    - Give me details about Rosalin Mohanty.
+    - Can you ply information about Rosalin Mohanty?

@@ -108,3 +108,19 @@ stories:
   steps:
   - intent: ask_location
   - action: utter_location
+# new ----------------------------------------------------------------------
+- story: Respond to questions about Devesh Sinha
+  steps:
+  - intent: ask_devesh_sinha
+  - action: utter_devesh_sinha
+
+- story: Respond to questions about Shailendra Upadhyay
+  steps:
+  - intent: ask_shailendra_upadhyay
+  - action: utter_shailendra_upadhyay
+
+- story: Respond to questions about Rosalin Mohanty
+  steps:
+  - intent: ask_rosalin_mohanty
+  - action: utter_rosalin_mohanty
+

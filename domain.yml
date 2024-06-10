@@ -25,7 +25,10 @@ intents:
   - ask_management_team_roles
   - ask_employee_count
   - ask_location
-
+# new ----------------------------------------------------------------------
+  - ask_devesh_sinha
+  - ask_shailendra_upadhyay
+  - ask_rosalin_mohanty
 responses:
   utter_greet:
   - text: "Hey! How are you?"
@@ -84,7 +87,13 @@ responses:
     - text: "There are 250+ employees in Cozentus."
   utter_location:
     - text: "Cozentus has locations in Bhubaneswar, India (SRB Tower, 5th and 6th Floor, Infocity, Bhubaneswar -751024, Odisha, India), Bengaluru, India (Galaxy, MG Road, WeWork Galaxy, 43, Residency Rd, Bangalore 560025 Karnataka, India), and Europe (Ground Floor, Hygeia Building, 66-68 College Road, Harrow Middlesex, HA1 1BE, United Kingdom)."   
-
+# new ---------------------------------------------------------------------------------------------- 
+  utter_devesh_sinha:
+    - text: "Devesh is a seasoned tech entrepreneur with over 30 years of experience in IT, General Management, and Entrepreneurship. He has a strong background in delivering efficient business solutions in Supply Chain Management and Logistics to the US, UK, and other European markets. Devesh is a leader, speaker, and business consultant, and he also serves on the boards of several Government and Non-government organizations. He holds a B Tech degree from NIT Jamshedpur and is known for his self-discipline."
+  utter_shailendra_upadhyay:
+    - text: "Shailendra, also known as Shailu, is a highly experienced professional with over two decades of expertise in the domains of manufacturing, steel industry, telecom, power generation, healthcare, supply chain, and logistics. As the co-founder and Chief of Operations at Cozentus, he possesses a deep understanding of these industries, allowing him to foster valuable relationships with global logistics providers. Shailu's diverse background includes stakeholder management, business domain understanding, delivery management, project management, and requirement management. He holds a B.E. in Mechanical Engineering from Karnataka University and firmly believes in the principle of understanding others before seeking to be understood."
+  utter_rosalin_mohanty:
+    - text: "Rosalin Mohanty, the proud recipient of the National HRD Women Leadership Award and a certified life and leadership coach, performs a dual role at Cozentus. As a founding member, she drives business growth attracting supply chain service providers to partner with Cozentus while also building and maintaining strong internal teams. With over two decades of experience in developing leadership training interventions across diverse industries like Telecom, Communications, IT, and manufacturing, Rosalin understands how supply chains work and has a strong knowledge of IT and other technologies. She is a strategic planner, an effective business developer, and an efficient business growth executive. Rosalin holds an MBA from the Utkal University in Odisha India and possesses a heart of gold. Cozentus is proud to have her on board."
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
