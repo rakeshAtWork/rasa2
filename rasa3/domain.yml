@@ -58,6 +58,44 @@ intents:
 - mood_great
 - mood_unhappy
 - ask_ai_in_logistics
+- ask_bi_in_logistics
+- ask_bol_automation
+- ask_containerization
+- ask_cloud_logistics_platforms
+- ask_customs_clearance
+- ask_ai_logistics_optimization
+- ask_automated_bol_software
+- ask_automated_carrier_selection
+- ask_automated_freight_billing
+- ask_automated_logistics_solutions
+- ask_ai_document_extraction
+- ask_data_driven_logistics
+- ask_demurrage
+- ask_digital_freight_management
+- ask_edi_solutions
+- ask_freight_audit_services
+- ask_freight_forwarder
+- ask_freight_insurance
+- ask_freight_rate
+- ask_invoice_automation
+- ask_integrate_logistics_with_erp
+- ask_logistics_analytics_tools
+- ask_logistics_data_management_solutions
+- ask_logistics_document_extraction
+- ask_logistics_enterprise_integrations
+- ask_mitigate_risks_international_shipping
+- ask_ocean_freight_management
+- ask_port_terminal
+- ask_predict_eta_ltl_shipments_ai
+- ask_predict_eta_software
+- ask_predictive_analytics_logistics
+- ask_proactive_risk_management_shipments
+- ask_real_time_shipment_monitoring
+- ask_shipment_risk_monitoring
+- ask_shipment_visibility_solutions
+- ask_smart_logistics_solutions
+- ask_supply_chain_digitization_services
+- ask_yard_management_systems
 # - ask_bi_in_logistics
 
 responses:
@@ -210,11 +248,199 @@ responses:
       5. **Automated Logistics Solutions**: Solutions leveraging automation technologies to streamline and optimize various logistics processes, such as order fulfillment, inventory management, and transportation.
       6. **AI-powered Document Extraction for Logistics**: Identification and implementation of the most effective AI-powered solutions for extracting relevant information from logistics documents accurately and efficiently.
   
+  utter_explain_bi_in_logistics:
+    - text: "Utilization of business intelligence (BI) tools and methodologies to analyze and interpret logistics data for strategic decision-making and performance monitoring. BI tools support logistics analytics for data-driven insights."
 
-# actions:
-# - utter_cozentus_values
-# - utter_greet
-# - utter_fallback
+  utter_explain_bol_automation:
+    - text: "Automation of the process involved in creating, managing, and processing bills of lading, which are documents that detail the shipment contents, terms, and conditions. Automated processes can improve efficiency and accuracy, including automated bill of lading software for streamlined workflows."
+
+  utter_explain_containerization:
+    - text: "Containerization is the practice of packing cargo into standardized containers for efficient and secure transport. These containers are designed to be easily transferred between different modes of transport (such as ships, trucks, and trains) without the need to unload and reload the cargo. This method simplifies logistics, reduces handling costs, and enhances the security of goods during transportation."
+    - text: "In logistics, containerization refers to the process of using standardized containers to pack cargo, facilitating its efficient movement across various transportation modes. This approach improves logistics efficiency, minimizes cargo handling, and ensures the safety of goods during transit."
+    - text: "Containerization involves the use of standardized containers for transporting goods across different modes of transport, such as ships, trucks, and trains. This method streamlines logistics operations by reducing loading/unloading times and enhancing cargo security."
+    - text: "The concept of containerization in logistics revolves around packing goods into standardized containers that can be easily transferred between different transport modes. This practice optimizes supply chain logistics, lowers operational costs, and ensures the safe transport of goods."
+    - text: "Containerization is the standardized process of packing goods into containers that are compatible with various transportation modes. This logistical approach improves efficiency, reduces the risk of damage during transit, and enhances the overall reliability of supply chain operations."
+
+  utter_explain_cloud_logistics_platforms:
+    - text: "Cloud-based logistics platforms refer to software applications hosted on cloud infrastructure. They offer scalability, accessibility, and collaboration features, making them ideal for managing logistics operations efficiently. These platforms facilitate tasks such as cloud-based yard management and real-time tracking of shipments, leading to improved operational efficiency."
+    - text: "In the realm of logistics, cloud-based platforms are software solutions hosted on cloud servers. They provide enhanced scalability and accessibility compared to traditional on-premises systems. These platforms enable real-time collaboration and streamlined logistics management, offering benefits like optimized resource allocation and efficient supply chain operations."
+    - text: "Cloud-based logistics platforms leverage cloud technology to deliver scalable and accessible software solutions for logistics management. These platforms enable seamless integration of logistics processes across various stakeholders, supporting tasks such as inventory management, route optimization, and real-time tracking. They contribute to operational agility and cost efficiency in logistics operations."
+    - text: "Logistics platforms hosted on the cloud are software applications designed to streamline logistics operations through cloud infrastructure. These platforms offer advantages such as enhanced flexibility, real-time data access, and collaborative capabilities. By leveraging cloud technology, they support efficient supply chain management and logistics optimization."
+    - text: "Cloud-based logistics platforms encompass software solutions that utilize cloud infrastructure to enhance logistics operations. These platforms facilitate tasks such as warehouse management, transportation planning, and shipment tracking. With features like scalability and real-time data analytics, they enable logistics companies to achieve operational excellence and improve customer satisfaction."
+    - text: "Cloud logistics platforms are software applications deployed on cloud servers to streamline logistics processes. They offer benefits like enhanced accessibility, scalability, and real-time data insights. These platforms support tasks such as order management, inventory control, and logistics analytics, contributing to improved efficiency and competitiveness in the logistics industry."
+  
+  utter_explain_customs_clearance:
+    - text: "Customs clearance is the process of complying with customs requirements for the legal entry and exit of goods. It involves submitting required documentation, undergoing inspections, and paying duties and taxes. This process ensures that goods can move across international borders in compliance with customs regulations."
+    - text: "In logistics, customs clearance refers to the procedures involved in meeting customs regulations for importing and exporting goods. This includes submitting documentation, undergoing inspections, and settling duties and taxes. Customs clearance is essential for ensuring legal compliance and facilitating smooth international trade."
+    - text: "Customs clearance involves fulfilling customs requirements to facilitate the lawful movement of goods across international borders. This process includes submitting necessary paperwork, undergoing inspections, and ensuring payment of duties and taxes. Effective customs clearance is crucial for efficient global logistics operations."
+    - text: "The concept of customs clearance pertains to adhering to customs regulations for the lawful import and export of goods. It encompasses submitting required documentation, undergoing inspections, and completing necessary payments. Customs clearance ensures compliance with international trade laws and facilitates the movement of goods across borders."
+    - text: "Customs clearance is the process of meeting customs regulations for the import and export of goods. It includes submitting documentation, undergoing inspections, and paying duties and taxes as required. This process ensures legal compliance and facilitates international trade."
+    - text: "Customs clearance involves adhering to customs regulations for the import and export of goods. This process includes submitting necessary documentation, undergoing inspections, and ensuring the payment of duties and taxes. Effective customs clearance is essential for smooth international logistics operations."
+  
+  utter_explain_ai_logistics_optimization:
+    - text: "AI-driven Logistics Optimization refers to the use of artificial intelligence (AI) algorithms to enhance efficiency, reduce costs, and improve decision-making in logistics operations. AI is applied to optimize routing, resource allocation, and other aspects of logistics management. This approach leverages AI's capabilities in data analysis and predictive modeling to streamline processes and achieve operational excellence."
+    - text: "In logistics, AI-driven Optimization involves applying artificial intelligence (AI) techniques to improve operational efficiency, minimize costs, and optimize decision-making processes. AI algorithms are used to optimize routing and resource allocation, enabling logistics companies to enhance productivity and competitiveness."
+    - text: "AI-driven Logistics Optimization utilizes artificial intelligence (AI) algorithms to optimize logistics operations. This includes enhancing efficiency, reducing costs, and improving decision-making through AI-driven analysis and predictive modeling. AI is instrumental in optimizing routing and resource allocation for improved logistics management."
+    - text: "Logistics Optimization using AI refers to the application of artificial intelligence (AI) technologies to streamline logistics processes. AI-driven algorithms are employed to enhance efficiency, reduce costs, and optimize decision-making in routing and resource allocation."
+    - text: "AI-driven Logistics Optimization involves the use of artificial intelligence (AI) to optimize logistics operations. This includes leveraging AI algorithms for efficient routing, resource allocation, and decision-making, thereby improving overall logistics performance."
+    - text: "AI-driven Logistics Optimization employs artificial intelligence (AI) algorithms to enhance logistics efficiency, reduce costs, and optimize decision-making processes. AI technologies are applied to optimize routing, resource allocation, and other logistics tasks, driving operational improvements."
+
+  utter_explain_automated_bol_software:
+    - text: "Automated Bill of Lading Software automates the creation, processing, and management of bills of lading to streamline logistics documentation workflows. This software eliminates manual tasks, improves accuracy, and speeds up the billing and shipment documentation process."
+    - text: "Automated Bill of Lading Software refers to software solutions that automate the creation, processing, and management of bills of lading. These solutions streamline logistics documentation workflows by reducing manual effort and enhancing efficiency."
+    - text: "Automated Bill of Lading Software automates the process of creating, processing, and managing bills of lading. This automation improves productivity, accuracy, and compliance in logistics operations."
+    - text: "In logistics, Automated Bill of Lading Software automates the creation, processing, and management of bills of lading. This automation enhances operational efficiency by reducing paperwork and manual errors."
+    - text: "Automated Bill of Lading Software streamlines logistics documentation workflows by automating the creation, processing, and management of bills of lading. This automation improves efficiency and reduces administrative overhead."
+
+  utter_explain_automated_carrier_selection:
+    - text: "Automated Carrier Selection involves automating the process of selecting carriers based on predefined criteria such as cost, service level, and capacity availability. This automation supports data-driven logistics decisions for optimal carrier selection, improving efficiency and service reliability."
+    - text: "Automated Carrier Selection refers to automating the process of selecting carriers based on criteria like cost, service level, and capacity availability. This automation enhances logistics decision-making by ensuring optimal carrier choices and improving operational efficiency."
+    - text: "In logistics, Automated Carrier Selection automates the process of selecting carriers based on predefined criteria. This automation improves decision-making efficiency and ensures optimal carrier selection for freight transportation."
+    - text: "Automated Carrier Selection streamlines logistics operations by automating the process of selecting carriers based on predefined criteria such as cost and service quality. This automation enhances efficiency and ensures the best choices for shipping needs."
+    - text: "Automated Carrier Selection optimizes logistics operations by automating the selection of carriers based on criteria like cost, service level, and availability. This automation improves decision-making and operational efficiency in logistics."
+
+  utter_explain_automated_freight_billing:
+    - text: "Automated Freight Billing automates the billing process for freight transportation services, including invoice generation, validation, and payment processing. This automation improves accuracy, reduces administrative burden, and accelerates cash flow in logistics operations."
+    - text: "Automated Freight Billing refers to automating the billing process for freight transportation services. This automation enhances efficiency by reducing manual tasks and ensuring timely and accurate invoice processing."
+    - text: "In logistics, Automated Freight Billing automates the process of billing for freight transportation services. This automation streamlines operations, improves billing accuracy, and expedites payment processing."
+    - text: "Automated Freight Billing streamlines logistics operations by automating the billing process for freight transportation. This includes generating invoices, validating charges, and processing payments efficiently."
+    - text: "Automated Freight Billing optimizes logistics efficiency by automating the billing procedures for freight transportation services. This automation enhances accuracy, reduces processing time, and improves financial management."
+
+  utter_explain_automated_logistics_solutions:
+    - text: "Automated Logistics Solutions leverage automation technologies to streamline and optimize various logistics processes such as order fulfillment, inventory management, and transportation. These solutions improve operational efficiency, reduce costs, and enhance supply chain performance."
+    - text: "Automated Logistics Solutions refer to solutions that use automation technologies to optimize logistics processes like order fulfillment, inventory management, and transportation. This automation enhances efficiency, reduces errors, and improves overall logistics performance."
+    - text: "In logistics, Automated Logistics Solutions involve leveraging automation technologies to streamline operations such as order processing, inventory control, and shipment tracking. This automation improves productivity and reduces operational costs."
+    - text: "Automated Logistics Solutions streamline logistics operations by utilizing automation technologies for tasks such as order processing, inventory management, and transportation optimization. This automation enhances efficiency and accelerates supply chain workflows."
+    - text: "Automated Logistics Solutions optimize logistics efficiency by leveraging automation for tasks like order fulfillment, inventory control, and transportation management. This automation enhances productivity and supports better decision-making in logistics."
+
+  utter_explain_ai_document_extraction:
+    - text: "AI-powered Document Extraction for Logistics involves using artificial intelligence (AI) solutions to accurately and efficiently extract relevant information from logistics documents. These AI technologies automate document processing tasks, improving accuracy, reducing manual effort, and speeding up workflow."
+    - text: "AI-powered Document Extraction for Logistics refers to the implementation of artificial intelligence (AI) technologies for extracting data from logistics documents. This automation enhances efficiency by minimizing errors and accelerating document processing."
+    - text: "In logistics, AI-powered Document Extraction involves using AI algorithms to extract and process information from various documents. This automation improves accuracy, speeds up processing times, and supports better decision-making."
+    - text: "AI-powered Document Extraction for Logistics utilizes AI technologies to automate the extraction of relevant data from logistics documents. This automation enhances operational efficiency by reducing processing time and improving data accuracy."
+    - text: "AI-powered Document Extraction for Logistics automates the process of extracting information from logistics documents using AI technologies. This automation improves efficiency, accuracy, and data accessibility in logistics operations."
+  utter_explain_data_driven_logistics:
+    - text: "Data-Driven Logistics utilizes data analytics and insights to drive decision-making and optimize logistics processes for improved efficiency and effectiveness. By analyzing data, logistics operations can be streamlined, costs can be reduced, and service levels can be enhanced."
+    - text: "In logistics, Data-Driven Logistics refers to the use of data analytics and insights to optimize processes and improve decision-making. This approach enhances operational efficiency and effectiveness by leveraging data-driven insights."
+    - text: "Data-Driven Logistics involves using data analytics to optimize logistics operations, improve decision-making, and enhance overall efficiency. This approach ensures that logistics processes are optimized based on data-driven insights."
+
+  utter_explain_demurrage:
+    - text: "Demurrage refers to charges imposed for the delay in returning an empty container to the designated port or terminal within the specified time period. These charges incentivize timely container return to maintain smooth operations at ports and terminals."
+    - text: "In logistics, Demurrage refers to the fees charged for the late return of containers to ports or terminals beyond the agreed-upon free time. These charges are designed to manage container availability and facilitate efficient port operations."
+    - text: "Demurrage charges are fees imposed on delays in returning empty containers to designated ports or terminals within the allotted time frame. These charges encourage timely container handling to avoid congestion and ensure operational efficiency."
+
+  utter_explain_digital_freight_management:
+    - text: "Digital Freight Management involves the use of digital technologies and platforms to manage freight transportation processes. These technologies improve efficiency, visibility, and collaboration across the supply chain, leading to enhanced logistics performance."
+    - text: "In logistics, Digital Freight Management refers to managing freight transportation processes using digital platforms and technologies. This approach enhances operational efficiency, visibility, and communication among stakeholders."
+    - text: "Digital Freight Management optimizes freight transportation processes through the use of digital technologies and platforms. This digitalization improves efficiency, reduces costs, and enhances collaboration in logistics operations."
+  utter_explain_edi_solutions:
+    - text: "EDI Solutions for Logistics refer to electronic data interchange solutions tailored for exchanging business documents and transactions within the logistics and supply chain industry. These solutions ensure compliance with EDI standards and streamline communication with partners, enhancing efficiency and accuracy in logistics operations."
+    - text: "In logistics, EDI Solutions involve electronic data interchange systems designed to facilitate the exchange of business documents and transactions. These solutions ensure EDI compliance, improve communication efficiency, and foster collaboration among supply chain partners."
+    - text: "EDI Solutions for Logistics are electronic data interchange systems customized for exchanging business documents within the logistics industry. These solutions streamline communication, ensure EDI compliance, and enhance operational efficiency."
+    - text: "EDI Solutions for Logistics encompass electronic data interchange technologies used to exchange business documents and transactions in the logistics sector. These solutions optimize communication processes, ensure compliance, and improve logistics efficiency."
+    - text: "EDI Solutions for Logistics refer to electronic data interchange systems tailored for exchanging business documents within logistics and supply chain operations. These solutions facilitate seamless communication, ensure compliance with EDI standards, and enhance operational effectiveness."
+  utter_explain_freight_audit_services:
+    - text: "Freight Audit Services involve the thorough examination and verification of freight invoices to ensure accuracy and identify discrepancies. These services help control costs effectively and are particularly beneficial for small businesses needing precise financial oversight in logistics."
+    - text: "In logistics, Freight Audit Services refer to the detailed verification of freight invoices to ensure accuracy and identify any discrepancies. These services are crucial for small businesses seeking cost control and financial management in their logistics operations."
+    - text: "Freight Audit Services are essential for auditing freight invoices to ensure accuracy and detect discrepancies. These services provide small businesses with effective cost management and financial oversight in logistics."
+
+  utter_explain_freight_forwarder:
+    - text: "A Freight Forwarder is a company that arranges and manages the shipment of goods on behalf of importers and exporters. They handle documentation, customs clearance, and logistics coordination, providing comprehensive logistics solutions."
+    - text: "Freight Forwarders manage the shipment of goods for importers and exporters, handling logistics coordination, documentation, and customs clearance. They play a key role in facilitating smooth and efficient transportation of goods."
+    - text: "In logistics, a Freight Forwarder organizes and oversees the transportation of goods on behalf of importers and exporters. They manage logistics processes including documentation, customs clearance, and shipment coordination."
+
+  utter_explain_freight_insurance:
+    - text: "Freight Insurance provides coverage that protects against loss or damage to goods during transit by ocean freight. This insurance is crucial for mitigating risks and ensuring financial protection in logistics operations."
+    - text: "Freight Insurance covers goods against loss or damage during transportation by ocean freight. It offers financial protection and peace of mind to businesses involved in international shipping and logistics."
+    - text: "In logistics, Freight Insurance offers coverage for goods in transit by ocean freight, protecting against potential loss or damage. This insurance provides financial security and risk mitigation for businesses."
+
+  utter_explain_freight_rate:
+    - text: "A Freight Rate is the price charged for the transportation of goods by ocean freight. It is typically calculated based on factors such as distance, weight, volume, and route. Freight rates can vary depending on market conditions and specific shipping requirements."
+    - text: "Freight Rates are prices charged for transporting goods by ocean freight, calculated based on factors like distance, weight, volume, and route. Variations in freight rates reflect market dynamics and shipping specifics."
+    - text: "In logistics, a Freight Rate refers to the cost of transporting goods by ocean freight, determined by factors including distance, weight, volume, and route. These rates fluctuate based on market conditions and shipping logistics."
+  
+  utter_explain_invoice_automation:
+    - text: "Invoice Automation refers to the automation of invoice processing tasks, including data extraction, validation, and approval. This automation improves efficiency, reduces manual effort, and enhances accuracy in invoice processing."
+    - text: "In logistics, Invoice Automation automates tasks such as data extraction, validation, and approval of invoices. This automation streamlines processes, increases efficiency, and ensures accuracy in financial operations."
+    - text: "Invoice Automation involves automating invoice processing tasks like data extraction and validation. This automation improves operational efficiency, reduces errors, and speeds up invoice processing."
+
+  utter_explain_integrate_logistics_with_erp:
+    - text: "Integrating Logistics Data with ERP Systems involves connecting logistics data with enterprise resource planning (ERP) systems to ensure seamless data flow and process automation across the organization. This integration enhances operational efficiency and improves decision-making."
+    - text: "In logistics, integrating logistics data with ERP systems ensures smooth data flow and automates processes across the organization. This integration enhances visibility, efficiency, and collaboration within the supply chain."
+    - text: "Integrating Logistics Data with ERP Systems refers to linking logistics data with enterprise resource planning (ERP) systems to streamline operations and improve data accuracy. This integration facilitates better decision-making and enhances overall efficiency."
+  utter_explain_logistics_analytics_tools:
+    - text: "Logistics Analytics Tools are software applications used to analyze and visualize logistics data, enabling businesses to derive insights, identify trends, and make data-driven decisions. These tools include business intelligence (BI) for logistics, providing in-depth analysis and reporting capabilities."
+    - text: "In logistics, Analytics Tools refer to software applications that analyze and visualize logistics data, helping organizations make informed decisions based on insights and trends. These tools often include BI capabilities tailored for logistics operations."
+    - text: "Logistics Analytics Tools involve software applications that analyze logistics data to provide insights and support decision-making. These tools, including BI solutions for logistics, enhance operational efficiency and strategic planning."
+
+  utter_explain_logistics_data_management_solutions:
+    - text: "Logistics Data Management Solutions focus on efficiently collecting, storing, processing, and analyzing logistics-related data to support decision-making and optimize operations. These solutions may include platforms for integrating logistics data from various sources."
+    - text: "In logistics, Data Management Solutions encompass technologies that collect, store, process, and analyze logistics data to enhance operational efficiency and decision-making. These solutions often include integration platforms for consolidating data."
+    - text: "Logistics Data Management Solutions are designed to streamline the collection, storage, processing, and analysis of logistics data. These solutions improve data accuracy, operational efficiency, and decision-making in logistics."
+
+  utter_explain_logistics_document_extraction:
+    - text: "Logistics Document Extraction is the process of extracting relevant information from logistics documents such as bills of lading, invoices, and manifests using automated techniques or software. This enhances accuracy and efficiency in data extraction."
+    - text: "In logistics, Document Extraction involves using automated techniques or software to extract information from various documents like bills of lading and invoices. This process improves accuracy and efficiency in data handling."
+    - text: "Logistics Document Extraction refers to extracting relevant data from logistics documents using automated software or techniques. This improves efficiency and accuracy in document processing and data management."
+
+  utter_explain_logistics_enterprise_integrations:
+    - text: "Logistics Enterprise Integrations involve integrating logistics systems and processes with enterprise resource planning (ERP) systems or other business applications. This integration ensures seamless data flow and process automation across the organization."
+    - text: "In logistics, Enterprise Integrations refer to linking logistics systems with ERP or business applications to streamline operations and enhance data exchange. This integration improves efficiency, collaboration, and decision-making."
+    - text: "Logistics Enterprise Integrations connect logistics systems with ERP or other business applications to automate processes and facilitate efficient data flow. This integration enhances operational visibility and streamlines logistics management."
+
+  utter_explain_mitigate_risks_international_shipping:
+    - text: "Mitigating risks in international shipping involves measures and strategies to identify, assess, and address potential risks such as customs clearance delays, geopolitical instability, and currency fluctuations. These measures may include proactive planning, risk assessment frameworks, and contingency plans to minimize disruptions and ensure smooth operations."
+    - text: "In international shipping, risk mitigation strategies aim to identify, assess, and mitigate risks such as customs delays, geopolitical challenges, and currency risks. Effective measures include contingency planning, risk assessments, and proactive monitoring to enhance operational resilience."
+    - text: "Mitigating risks in international shipping requires strategies to manage challenges like customs delays, geopolitical risks, and currency fluctuations. These strategies involve proactive planning, risk assessments, and contingency plans to maintain operational stability and minimize disruptions."
+
+  utter_explain_ocean_freight_management:
+    - text: "Ocean Freight Management is the process of planning, organizing, and optimizing the transportation of goods via ocean vessels. It involves coordinating shipments, selecting carriers, managing documentation, and ensuring timely delivery."
+    - text: "In logistics, Ocean Freight Management refers to planning, organizing, and optimizing the transportation of goods by ocean vessels. This process includes managing logistics operations, coordinating with carriers, and overseeing shipment documentation."
+    - text: "Ocean Freight Management involves planning, organizing, and optimizing the transportation of goods using ocean vessels. It encompasses tasks such as carrier selection, shipment scheduling, and documentation management."
+  utter_explain_port_terminal:
+    - text: "A Port Terminal is a facility at a port where cargo is loaded, unloaded, and temporarily stored during the shipping process. It plays a crucial role in logistics by facilitating the transfer of goods between land and sea transport."
+
+  utter_explain_predict_eta_ltl_shipments_ai:
+    - text: "Predict ETA for LTL Shipments Using AI involves utilizing artificial intelligence algorithms to predict the estimated time of arrival for less-than-truckload (LTL) shipments. This AI-driven approach considers various factors to improve accuracy and reliability in ETA predictions."
+
+  utter_explain_predict_eta_software:
+    - text: "Predict ETA Software utilizes algorithms or machine learning techniques to predict the estimated time of arrival for shipments. It considers factors such as historical data, weather conditions, and traffic to enhance the accuracy of ETA predictions."
+
+  utter_explain_predictive_analytics_logistics:
+    - text: "Predictive Analytics for Logistics utilizes predictive analytics techniques to forecast future trends, events, and outcomes in logistics operations. By analyzing historical and real-time data, predictive analytics enables proactive decision-making and optimization."
+
+  utter_explain_proactive_risk_management_shipments:
+    - text: "Proactive Risk Management for Shipments involves strategies and technologies aimed at identifying and mitigating risks associated with shipments before they occur. This proactive approach helps minimize disruptions and losses in logistics operations."
+
+  utter_explain_real_time_shipment_monitoring:
+    - text: "Real-time Shipment Monitoring involves continuous monitoring of shipments in real-time to track their progress, location, and condition throughout the transportation process."
+    - text: "In logistics, Real-time Shipment Monitoring means continuously tracking shipments in real-time to monitor their progress, location, and condition during transportation."
+    - text: "Continuous monitoring of shipments in real-time allows for tracking their progress, location, and condition throughout the transportation process."
+
+  utter_explain_shipment_risk_monitoring:
+    - text: "Shipment Risk Monitoring uses systems or tools to monitor and assess potential risks associated with shipments, such as delays, damages, or theft."
+    - text: "Monitoring shipment risks involves using systems or tools to assess potential risks like delays, damages, or theft associated with shipments."
+    - text: "Systems or tools for Shipment Risk Monitoring assess potential risks such as delays, damages, or theft related to shipments."
+
+  utter_explain_shipment_visibility_solutions:
+    - text: "Shipment Visibility Solutions are technologies or platforms that provide real-time visibility into the status and location of shipments throughout the supply chain."
+    - text: "Technologies for Shipment Visibility Solutions offer real-time insight into the status and location of shipments across the supply chain."
+    - text: "Shipment Visibility Solutions enable real-time tracking of shipment status and location throughout the supply chain."
+
+  utter_explain_smart_logistics_solutions:
+    - text: "Smart Logistics Solutions are intelligent technologies applied in logistics operations to optimize resource utilization, enhance visibility, and improve decision-making."
+    - text: "In logistics, Smart Logistics Solutions optimize resource use, enhance visibility, and support better decision-making."
+    - text: "Applying intelligent technologies like AI in logistics enhances resource utilization, visibility, and decision-making."
+
+  utter_explain_supply_chain_digitization_services:
+    - text: "Supply Chain Digitization Services focus on digitizing and modernizing supply chain processes, including logistics data analytics for insights extraction."
+    - text: "Digitizing and modernizing supply chain processes involves using logistics data analytics platforms for insights extraction."
+    - text: "Services for Supply Chain Digitization focus on modernizing and digitizing supply chain processes, including leveraging logistics data analytics."
+
+  utter_explain_yard_management_systems:
+    - text: "Yard Management Systems are software or systems designed to efficiently manage the movement and storage of trailers and containers within transportation yards or distribution centers."
+    - text: "Software or systems for Yard Management efficiently manage trailer and container movement and storage within transportation yards or distribution centers."
+    - text: "Yard Management Systems include features like cloud-based management for flexible and accessible logistics operations."
 
 session_config:
   session_expiration_time: 60

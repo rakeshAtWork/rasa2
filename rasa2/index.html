@@ -159,7 +159,7 @@
             input.value = "";
 
             // Send message to Rasa server
-            const response = await fetch('http://localhost:5005/webhooks/rest/webhook', {
+            const response = await fetch('http://192.168.0.157:5005/webhooks/rest/webhook', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

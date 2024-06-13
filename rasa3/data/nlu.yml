@@ -1047,3 +1047,470 @@ nlu:
     - Can you tell me about AI in logistics?
     - Explain AI in logistics.
     - What are AI applications in logistics?
+
+- intent: ask_bi_in_logistics
+  examples: |
+    - What is BI in Logistics?
+    - Can you explain BI in Logistics?
+    - What does BI mean in the context of Logistics?
+    - How is BI used in Logistics?
+    - Tell me about BI in Logistics.
+
+- intent: ask_bol_automation
+  examples: |
+    - What is Bill of Lading Automation?
+    - Can you explain Bill of Lading Automation?
+    - What does Bill of Lading Automation mean?
+    - How is Bill of Lading Automation used?
+    - Tell me about Bill of Lading Automation.
+
+- intent: ask_containerization
+  examples: |
+    - What is Containerization?
+    - Can you explain Containerization?
+    - What does Containerization mean?
+    - How does Containerization work?
+    - Tell me about Containerization.
+    - Define containerization in logistics.
+    - Explain the concept of containerized transport.
+    - I'm interested in learning about cargo containerization.
+    - How does container packing benefit shipping?
+    - What are the advantages of using standardized containers in transport?
+
+- intent: ask_cloud_logistics_platforms
+  examples: |
+    - What is Cloud-based Logistics Platforms?
+    - Can you explain Cloud-based Logistics Platforms?
+    - What does Cloud-based Logistics Platforms mean?
+    - How are Cloud-based Logistics Platforms used?
+    - Tell me about Cloud-based Logistics Platforms.
+    - Explain logistics platforms on the cloud.
+    - Describe cloud-based logistics solutions.
+    - I'm curious about cloud logistics software.
+    - How does cloud technology benefit logistics platforms?
+    - What are the advantages of using cloud-based logistics platforms?
+    - Could you provide information about cloud-hosted logistics applications?
+
+- intent: ask_customs_clearance
+  examples: |
+    - What is Customs Clearance?
+    - Can you explain Customs Clearance?
+    - What does Customs Clearance mean?
+    - How does Customs Clearance work?
+    - Tell me about Customs Clearance.
+    - Explain the process of customs clearance.
+    - I want to learn about customs compliance.
+    - Describe the steps in customs clearance.
+    - How important is customs clearance in logistics?
+    - Why is customs clearance necessary for international shipments?
+
+- intent: ask_ai_logistics_optimization
+  examples: |
+    - What is AI-driven Logistics Optimization?
+    - Can you explain AI-driven Logistics Optimization?
+    - What does AI-driven Logistics Optimization mean?
+    - How does AI-driven Logistics Optimization work?
+    - Tell me about AI-driven Logistics Optimization.
+    - Explain logistics optimization using AI.
+    - How is artificial intelligence used in logistics optimization?
+    - Describe AI algorithms in logistics for efficiency improvement.
+    - What are the benefits of AI-driven optimization in logistics?
+    - How does AI optimize routing and resource allocation in logistics?
+
+- intent: ask_automated_bol_software
+  examples: |
+    - What is Automated Bill of Lading Software?
+    - Can you explain Automated Bill of Lading Software?
+    - What does Automated Bill of Lading Software mean?
+    - How does Automated Bill of Lading Software work?
+    - Tell me about Automated Bill of Lading Software.
+    - Describe software for automating bills of lading.
+    - Explain automated solutions for bill of lading management.
+    - I'm interested in Automated Bill of Lading Software.
+    - How does automated software manage bills of lading?
+
+- intent: ask_automated_carrier_selection
+  examples: |
+    - What is Automated Carrier Selection?
+    - Can you explain Automated Carrier Selection?
+    - What does Automated Carrier Selection mean?
+    - How does Automated Carrier Selection work?
+    - Tell me about Automated Carrier Selection.
+    - Describe automation in carrier selection.
+    - Explain automated methods for selecting carriers.
+    - How does automation help in carrier selection?
+    - I'm interested in Automated Carrier Selection.
+    - What are the benefits of automated carrier selection?
+
+- intent: ask_automated_freight_billing
+  examples: |
+    - What is Automated Freight Billing?
+    - Can you explain Automated Freight Billing?
+    - What does Automated Freight Billing mean?
+    - How does Automated Freight Billing work?
+    - Tell me about Automated Freight Billing.
+    - Describe automated billing in freight transportation.
+    - Explain software for automated freight billing.
+    - How does automation benefit freight billing?
+    - I'm interested in Automated Freight Billing.
+    - What are the advantages of automated freight billing?
+
+- intent: ask_automated_logistics_solutions
+  examples: |
+    - What are Automated Logistics Solutions?
+    - Can you explain Automated Logistics Solutions?
+    - What do Automated Logistics Solutions mean?
+    - How do Automated Logistics Solutions work?
+    - Tell me about Automated Logistics Solutions.
+    - Describe automation in logistics management.
+    - Explain AI-driven logistics optimization solutions.
+    - How does automation benefit logistics processes?
+    - I'm interested in Automated Logistics Solutions.
+    - What are the advantages of using automated logistics solutions?
+
+- intent: ask_ai_document_extraction
+  examples: |
+    - What is AI-powered Document Extraction for Logistics?
+    - Can you explain AI-powered Document Extraction for Logistics?
+    - What does AI-powered Document Extraction for Logistics mean?
+    - How does AI-powered Document Extraction for Logistics work?
+    - Tell me about AI-powered Document Extraction for Logistics.
+    - Describe AI solutions for document extraction in logistics.
+    - Explain document automation using AI in logistics.
+    - How does AI enhance document processing in logistics?
+    - I'm interested in AI-powered Document Extraction for Logistics.
+    - What are the benefits of AI-powered document extraction in logistics?
+
+- intent: ask_data_driven_logistics
+  examples: |
+    - What is Data-Driven Logistics?
+    - Can you explain Data-Driven Logistics?
+    - What does Data-Driven Logistics mean?
+    - How does Data-Driven Logistics work?
+    - Tell me about Data-Driven Logistics.
+    - Describe logistics optimization using data analytics.
+    - Explain the role of data in logistics decision-making.
+    - How is data used to improve logistics efficiency?
+    - I'm interested in Data-Driven Logistics.
+    - What are the benefits of data-driven approaches in logistics?
+
+- intent: ask_demurrage
+  examples: |
+    - What is Demurrage?
+    - Can you explain Demurrage?
+    - What does Demurrage mean?
+    - How does Demurrage work?
+    - Tell me about Demurrage charges.
+    - Describe the concept of Demurrage in logistics.
+    - Explain the fees associated with Demurrage.
+    - How are Demurrage charges calculated?
+    - I'm interested in learning about Demurrage.
+    - Why are Demurrage charges imposed?
+
+- intent: ask_digital_freight_management
+  examples: |
+    - What is Digital Freight Management?
+    - Can you explain Digital Freight Management?
+    - What does Digital Freight Management mean?
+    - How does Digital Freight Management work?
+    - Tell me about Digital Freight Management.
+    - Describe freight management using digital technologies.
+    - Explain the benefits of digital platforms in freight management.
+    - How does digitalization improve freight transportation?
+    - I'm interested in Digital Freight Management.
+    - What are the advantages of using digital platforms for freight?
+- intent: ask_edi_solutions
+  examples: |
+    - What are EDI Solutions for Logistics?
+    - Can you explain EDI Solutions for Logistics?
+    - What does EDI Solutions for Logistics mean?
+    - How do EDI Solutions for Logistics work?
+    - Tell me about EDI Solutions in logistics.
+    - Describe electronic data interchange solutions for logistics.
+    - Explain EDI compliance in logistics.
+    - How are EDI solutions beneficial for logistics?
+    - I'm interested in EDI Solutions for Logistics.
+    - What are the advantages of using EDI in logistics?
+
+- intent: ask_freight_audit_services
+  examples: |
+    - What are Freight Audit Services?
+    - Can you explain Freight Audit Services?
+    - What does Freight Audit Services mean?
+    - How do Freight Audit Services work?
+    - Tell me about Freight Audit Services.
+    - Describe services for auditing freight invoices.
+    - Explain the benefits of freight audit services.
+    - Why do small businesses need freight audit services?
+    - I'm interested in Freight Audit Services.
+    - What are the advantages of using freight audit services?
+
+- intent: ask_freight_forwarder
+  examples: |
+    - What is a Freight Forwarder?
+    - Can you explain Freight Forwarder?
+    - What does Freight Forwarder mean?
+    - How does a Freight Forwarder work?
+    - Tell me about Freight Forwarder.
+    - Describe the role of a freight forwarder.
+    - Explain what freight forwarders do.
+    - How do freight forwarders help in logistics?
+    - I'm interested in Freight Forwarder.
+    - Why use a freight forwarder for shipping goods?
+
+- intent: ask_freight_insurance
+  examples: |
+    - What is Freight Insurance?
+    - Can you explain Freight Insurance?
+    - What does Freight Insurance cover?
+    - How does Freight Insurance work?
+    - Tell me about Freight Insurance.
+    - Describe insurance for ocean freight.
+    - Explain the benefits of freight insurance.
+    - Why is freight insurance important?
+    - I'm interested in Freight Insurance.
+    - What does freight insurance protect against?
+
+- intent: ask_freight_rate
+  examples: |
+    - What is a Freight Rate?
+    - Can you explain Freight Rate?
+    - How is Freight Rate calculated?
+    - What factors determine Freight Rate?
+    - Tell me about Freight Rate.
+    - Describe pricing in ocean freight.
+    - Explain how freight rates are determined.
+    - I'm interested in Freight Rate.
+    - What affects the cost of freight transportation?
+    - Why do freight rates vary?
+
+- intent: ask_invoice_automation
+  examples: |
+    - What is Invoice Automation?
+    - Can you explain Invoice Automation?
+    - What does Invoice Automation mean?
+    - How does Invoice Automation work?
+    - Tell me about Invoice Automation.
+    - Describe automated invoice processing.
+    - Explain the benefits of invoice automation.
+    - Why is invoice automation important?
+    - I'm interested in Invoice Automation.
+    - What are the advantages of automating invoice processing?
+
+- intent: ask_integrate_logistics_with_erp
+  examples: |
+    - What is Integrate Logistics Data with ERP Systems?
+    - Can you explain integrating logistics with ERP systems?
+    - What does integrating logistics with ERP systems mean?
+    - How does logistics integration with ERP systems work?
+    - Tell me about integrating logistics data with ERP systems.
+    - Describe ERP integration in logistics.
+    - Explain the benefits of integrating logistics with ERP systems.
+    - Why is integrating logistics with ERP systems beneficial?
+    - I'm interested in integrating logistics data with ERP systems.
+    - What are the advantages of ERP integration for logistics?
+- intent: ask_logistics_analytics_tools
+  examples: |
+    - What are Logistics Analytics Tools?
+    - Can you explain Logistics Analytics Tools?
+    - What does Logistics Analytics Tools mean?
+    - How do Logistics Analytics Tools work?
+    - Tell me about Logistics Analytics Tools.
+    - Describe tools for analyzing logistics data.
+    - Explain the benefits of logistics analytics tools.
+    - Why are logistics analytics tools important?
+    - I'm interested in Logistics Analytics Tools.
+    - What insights can be derived from logistics analytics?
+
+- intent: ask_logistics_data_management_solutions
+  examples: |
+    - What are Logistics Data Management Solutions?
+    - Can you explain Logistics Data Management Solutions?
+    - What does Logistics Data Management Solutions mean?
+    - How do Logistics Data Management Solutions work?
+    - Tell me about Logistics Data Management Solutions.
+    - Describe solutions for managing logistics data.
+    - Explain the benefits of logistics data management solutions.
+    - Why are logistics data management solutions important?
+    - I'm interested in Logistics Data Management Solutions.
+    - What are the advantages of using logistics data management solutions?
+
+- intent: ask_logistics_document_extraction
+  examples: |
+    - What is Logistics Document Extraction?
+    - Can you explain Logistics Document Extraction?
+    - What does Logistics Document Extraction mean?
+    - How does Logistics Document Extraction work?
+    - Tell me about Logistics Document Extraction.
+    - Describe techniques for extracting information from logistics documents.
+    - Explain the benefits of logistics document extraction.
+    - Why is logistics document extraction important?
+    - I'm interested in Logistics Document Extraction.
+    - How can AI improve document extraction in logistics?
+
+- intent: ask_logistics_enterprise_integrations
+  examples: |
+    - What are Logistics Enterprise Integrations?
+    - Can you explain Logistics Enterprise Integrations?
+    - What does Logistics Enterprise Integrations mean?
+    - How do Logistics Enterprise Integrations work?
+    - Tell me about Logistics Enterprise Integrations.
+    - Describe integrations of logistics systems with ERP or business applications.
+    - Explain the benefits of logistics enterprise integrations.
+    - Why are logistics enterprise integrations important?
+    - I'm interested in Logistics Enterprise Integrations.
+    - What advantages does ERP integration bring to logistics operations?
+
+- intent: ask_mitigate_risks_international_shipping
+  examples: |
+    - What are measures to mitigate risks in international shipping?
+    - Can you explain how to mitigate risks in international shipping?
+    - How to mitigate risks in international shipping?
+    - Tell me about mitigating risks in international shipping.
+    - Describe strategies for reducing risks in international shipping.
+    - Explain how to deal with risks in international shipping.
+    - What measures can be taken to minimize risks in international shipping?
+    - I'm interested in mitigating risks in international shipping.
+    - Why is risk mitigation important in international shipping?
+    - What strategies address risks in international shipping?
+
+- intent: ask_ocean_freight_management
+  examples: |
+    - What is Ocean Freight Management?
+    - Can you explain Ocean Freight Management?
+    - How does Ocean Freight Management work?
+    - Tell me about Ocean Freight Management.
+    - Describe the process of Ocean Freight Management.
+    - Explain the steps involved in Ocean Freight Management.
+    - What is involved in managing ocean freight?
+    - I'm interested in Ocean Freight Management.
+    - Why is Ocean Freight Management important?
+    - What are the benefits of effective ocean freight management?
+
+- intent: ask_port_terminal
+  examples: |
+    - What is a Port Terminal?
+    - Can you explain Port Terminal?
+    - How does a Port Terminal function?
+    - Tell me about Port Terminals.
+    - Describe the role of a Port Terminal in shipping.
+    - What happens at a Port Terminal?
+    - What is the purpose of a Port Terminal?
+    - I'm interested in learning about Port Terminals.
+    - Why are Port Terminals important in logistics?
+    - What are the functions of a Port Terminal?
+
+- intent: ask_predict_eta_ltl_shipments_ai
+  examples: |
+    - What is Predict ETA for LTL Shipments Using AI?
+    - Can you explain Predict ETA for LTL Shipments Using AI?
+    - How does Predict ETA for LTL Shipments Using AI work?
+    - Tell me about Predict ETA for LTL Shipments Using AI.
+    - Describe AI-based ETA prediction for LTL shipments.
+    - How can AI predict ETA for LTL shipments?
+    - What are the benefits of using AI for predicting ETA of LTL shipments?
+    - I'm interested in Predict ETA for LTL Shipments Using AI.
+    - Why is AI used to predict ETA for LTL shipments?
+
+- intent: ask_predict_eta_software
+  examples: |
+    - What is Predict ETA Software?
+    - Can you explain Predict ETA Software?
+    - How does Predict ETA Software work?
+    - Tell me about Predict ETA Software.
+    - Describe software for predicting ETA of shipments.
+    - How accurate is Predict ETA Software?
+    - What factors does Predict ETA Software consider?
+    - I'm interested in Predict ETA Software.
+    - Why use software to predict ETA of shipments?
+
+- intent: ask_predictive_analytics_logistics
+  examples: |
+    - What is Predictive Analytics for Logistics?
+    - Can you explain Predictive Analytics for Logistics?
+    - How does Predictive Analytics for Logistics work?
+    - Tell me about Predictive Analytics for Logistics.
+    - Describe predictive analytics in logistics.
+    - How can predictive analytics improve logistics operations?
+    - What are the benefits of using predictive analytics in logistics?
+    - I'm interested in Predictive Analytics for Logistics.
+    - Why is predictive analytics important in logistics?
+
+- intent: ask_proactive_risk_management_shipments
+  examples: |
+    - What is Proactive Risk Management for Shipments?
+    - Can you explain Proactive Risk Management for Shipments?
+    - How does Proactive Risk Management for Shipments work?
+    - Tell me about Proactive Risk Management for Shipments.
+    - Describe strategies for proactive risk management in shipments.
+    - How can proactive risk management minimize disruptions in shipments?
+    - What are the benefits of proactive risk management for shipments?
+    - I'm interested in Proactive Risk Management for Shipments.
+    - Why is proactive risk management crucial for logistics?
+
+
+- intent: ask_real_time_shipment_monitoring
+  examples: |
+    - What is Real-time Shipment Monitoring?
+    - Can you explain Real-time Shipment Monitoring?
+    - How does Real-time Shipment Monitoring work?
+    - Tell me about Real-time Shipment Monitoring.
+    - Describe continuous monitoring of shipments in real-time.
+    - What are the benefits of Real-time Shipment Monitoring?
+    - Explain tracking shipments in real-time.
+    - Why is Real-time Shipment Monitoring important in logistics?
+
+- intent: ask_shipment_risk_monitoring
+  examples: |
+    - What is Shipment Risk Monitoring?
+    - Can you explain Shipment Risk Monitoring?
+    - How does Shipment Risk Monitoring work?
+    - Tell me about Shipment Risk Monitoring.
+    - Describe systems for monitoring shipment risks.
+    - What are the benefits of Shipment Risk Monitoring?
+    - Explain assessing risks associated with shipments.
+    - Why is Shipment Risk Monitoring important in logistics?
+
+- intent: ask_shipment_visibility_solutions
+  examples: |
+    - What are Shipment Visibility Solutions?
+    - Can you explain Shipment Visibility Solutions?
+    - How do Shipment Visibility Solutions work?
+    - Tell me about Shipment Visibility Solutions.
+    - Describe technologies for providing real-time visibility into shipments.
+    - What are the benefits of Shipment Visibility Solutions?
+    - Explain real-time tracking of shipment status and location.
+    - Why are Shipment Visibility Solutions important in logistics?
+
+- intent: ask_smart_logistics_solutions
+  examples: |
+    - What are Smart Logistics Solutions?
+    - Can you explain Smart Logistics Solutions?
+    - How do Smart Logistics Solutions work?
+    - Tell me about Smart Logistics Solutions.
+    - Describe intelligent technologies for optimizing logistics operations.
+    - What are the benefits of Smart Logistics Solutions?
+    - Explain technologies like AI in logistics for smarter operations.
+    - Why are Smart Logistics Solutions important in logistics?
+
+- intent: ask_supply_chain_digitization_services
+  examples: |
+    - What are Supply Chain Digitization Services?
+    - Can you explain Supply Chain Digitization Services?
+    - How do Supply Chain Digitization Services work?
+    - Tell me about Supply Chain Digitization Services.
+    - Describe services for digitizing and modernizing supply chain processes.
+    - What are the benefits of Supply Chain Digitization Services?
+    - Explain logistics data analytics platforms for insights extraction.
+    - Why are Supply Chain Digitization Services important in logistics?
+
+- intent: ask_yard_management_systems
+  examples: |
+    - What are Yard Management Systems?
+    - Can you explain Yard Management Systems?
+    - How do Yard Management Systems work?
+    - Tell me about Yard Management Systems.
+    - Describe software or systems for managing trailers and containers in yards.
+    - What are the benefits of Yard Management Systems?
+    - Explain features like cloud-based yard management.
+    - Why are Yard Management Systems important in logistics?

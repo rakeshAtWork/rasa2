@@ -233,7 +233,194 @@ stories:
   - intent: ask_ai_in_logistics
   - action: utter_ai_in_logistics
 
-# - story: answer bi in logistics
-#   steps:
-#     - intent: ask_bi_in_logistics
-#     - action: utter_bi_in_logistics
+- story: explain bi in logistics
+  steps:
+  - intent: ask_bi_in_logistics
+  - action: utter_explain_bi_in_logistics
+
+- story: explain bol automation
+  steps:
+  - intent: ask_bol_automation
+  - action: utter_explain_bol_automation
+
+- story: explain containerization
+  steps:
+  - intent: ask_containerization
+  - action: utter_explain_containerization
+
+- story: explain cloud logistics platforms
+  steps:
+  - intent: ask_cloud_logistics_platforms
+  - action: utter_explain_cloud_logistics_platforms
+
+- story: explain customs clearance
+  steps:
+  - intent: ask_customs_clearance
+  - action: utter_explain_customs_clearance
+
+- story: explain ai logistics optimization
+  steps:
+  - intent: ask_ai_logistics_optimization
+  - action: utter_explain_ai_logistics_optimization
+
+- story: explain automated bol software
+  steps:
+  - intent: ask_automated_bol_software
+  - action: utter_explain_automated_bol_software
+
+- story: explain automated carrier selection
+  steps:
+  - intent: ask_automated_carrier_selection
+  - action: utter_explain_automated_carrier_selection
+
+- story: explain automated freight billing
+  steps:
+  - intent: ask_automated_freight_billing
+  - action: utter_explain_automated_freight_billing
+
+
+- story: explain automated logistics solutions
+  steps:
+  - intent: ask_automated_logistics_solutions
+  - action: utter_explain_automated_logistics_solutions
+
+- story: explain ai document extraction
+  steps:
+  - intent: ask_ai_document_extraction
+  - action: utter_explain_ai_document_extraction
+
+- story: explain data driven logistics
+  steps:
+  - intent: ask_data_driven_logistics
+  - action: utter_explain_data_driven_logistics
+
+- story: explain demurrage
+  steps:
+  - intent: ask_demurrage
+  - action: utter_explain_demurrage
+
+- story: explain digital freight management
+  steps:
+  - intent: ask_digital_freight_management
+  - action: utter_explain_digital_freight_management
+
+- story: explain edi solutions
+  steps:
+  - intent: ask_edi_solutions
+  - action: utter_explain_edi_solutions
+
+- story: explain freight audit services
+  steps:
+  - intent: ask_freight_audit_services
+  - action: utter_explain_freight_audit_services
+
+- story: explain freight forwarder
+  steps:
+  - intent: ask_freight_forwarder
+  - action: utter_explain_freight_forwarder
+
+- story: explain freight insurance
+  steps:
+  - intent: ask_freight_insurance
+  - action: utter_explain_freight_insurance
+
+- story: explain freight rate
+  steps:
+  - intent: ask_freight_rate
+  - action: utter_explain_freight_rate
+
+- story: explain invoice automation
+  steps:
+  - intent: ask_invoice_automation
+  - action: utter_explain_invoice_automation
+
+- story: explain integrate logistics with erp
+  steps:
+  - intent: ask_integrate_logistics_with_erp
+  - action: utter_explain_integrate_logistics_with_erp
+
+
+- story: explain logistics analytics tools
+  steps:
+  - intent: ask_logistics_analytics_tools
+  - action: utter_explain_logistics_analytics_tools
+
+- story: explain logistics data management solutions
+  steps:
+  - intent: ask_logistics_data_management_solutions
+  - action: utter_explain_logistics_data_management_solutions
+
+- story: explain logistics document extraction
+  steps:
+  - intent: ask_logistics_document_extraction
+  - action: utter_explain_logistics_document_extraction
+
+- story: explain logistics enterprise integrations
+  steps:
+  - intent: ask_logistics_enterprise_integrations
+  - action: utter_explain_logistics_enterprise_integrations
+
+- story: explain mitigate risks international shipping
+  steps:
+  - intent: ask_mitigate_risks_international_shipping
+  - action: utter_explain_mitigate_risks_international_shipping
+
+- story: explain ocean freight management
+  steps:
+  - intent: ask_ocean_freight_management
+  - action: utter_explain_ocean_freight_management
+
+- story: explain port terminal
+  steps:
+  - intent: ask_port_terminal
+  - action: utter_explain_port_terminal
+
+- story: explain predict eta ltl shipments ai
+  steps:
+  - intent: ask_predict_eta_ltl_shipments_ai
+  - action: utter_explain_predict_eta_ltl_shipments_ai
+
+- story: explain predict eta software
+  steps:
+  - intent: ask_predict_eta_software
+  - action: utter_explain_predict_eta_software
+
+- story: explain predictive analytics logistics
+  steps:
+  - intent: ask_predictive_analytics_logistics
+  - action: utter_explain_predictive_analytics_logistics
+
+- story: explain proactive risk management shipments
+  steps:
+  - intent: ask_proactive_risk_management_shipments
+  - action: utter_explain_proactive_risk_management_shipments
+
+- story: explain real-time shipment monitoring
+  steps:
+  - intent: ask_real_time_shipment_monitoring
+  - action: utter_explain_real_time_shipment_monitoring
+
+- story: explain shipment risk monitoring
+  steps:
+  - intent: ask_shipment_risk_monitoring
+  - action: utter_explain_shipment_risk_monitoring
+
+- story: explain shipment visibility solutions
+  steps:
+  - intent: ask_shipment_visibility_solutions
+  - action: utter_explain_shipment_visibility_solutions
+
+- story: explain smart logistics solutions
+  steps:
+  - intent: ask_smart_logistics_solutions
+  - action: utter_explain_smart_logistics_solutions
+
+- story: explain supply chain digitization services
+  steps:
+  - intent: ask_supply_chain_digitization_services
+  - action: utter_explain_supply_chain_digitization_services
+
+- story: explain yard management systems
+  steps:
+  - intent: ask_yard_management_systems
+  - action: utter_explain_yard_management_systems
