@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
+    - Hello
 - intent: goodbye
   examples: |
     - cu
@@ -29,7 +28,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -38,7 +36,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -48,7 +45,6 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: mood_great
   examples: |
     - perfect
@@ -65,7 +61,6 @@ nlu:
     - so so perfect
     - so good
     - so perfect
-
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -82,35 +77,86 @@ nlu:
     - extremly sad
     - so saad
     - so sad
-
 - intent: bot_challenge
   examples: |
+    - who are you?
+    - what is your name?
+    - can i know your name?
+    - give me your introduction.
+    - introduce yourself.
+    - tell me about your self.
+    - tell me something about yourself.
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-# newly added intent......
+- intent: ask_bot_emotion
+  examples: |
+    - fine
+    - I am good, how are you?
+    - I am good.
+    - better.
+    - how are you?
+    - what's up
+    - how is going?
+    - what's going on?
+    - ok.
+    - I am fine.
+    - feeling good, what's about you?
+    - i am fine what's about you?
+    - I'm great, how about you?
+    - I'm doing well.
+    - Much improved.
+    - How have you been?
+    - What's new?
+    - How's everything?
+    - What's happening?
+    - Alright.
+    - Thank you.
+    - I'm doing fine.
+    - Feeling fantastic, how about you?
+    - I'm fine, and you?
+    - well
 - intent: ask_cozentus_values
   examples: |
     - What are the values of Cozentus?
     - Can you tell me the core values of Cozentus?
     - What core values does Cozentus have?
     - What are the main principles of Cozentus?
-    
+    - Whaat are the core values of cozentus?
 - intent: ask_available_positions
   examples: |
     - What are the available positions?
     - Can you tell me the available positions?
     - What jobs are open at Cozentus?
+    - which job openings are there in cozentus?
+    - what are available jobs at cozentus?
+    - tell me availabe jobs at your company?
+    - tell me all job options.
     - What positions are currently available at Cozentus?
-
 - intent: ask_about_cozentus
   examples: |
     - Can you tell me about Cozentus?
     - What is Cozentus?
     - Tell me about Cozentus.
     - What does Cozentus do?
-
+- intent: ask_contact_details
+  examples: |
+    - how will i contact cozentus?
+    - what is contact details of cozentus?
+    - how can i contact to cozentus?
+    - tell me contact details of cozentus.
+    - tell me email and contact no of cozentus.
+    - tell me both contact no and email of cozentus.
+    - what is the email and contact number of cozentus.
+    - contact details of cozentus.
+    - communication details of your company.
+    - contact details of your company
+    - how will i contact to your company?
+    - tell me your company contact details.
+    - email and contact no of your company
+    - email id and mob no
+    - Can I connect cozentus?
 - intent: ask_email_address
   examples: |
     - What is your email address?
@@ -120,7 +166,6 @@ nlu:
     - Is there an email accost I can use to reach you?
     - Is there an email reference I can use to reach you?
     - How can I reach you via email?
-    - What is your email address?
     - How do I hand you via email?
     - What's your email for business inquiries?
     - How can I inter-group communication you via email?
@@ -324,6 +369,7 @@ nlu:
     - How can I adjoin you via email?
     - What email should I use to grasp Cozentus?
     - What is your email?
+    - email of cozentus.
     - How do I reach you via email?
     - What netmail should I use to reach Cozentus?
     - How do I reach out out to you via email?
@@ -336,9 +382,9 @@ nlu:
     - How do I touch out to you via email?
     - How do I range you via email?
     - How do I reaching you via email?
-
 - intent: ask_contact_number
   examples: |
+    - what is contact no of cozentus?
     - What is your contact number?
     - Can you provide your phone number?
     - How can I contact you by phone?
@@ -346,7 +392,6 @@ nlu:
     - How can I middleman you by phone?
     - Can you ply your phone number?
     - Can you bring home the bacon your phone number?
-    - What is the phone number for Cozentus?
     - How can I get hold of you by phone?
     - What is your adjoin number?
     - What is your get through number?
@@ -370,12 +415,9 @@ nlu:
     - How can I tangency you by phone?
     - What is your touch number?
     - How can I reach you by phone?
-    - Can you provide your phone number?
     - What is your tangency number?
-    - How can I contact you by phone?
     - How can I meet you by phone?
     - How can I striking you by phone?
-    - What is your contact number?
     - Can you supply your phone number?
     - How can I touch you by phone?
     - Can you allow for your phone number?
@@ -387,14 +429,17 @@ nlu:
     - How can I link you by phone?
     - What is your liaison number?
     - Can you furnish your phone number?
-    - How can I liaison you by phone?
-
+    - contact no?
+    - mob no.
+    - give me cozentus contact no.
+    - give me your company contact no.
+    - what is your company contact no?
+    - give me your mob no.
 - intent: ask_founder_ceo
   examples: |
     - Who is the Founder and CEO of Cozentus?
     - Who is the Founder and Chief Executive Officer of Cozentus?
     - Who is the Founder and Chief Executive of Cozentus?
-    - Who is the Founder and CEO of Cozentus?
     - Who is the Creator and CEO of Cozentus?
     - Who is the Originator and CEO of Cozentus?
     - Who is the Founder and Head of Cozentus?
@@ -409,6 +454,8 @@ nlu:
     - Can you tell me who the Founder and Chief of Cozentus is?
     - Can you tell me who the Founder and Leader of Cozentus is?
     - Who founded Cozentus and is the CEO?
+    - Who is head of cozentus?
+    - head of cozentus.
     - Who created Cozentus and is the CEO?
     - Who originated Cozentus and is the CEO?
     - Who founded Cozentus and is the Chief Executive Officer?
@@ -428,41 +475,27 @@ nlu:
     - Who is leading Cozentus as Founder and Head?
     - Who is leading Cozentus as Founder and Chief?
     - Who is leading Cozentus as Founder and Leader?
-
 - intent: ask_cofounder_coo
   examples: |
     - Who is the Co-Founder and COO of Cozentus?
     - Can you tell me who the Co-Founder and COO of Cozentus is?
     - Who co-founded Cozentus and is the COO?
     - Who is leading Cozentus as Co-Founder and COO?
-    - Can you tell me who the Co-Founder and COO of Cozentus is?
     - Can you tell me who the Collaborator and COO of Cozentus is?
-    - Who is leading Cozentus as Co-Founder and COO?
     - Who is leading Cozentus as Cofounder and COO?
     - Who is leading Cozentus as Co-founding and COO?
     - Who is leading Cozentus as Chief_Operating_Officer and COO?
-    - Who is the Co-Founder and COO of Cozentus?
-    - Who is the Co-Founder and COO of Cozentus?
-    - Who is the Co-Founder and Chief_Operating_Officer of Cozentus?
-    - Who is the Co-Founder and Chief_Operating_Officer of Cozentus?
-    - Who is the Co-Founder and Chief_Operating_Officer of Cozentus?
     - Who is the Co-Founder and Chief_Operating_Officer of Cozentus?
     - Who is the Co-Founder and top dog of Cozentus?
-    - Who is the Co-Founder and top dog of Cozentus?
-    - Who co-founded Cozentus and is the COO?
-    - Who co-founded Cozentus and is the COO?
-    - Who is leading Cozentus as Chief_Operating_Officer and COO?
-    - Who is leading Cozentus as Chief_Operating_Officer and COO?
     - Who is leading Cozentus as Chief_Operating and COO?
-    - Who is leading Cozentus as Chief_Operating and COO?
-
 - intent: ask_co_founder_cgo
   examples: |
     - Who is the Co-Founder and CGO of Cozentus?
     - Can you tell me who the Co-Founder and CGO of Cozentus is?
     - Who co-founded Cozentus and is the CGO?
     - Who is serving as Co-Founder and CGO at Cozentus?
-
+    - head of growth team
+    - head of growth
 - intent: ask_evp_operations
   examples: |
     - Who is the Executive Vice President - Operations at Cozentus?
@@ -471,7 +504,6 @@ nlu:
     - Could you give me information about the Executive Vice President in charge of operations?
     - Who is responsible for overseeing operations at Cozentus?
     - Tell me about the EVP handling operations at Cozentus.
-
 - intent: ask_evp_data_practice
   examples: |
     - Who is the EVP and Head of Data Practice at Cozentus?
@@ -480,7 +512,9 @@ nlu:
     - Can you provide details about the EVP for data practice?
     - Who is the person responsible for data practice at Cozentus?
     - Tell me about the head of the data practice division at Cozentus.
-
+    - who is head of data ?
+    - tell me the name of head of data.
+    - head of data.
 - intent: ask_evp_technology
   examples: |
     - Who is the EVP and Head of Technology at Cozentus?
@@ -489,7 +523,6 @@ nlu:
     - Can you provide information about the EVP for technology?
     - Who oversees the technology department at Cozentus?
     - Tell me about the person leading technology initiatives at Cozentus.
-
 - intent: ask_avp_edi_practice_lead
   examples: |
     - Who is the AVP and EDI Practice Lead at Cozentus?
@@ -498,7 +531,7 @@ nlu:
     - Can you tell me about the AVP responsible for EDI practice?
     - Who is the person in charge of EDI practice at Cozentus?
     - Tell me about the AVP overseeing the EDI practice at Cozentus.
-
+    - Who is EDI lead.
 - intent: ask_general_manager
   examples: |
     - Who is the General Manager at Cozentus?
@@ -507,7 +540,6 @@ nlu:
     - Can you provide information about the role of General Manager at Cozentus?
     - Who is responsible for general management at Cozentus?
     - Tell me about the leadership position of General Manager at Cozentus.
-
 - intent: ask_co_founders
   examples: |
     - Who are the Co-Founders of Cozentus?
@@ -516,7 +548,11 @@ nlu:
     - Can you list the individuals who founded Cozentus?
     - Who were the founding members of Cozentus?
     - Tell me about the people who started Cozentus as its co-founders.
-
+    - tell me all cofounders name
+    - list all cofounders
+    - all co founders of cozentus
+    - all co founders name
+    - all cofounders name
 - intent: ask_management_team_roles
   examples: |
     - Can you tell me about the key team members driving Cozentus's success?
@@ -525,7 +561,6 @@ nlu:
     - Could you introduce me to the top management of Cozentus?
     - What are the roles of the management team members at Cozentus?
     - Who are the primary decision-makers at Cozentus?
-    - What are the roles of the management team members at Cozentus?
     - Can you tell me about the roles of the management team at Cozentus?
     - What positions do the management team members hold at Cozentus?
     - Who is responsible for leadership at Cozentus?
@@ -544,7 +579,6 @@ nlu:
     - I'd like to know the roles of the management team members, could you help?
     - Provide an overview of the leadership positions at Cozentus, please.
     - Who is the top leaders at cozentus?
-
 - intent: ask_employee_count
   examples: |
     - How many employees are there in Cozentus?
@@ -563,11 +597,14 @@ nlu:
     - Can you give me the employee statistics for Cozentus?
     - How many people are employed by Cozentus?
     - Number of employee?
-
+    - employees count.
+    - Total no of employees.
+    - No of employees.
 - intent: ask_location
   examples: |
     - How do I get the location of Cozentus?
     - Where is Cozentus located?
+    - branch office of cozentus.
     - Can you tell me the location of Cozentus?
     - What is the address of Cozentus?
     - Where are the offices of Cozentus located?
@@ -581,17 +618,201 @@ nlu:
     - Where are the Cozentus headquarters?
     - Tell me the office locations of Cozentus.
     - What are the different locations of Cozentus?
-# newly added intent ---------------------------------------------------------------
-
+    - office locations of cozentus.
+    - locations of cozentus.
+    - where are your company's all offices located?
+    - give me all locations of your company.
+- intent: ask_foundationyear
+  examples: |
+    - What is the foundation year of cozentus?
+    - What is the foundation year of your company?
+    - tell me the establishment year of cozentus.
+    - when was cozentus founded?
+    - When was your company founded?
+    - when was cozentus established?
+    - in which year cozentus was founded?
+    - in which year cozentus was established?
+    - when was cozetus started ?
+    - foundationyear of cozentus.
+    - foundation year of your company.
+    - establishmentyear of your company.
+    - foundation year
+- intent: ask_bhubaneswarlocation
+  examples: |
+    - Where is Cozentus located in Bhubaneswar?
+    - Can you provide the Bhubaneswar location of Cozentus?
+    - Please give me the address of Cozentus in Bhubaneswar.
+    - What is the address for Cozentus in Bhubaneswar?
+    - Could you tell me the Bhubaneswar address for Cozentus?
+    - I need the location of Cozentus in Bhubaneswar.
+    - Can you share the address of Cozentus in Bhubaneswar?
+    - Where can I find Cozentus in Bhubaneswar?
+    - give me bhubaneswar location of cozentus.
+    - Bhubaneswar branch office location
+    - Bhubaneswar branch location.
+    - head office of cozentus.
+    - head branch of cozentus.
+    - head branch location of cozentus.
+    - head office.
+    - tell me which one is your head office
+    - tell me which one is your head branch
+- intent: ask_bangalorelocation
+  examples: |
+    - Where is Cozentus located in Bangalore?
+    - Can you provide the Bangalore location of Cozentus?
+    - Please give me the address of Cozentus in Bangalore.
+    - What is the address for Cozentus in Bangalore?
+    - Could you tell me the Bangalore address for Cozentus?
+    - I need the location of Cozentus in Bangalore.
+    - Can you share the address of Cozentus in Bangalore?
+    - Where can I find Cozentus in Bangalore?
+    - Give me the Bangalore location of Cozentus.
+    - Give me the address of Cozentus in Bengaluru.
+    - Can you provide the Bengaluru location of Cozentus?
+    - Please give me the address of Cozentus in Bengaluru.
+    - What is the address for Cozentus in Bengaluru?
+    - Could you tell me the Bengaluru address for Cozentus?
+    - I need the location of Cozentus in Bengaluru.
+    - Can you share the address of Cozentus in Bengaluru?
+    - Where can I find Cozentus in Bengaluru?
+    - Give me the Bengaluru location of Cozentus.
+    - bangalore office location
+    - Bengaluru location
+    - Bangalore location
+    - Bengaluru office location
+- intent: ask_europelocation
+  examples: |
+    - Give me the address of Cozentus in Europe.
+    - Can you provide the Europe location of Cozentus?
+    - Please give me the address of Cozentus in Europe.
+    - What is the address for Cozentus in Europe?
+    - Could you tell me the Europe address for Cozentus?
+    - I need the location of Cozentus in Europe.
+    - Can you share the address of Cozentus in Europe?
+    - Where can I find Cozentus in Europe?
+    - Give me the Europe location of Cozentus.
+    - Give me the address of Cozentus in the United Kingdom.
+    - Can you provide the UK location of Cozentus?
+    - Please give me the address of Cozentus in the United Kingdom.
+    - What is the address for Cozentus in the UK?
+    - Could you tell me the UK address for Cozentus?
+    - I need the location of Cozentus in the United Kingdom.
+    - Can you share the address of Cozentus in the UK?
+    - Where can I find Cozentus in the United Kingdom?
+    - Give me the UK location of Cozentus.
+    - uk location
+    - europe location
+    - united kingdom location
+- intent: ask_cozentus_mission
+  examples: |
+    - what is cozentus mission?
+    - what is Cozentus's mission statement?
+    - Could you tell me about Cozentus's mission?
+    - What is the mission of Cozentus?
+    - Can you provide information on Cozentus's mission?
+    - I'm curious, what's Cozentus's mission?
+    - Could you describe Cozentus's mission to me?
+    - What does Cozentus aim to achieve with its mission?
+    - Can you elaborate on the mission statement of Cozentus?
+    - What goals does Cozentus have outlined in its mission?
+    - cozentus mission
+- intent: ask_cozentus_culture
+  examples: |
+    - what is cozentus culture?
+    - Could you describe the culture at Cozentus?
+    - tell me about cozentus culture.
+    - I'm interested in learning about the culture at Cozentus.
+    - cozentus culture.
+- intent: ask_cozentus_growth
+  examples: |
+    - tell me about growth of cozentus.
+    - What is the growth trajectory of Cozentus?
+    - Could you provide insights into Cozentus's growth?
+    - How has Cozentus grown over time?
+    - Can you discuss the expansion and development of Cozentus?
+    - I'm interested in learning about the growth of Cozentus.
+    - What milestones has Cozentus achieved in terms of growth?
+    - Can you elaborate on the progress and advancement of Cozentus?-
+    - what is the achevement of cozentus in 3 years?
+    - how much cozentus has achieved in 3 years.
+    - tell me about success of cozentus.
+    - what is the success of cozentus.
+    - what is the achievement of cozentus in three years?
+    - how much cozentus has achieved in three years.
+    - what is the achievement of cozentus.
+    - tell me about achevement of cozentus.
+    - how much has cozentus achieved ?
+    - growth of cozentus.
+    - cozentus achievement.
+- intent: ask_cozentus_services
+  examples: |
+    - tell me about cozentus services?
+    - What services does Cozentus offer?
+    - Could you provide information on the services provided by Cozentus?
+    - Can you describe the range of services offered by Cozentus?
+    - I'm curious, what types of services does Cozentus provide?
+    - Can you outline the services available through Cozentus?
+    - How would you summarize the services that Cozentus offers?
+    - What are the primary service offerings of Cozentus?
+    - Can you give an overview of the services portfolio at Cozentus?
+    - What specific solutions or services can I expect from Cozentus?
+    - What solutions does Cozentus provide?
+    - Could you provide information on the solutions offered by Cozentus?
+    - Can you describe the range of solutions offered by Cozentus?
+    - I'm curious, what types of solutions does Cozentus provide?
+    - Can you outline the solutions available through Cozentus?
+    - How would you summarize the solutions that Cozentus offers?
+    - What are the primary solution offerings of Cozentus?
+    - Can you give an overview of the solutions portfolio at Cozentus?
+    - What specific services or solutions can I expect from Cozentus?
+    - tell me which solutions cozentus provides.
+    - Which services do you offer?
+    - services of cozentus.
+- intent: ask_cozentus_digitalservices
+  examples: |
+    - What digital services does Cozentus offer?
+    - Tell me about digital services.
+    - Tell me about your digital services.
+    - Tell me about Cozentus digital services.
+    - What digital services does you offer?
+    - Which digital services do you provide?
+    - Can you tell me about the digital services provided by Cozentus?
+    - I'm interested in learning about Cozentus's digital service offerings.
+    - Could you provide an overview of the digital solutions offered by Cozentus?
+    - What specific digital solutions or services does Cozentus specialize in?
+    - Can you outline the range of digital services available through Cozentus?
+    - How does Cozentus contribute to the digital landscape with its services?
+    - What digital capabilities does Cozentus bring to the table?
+    - In what areas does Cozentus excel in terms of digital services?
+    - digital services?
+- intent: ask_cozentus_developmentservices
+  examples: |
+    - What development services does Cozentus offer?
+    - What development services does you offer?
+    - Which development services do you provide?
+    - Tell me about development services.
+    - Tell me about your development services.
+    - Tell me about Cozentus development services.
+    - Can you tell me about the development services provided by Cozentus?
+    - I'm interested in learning about Cozentus's development service offerings.
+    - Could you provide an overview of the development solutions offered by Cozentus?
+    - What specific development solutions or services does Cozentus specialize in?
+    - Can you outline the range of development services available through Cozentus?
+    - How does Cozentus contribute to the development landscape with its services?
+    - What development capabilities does Cozentus bring to the table?
+    - In what areas does Cozentus excel in terms of development services?
+    - development services?
 - intent: ask_devesh_sinha
   examples: |
     - Who is Devesh Sinha?
     - Can you tell me about Devesh Sinha?
     - What can you tell me about Devesh Sinha?
-    - Who is the CEO of Cozentus?
     - Tell me about Devesh Sinha.
     - Who is Devesh?
-    - Who is the founder of Cozentus?
+    - Devesh Sinha?
+    - Deves?
+    - Who is deves sinha in your company?
+    - tell me more bout Deves sinha at your company?
     - I want to know about Devesh Sinha.
     - Can you provide information about Devesh Sinha?
     - Who is Devesh Sinha in Cozentus?
@@ -600,77 +821,223 @@ nlu:
 - intent: ask_shailendra_upadhyay
   examples: |
     - Who is Shailendra Upadhyay?
+    - Who is Shailendra Upadhyay in
     - Can you tell me about Shailendra Upadhyay?
     - What can you tell me about Shailendra Upadhyay?
-    - Who is the COO of Cozentus?
     - Tell me about Shailendra Upadhyay.
     - Who is Shailendra?
-    - Who is the co-founder of Cozentus?
     - I want to know about Shailendra Upadhyay.
+    - give me details about shailendra at your company.
     - Can you provide information about Shailendra Upadhyay?
     - Who is Shailendra Upadhyay in Cozentus?
     - What is Shailendra Upadhyay's background?
     - Give me details about Shailendra Upadhyay.
     - Who is Shailu?
-    - Can you provide information about Shailendra Upadhyay?
-    - Can you supply information about Shailendra Upadhyay?
-    - Can you tell me about Shailendra Upadhyay?
-    - Give me details about Shailendra Upadhyay.
-    - Who is the COO of Cozentus?
-    - Can you furnish information about Shailendra Upadhyay?
-    - Can you allow for information about Shailendra Upadhyay?
-    - Can you leave information about Shailendra Upadhyay?
-    - Can you offer information about Shailendra Upadhyay?
-    - What can you tell me about Shailendra Upadhyay?
-    - Can you allow information about Shailendra Upadhyay?
-    - Tell me about Shailendra Upadhyay.
-    - I want to know about Shailendra Upadhyay.
-    - Can you bring home the bacon information about Shailendra Upadhyay?
-    - Who is the co-founder of Cozentus?
-    - Who is Shailendra?
-    - Who is Shailu?
-    - Who is Shailendra Upadhyay?
-    - Can you ply information about Shailendra Upadhyay?
-    - What is Shailendra Upadhyay's background?
-    - Can you cater information about Shailendra Upadhyay?
-    - Can you put up information about Shailendra Upadhyay?
-    - Who is Shailendra Upadhyay in Cozentus?
-    - Can you render information about Shailendra Upadhyay?
-
+    - Shailu?
+    - Shailendra Upadhyay?
+    - tell me something more about shailu.
 - intent: ask_rosalin_mohanty
   examples: |
+    - who is rosalin at your company?
+    - who is Rosalin Mohanty in your company?
     - Who is Rosalin Mohanty?
     - Can you tell me about Rosalin Mohanty?
     - What can you tell me about Rosalin Mohanty?
-    - Who is the CGO of Cozentus?
     - Tell me about Rosalin Mohanty.
+    - Tell me more about Rosalin Mohanty in your company.
     - Who is Rosalin?
-    - Who is the co-founder of Cozentus?
+    - Rosalin?
+    - Rosalin Mohanty?
     - I want to know about Rosalin Mohanty.
     - Can you provide information about Rosalin Mohanty?
     - Who is Rosalin Mohanty in Cozentus?
     - What is Rosalin Mohanty's background?
-    - Give me details about Rosalin Mohanty.
-    - Can you cater information about Rosalin Mohanty?
-    - Can you allow for information about Rosalin Mohanty?
-    - What can you tell me about Rosalin Mohanty?
-    - Who is the CGO of Cozentus?
-    - Tell me about Rosalin Mohanty.
-    - Can you bring home the bacon information about Rosalin Mohanty?
-    - Who is the co-founder of Cozentus?
-    - I want to know about Rosalin Mohanty.
-    - Can you supply information about Rosalin Mohanty?
-    - Can you tell me about Rosalin Mohanty?
-    - Who is Rosalin Mohanty in Cozentus?
-    - What is Rosalin Mohanty's background?
-    - Can you put up information about Rosalin Mohanty?
-    - Can you leave information about Rosalin Mohanty?
-    - Can you provide information about Rosalin Mohanty?
-    - Can you allow information about Rosalin Mohanty?
-    - Who is Rosalin Mohanty?
-    - Can you furnish information about Rosalin Mohanty?
-    - Can you render information about Rosalin Mohanty?
-    - Can you offer information about Rosalin Mohanty?
-    - Who is Rosalin?
-    - Give me details about Rosalin Mohanty.
-    - Can you ply information about Rosalin Mohanty?
+    - Give me more details about Rosalin Mohanty.
+- intent: ask_Rajesh_Sharma
+  examples: |
+    - Can you allow information about Rajesh Sharma
+    - Who is Rajesh?
+    - Explain more about Rajesh Sharma.
+    - Who is Rajesh Sharma?
+    - I want to know about Rajesh Sharma.
+    - Can you leave information about Rajesh Sharma
+    - Can you render information about Rajesh Sharma
+    - Can you ply information about Rajesh Sharma
+    - Tell me more about Rajesh Sharma at your company.
+    - Can you put up information about Rajesh Sharma
+    - Tell me about Rajesh Sharma.
+    - Can you cater information about Rajesh Sharma
+    - What is Rajesh Sharma's background?
+    - who is Rajesh in your company?
+    - Give me details about Rajesh Sharma.
+    - Can you furnish information about Rajesh Sharma
+    - Who is Rajesh Sharma in Cozentus?
+    - Can you tell me about Rajesh Sharma?
+    - What can you tell me about Rajesh Sharma?
+    - Can you provide information about Rajesh Sharma
+    - Can you allow for information about Rajesh Sharma
+    - Explain background of Rajesh Sharma?
+    - Rajesh Sharma?
+    - Rajesh?
+- intent: ask_Sudhir_Mardikar
+  examples: |
+    - Give me details about Sudhir Mardikar.
+    - Can you bring home the bacon information about Sudhir Mardikar
+    - Can you cater information about Sudhir Mardikar
+    - I want to know about Sudhir Mardikar.
+    - What can you tell me about Sudhir Mardikar?
+    - Who is Sudhir Mardikar in Cozentus?
+    - Can you allow for information about Sudhir Mardikar
+    - Can you allow information about Sudhir Mardikar
+    - Can you put up information about Sudhir Mardikar
+    - Can you leave information about Sudhir Mardikar
+    - Can you render information about Sudhir Mardikar
+    - Can you provide information about Sudhir Mardikar
+    - Explain more about Sudhir's background.
+    - Can you furnish information about Sudhir Mardikar
+    - Who is Sudhir?
+    - explain more about Sudhir Mardikar
+    - Can you supply information about Sudhir Mardikar
+    - Can you tell me about Sudhir Mardikar?
+    - Tell me about Sudhir Mardikar.
+    - Explain more about sudhir.
+    - What is Sudhir Mardikar's background?
+    - Who is Sudhir Mardikar?
+    - Sudhir?
+    - Sudhir Mrdikar?
+    - who is sudhir Mardikar at your company?
+- intent: ask_Ranjeet_Das
+  examples: |
+    - Can you render information about Ranjeet Das
+    - Can you put up information about Ranjeet Das
+    - Who is Ranjeet?
+    - Can you supply information about Ranjeet Das
+    - Tell me about Ranjeet Das.
+    - Who is Ranjeet Das in Cozentus?
+    - tell me more about Ranjeet Das at your company?
+    - who is Ranjeet Das at your company?
+    - What is Ranjeet Das's background?
+    - Can you cater information about Ranjeet Das
+    - I want to know about Ranjeet Das.
+    - Can you provide information about Ranjeet Das
+    - Give me details about Ranjeet Das.
+    - Who is Ranjeet Das?
+    - What can you tell me about Ranjeet Das?
+    - Can you offer information about Ranjeet Das
+    - Can you leave information about Ranjeet Das
+    - Can you furnish information about Ranjeet Das
+    - explain more about Ranjeet Das
+    - Can you tell me about Ranjeet Das?
+    - Ranjeet Das?
+- intent: ask_Siddharth_Bihari
+  examples: |
+    - Tell me about Siddharth Bihari.
+    - Who is Siddharth Bihari in Cozentus?
+    - What is Siddharth Bihari's background?
+    - What can you tell me about Siddharth Bihari?
+    - explain more about Siddhart in your company.
+    - Siddharth Bihari?
+    - Can you render information about Siddharth Bihari
+    - who is Siddharth Bihari at your company?
+    - Give me details about Siddharth Bihari.
+    - I want to know about Siddharth Bihari.
+    - Can you provide information about Siddharth Bihari
+    - Can you furnish information about Siddharth Bihari
+    - Can you tell me about Siddharth Bihari?
+    - explain more about Siddharth Bihari
+    - Can you put up information about Siddharth Bihari
+    - Can you cater information about Siddharth Bihari
+    - Can you leave information about Siddharth Bihari
+    - Who is Siddharth Bihari?
+    - Can you supply information about Siddharth Bihari
+    - Can you allow information about Siddharth Bihari
+    - what is siddharth bihari bachgroung at your company?
+    - Who is Siddharth?
+- intent: ask_Nirupama_Ojha
+  examples: |
+    - What can you tell me about Nirupama Ojha?
+    - Can you allow information about Nirupama Ojha
+    - Can you render information about Nirupama Ojha
+    - Can you put up information about Nirupama Ojha
+    - Nirupama Ojha?
+    - I want to know about Nirupama Ojha.
+    - Can you leave information about Nirupama Ojha
+    - Can you provide information about Nirupama Ojha
+    - Nirupama?
+    - Who is Nirupama?
+    - Who is Nirupama Ojha in Cozentus?
+    - who is Nirupama at your company?
+    - Tell me about Nirupama Ojha.
+    - What is Nirupama Ojha's background?
+    - explain more about Nirupama.
+    - Give me details about Nirupama Ojha.
+    - Can you cater information about Nirupama Ojha
+    - explain more about Nirupama Ojha
+    - Who is Nirupama Ojha?
+    - Can you tell me about Nirupama Ojha?
+    - Can you furnish information about Nirupama Ojha
+    - tell me more about Nirupama Ojha in your company.
+- intent: ask_EVP
+  examples: |
+    - Tell me all EVPs of cozentus
+    - Tell me all EVps of your company
+    - Give me all name of EVPs of your company
+    - Give me all name of EVPs of cozentus
+    - tell me all executive vice presidents name of cozentus
+    - give me all executive vice presidents of cozentus
+    - tell me all executive vice presidents name of your company
+    - who are evps of cozentus
+    - who are executive vice presidents of cozentus
+    - who are executive vice presidents of your company
+    - Who holds the positions of EVPs at Cozentus?
+    - Can you provide a list of the EVPs at Cozentus?
+    - Can you provide list of Executive Vice Presidents at cozentus?
+    - provide me information related to all executive vice presidents
+    - provide me all evp informations
+    - Can you tell me the names of all the Executive Vice Presidents at Cozentus?
+    - Please share the names of all the Executive Vice Presidents at Cozentus.
+    - EVPs of cozentus
+    - EVPs of your company
+    - All EVP??
+    - I want to know about all EVP of cozentus
+    - I want to know about all EVP of your company.
+    - Name of EVPs
+    - Name of Executive Vice Presidents
+    - What is name of EVP of cozentus
+    - What is name of Executive vice presidents at your company
+    - What is name of Executive vice presidents at cozentus
+- intent: ask_AVP
+  examples: |
+    - Tell me all AVPs of cozentus
+    - Tell me all AVPs of your company
+    - Give me all name of AVPs of your company
+    - Give me all name of AVPs of cozentus
+    - tell me all associate vice presidents name of cozentus
+    - give me all associate vice presidents of cozentus
+    - tell me all associate vice presidents name of your company
+    - who are AVPs of cozentus
+    - who are associate vice presidents of cozentus
+    - who are associate vice presidents of your company
+    - Who holds the positions of AVPs at Cozentus?
+    - Can you provide a list of the AVPs at Cozentus?
+    - Can you provide list of Associate Vice Presidents at cozentus?
+    - provide me information related to all associate vice presidents
+    - provide me all AVP informations
+    - Can you tell me the names of all the Associate Vice Presidents at Cozentus?
+    - Please share the names of all the Associate Vice Presidents at Cozentus.
+    - AVPs of cozentus
+    - AVPs of your company
+    - All AVP??
+    - I want to know about all AVP of cozentus
+    - I want to know about all AVP of your company.
+    - Name of AVPs
+    - Name of Associate Vice Presidents
+    - List all Associate Vice Presidents at Cozentus.
+    - Provide me with the names of the Associate Vice Presidents at your company.
+    - I'm interested in knowing about the AVPs of Cozentus.
+    - Who are the AVPs currently serving at your company?
+    - Can you list down the AVPs of Cozentus?
+    - Give me information about the Associate Vice Presidents.
+    - Please share details about all AVPs.
+    - Share details about the AVP team.
+    - What is the name of AVPs at Cozentus?

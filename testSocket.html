@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Socket.IO Test</title>
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<body>
+    <script>
+        const socket = io('http://localhost:5005', {
+            path: '/socket.io/'
+        });
+
+        socket.on('connect', () => {
+            console.log('Connected to Rasa server');
+            socket.emit('user_uttered', { message: 'Hello' });
+        });
+
+        socket.on('bot_uttered', (response) => {
+            console.log('Response from Rasa:', response);
+        });
+
+        socket.on('disconnect', () => {
+            console.log('Disconnected from Rasa server');
+        });
+    </script>
+</body>
+</html>

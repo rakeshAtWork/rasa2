@@ -1,24 +1,205 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .chat-widget {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+        .chat-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .chat-container {
+            display: none;
+            flex-direction: column;
+            justify-content: space-between;
+            position: fixed;
+            bottom: 90px;
+            left: 20px;
+            width: 400px;
+            max-height: 500px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            animation: fadeIn 0.3s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .chat-header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .chat-box {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            flex-direction: column;
+        }
+        .chat-box p {
+            padding: 10px;
+            border-radius: 15px;
+            margin: 5px 0;
+            max-width: 70%;
+            word-wrap: break-word;
+        }
+        .user-message {
+            background-color: #cce5ff;
+            align-self: flex-end;
+            border-bottom-right-radius: 0;
+        }
+        .bot-message {
+            background-color: #e9ecef;
+            align-self: flex-start;
+            border-bottom-left-radius: 0;
+        }
+        .input-container {
+            display: flex;
+            padding: 10px;
+        }
+        .input-container input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        .input-container button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .input-container button:hover {
+            background-color: #0056b3;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-widget">
+        <button class="chat-button" onclick="toggleChat()">💬</button>
+        <div id="chat-container" class="chat-container">
+            <div class="chat-header">Welcome to CozBot, How can I assist you?</div>
+            <div id="chat-box" class="chat-box"></div>
+            <div class="input-container">
+                <input type="text" id="message-input" placeholder="Type your message here..." onkeypress="checkEnter(event)" />
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
 
-<html>
-    <body>
-        <script> !(function () {
-            let e = document.createElement("script"),
-            t = document.head || document.getElementsByTagName("head")[0]; 
-            (e.src ="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.js"),
-        (e.async = !0),
-        (e.onload =() => {
-        window.WebChat.default(
-            {
-            initPayload: '/greet',
-            customData: { language: "en" },
-            socketUrl: "http://localhost:5005", // add other props here
-            },
+    <script>
+        document.addEventListener('click', function(event) {
+            const chatContainer = document.getElementById('chat-container');
+            const chatButton = document.querySelector('.chat-button');
+            if (!chatContainer.contains(event.target) && !chatButton.contains(event.target)) {
+                chatContainer.style.display = 'none';
+            }
+        });
 
-        null);
-        }),
-        t.insertBefore(e, t.firstChild);
-        })();
-        </script>
-    </body>
+        function toggleChat() {
+            const chatContainer = document.getElementById("chat-container");
+            if (chatContainer.style.display === "none" || !chatContainer.style.display) {
+                chatContainer.style.display = "flex";
+                chatContainer.style.animation = "fadeIn 0.3s";
+            } else {
+                chatContainer.style.display = "none";
+            }
+        }
+
+        function checkEnter(event) {
+            if (event.key === 'Enter') {
+                sendMessage();
+            }
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById("message-input");
+            const message = input.value;
+            if (!message) return;
+
+            // Display user message
+            const chatBox = document.getElementById("chat-box");
+            chatBox.innerHTML += `<p class="user-message">${message}</p>`;
+            autoScroll(chatBox);
+            input.value = "";
+
+            // Send message to Rasa server
+            const response = await fetch('http://localhost:5005/webhooks/rest/webhook', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ sender: "user", message: message })
+            });
+
+            const data = await response.json();
+
+            // Display bot response with typing effect
+            for (const msg of data) {
+                await typeMessage(chatBox, msg.text, "bot-message");
+            }
+        }
+
+        function typeMessage(container, message, className) {
+            return new Promise((resolve) => {
+                const element = document.createElement("p");
+                element.className = className;
+                container.appendChild(element);
+
+                let index = 0;
+                function type() {
+                    if (index < message.length) {
+                        element.innerHTML += message.charAt(index);
+                        index++;
+                        autoScroll(container);
+                        setTimeout(type, 10);  // Faster typing effect
+                    } else {
+                        autoScroll(container);
+                        resolve();
+                    }
+                }
+                type();
+            });
+        }
+
+        function autoScroll(element) {
+            element.scrollTop = element.scrollHeight;
+        }
+    </script>
+</body>
 </html>
