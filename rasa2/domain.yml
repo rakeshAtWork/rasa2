@@ -1,0 +1,221 @@
+version: '3.1'
+
+policies:
+- name: MemoizationPolicy
+- name: TEDPolicy
+  max_history: 5
+  epochs: 100
+- name: RulePolicy
+  core_fallback_action_name: action_default_fallback
+  core_fallback_threshold: 0.3
+  enable_fallback_prediction: true
+
+intents:
+- affirm
+- ask_AVP
+- ask_EVP
+- ask_Nirupama_Ojha
+- ask_Rajesh_Sharma
+- ask_Ranjeet_Das
+- ask_Siddharth_Bihari
+- ask_Sudhir_Mardikar
+- ask_about_cozentus
+- ask_available_positions
+- ask_avp_edi_practice_lead
+- ask_bangalorelocation
+- ask_bhubaneswarlocation
+- ask_bot_emotion
+- ask_co_founder_cgo
+- ask_co_founders
+- ask_cofounder_coo
+- ask_contact_details
+- ask_contact_number
+- ask_cozentus_culture
+- ask_cozentus_developmentservices
+- ask_cozentus_digitalservices
+- ask_cozentus_growth
+- ask_cozentus_mission
+- ask_cozentus_services
+- ask_cozentus_values
+- ask_devesh_sinha
+- ask_email_address
+- ask_employee_count
+- ask_europelocation
+- ask_evp_data_practice
+- ask_evp_operations
+- ask_evp_technology
+- ask_foundationyear
+- ask_founder_ceo
+- ask_general_manager
+- ask_location
+- ask_management_team_roles
+- ask_rosalin_mohanty
+- ask_shailendra_upadhyay
+- bot_challenge
+- deny
+- goodbye
+- greet
+- mood_great
+- mood_unhappy
+- ask_ai_in_logistics
+# - ask_bi_in_logistics
+
+responses:
+  utter_capabilities:
+  - text: As a CozBot, We can assit with information and technologies about our company Cozentus.
+  utter_greet:
+  - text: Hey! How are you?
+  - text: Hello! How can I assist you today?
+  - text: Hi there! What's up?
+  - text: Hey! Ask me your queries please?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye , if anything required you can ask.
+  - text: Take care, and don't hesitate to ask if you require anything.
+  - text: Goodbye, feel free to reach out if you need anything.
+  - text: Bye, and let me know if you need anything else.
+  utter_iamabot:
+  - text: I am a CozBot, powered by Cozentus Technologies Pvt Ltd.
+  - text: I'm a bot named CozBot, developed by Cozentus Technologies Pvt Ltd.
+  - text: My name is COZBOT. I am associated with Cozentus Technologies Pvt. Ltd.
+  - text: I am representative of Cozentus Technologies Pvt. Ltd. My name is CozBot
+  utter_bot_emotion:
+  - text: fine , Ask your queries please?
+  utter_cozentus_values:
+  - text: At Cozentus, our core values include pride, commitment, quality, and transparency.
+  - text: The foundational values at Cozentus are pride, commitment, quality, and transparency.
+  - text: Cozentus values pride, commitment, quality, and transparency above all are our company values.
+  - text: Pride, commitment, quality, and transparency are the cornerstone values of Cozentus.
+  - text: At Cozentus, we uphold the values of pride, commitment, quality, and transparency.
+  - text: The guiding principles at Cozentus are pride, commitment, quality, and transparency.
+  - text: Cozentus is built on the values of pride, commitment, quality, and transparency.
+  - text: Pride, commitment, quality, and transparency are integral to Cozentus's value.
+  - text: At Cozentus, we are committed to pride, commitment, quality, and transparency.
+  - text: The ethos of Cozentus revolves around pride, commitment, quality, and transparency.
+  utter_available_positions:
+  - text: The available positions at Cozentus are Senior UI Developer, Java Senior Software Developer, Java Module Lead, Lead QC - Automation, Senior QC Engineer (Automation), Java Technical Architect, Senior Azure Developer, Senior PHP Developer, Marketing Head, DevOps Lead, Senior Graphic Designer, Senior EDI Developer, Senior D 365 Developer, and BI Developer. if you want you can drop your resume through mail i.e. career@cozentus.com
+  utter_about_cozentus:
+  - text: Cozentus is a leading provider of innovative business solutions that enhance operational efficiency for enterprises in logistics and supply chain management. Their mission is to enable businesses to move to the next level by delivering innovative digital SCM solutions.
+  utter_contact_details:
+  - text: ' Cozentus contact number is +91 977 712 6600 and email address is supplychain@cozentus.com. You can reach out us. '
+  utter_email_address:
+  - text: The email address for Cozentus is supplychain@cozentus.com. You can email to us.
+  utter_contact_number:
+  - text: The contact number for Cozentus is +91 977 712 6600. You can call to us.
+  utter_founder_ceo:
+  - text: The Founder and CEO of Cozentus is Devesh Sinha.
+  utter_cofounder_coo:
+  - text: The Co-Founder and COO of Cozentus is Shailendra Upadhyay.
+  utter_co_founder_cgo:
+  - text: The Co-Founder and CGO of Cozentus is Rosalin Mohanty.
+  utter_evp_operations:
+  - text: The Executive Vice President - Operations at Cozentus is Rajesh Sharma.
+  utter_evp_data_practice:
+  - text: The EVP and Head of Data Practice at Cozentus is Sudhir Mardikar.
+  utter_evp_technology:
+  - text: The EVP and Head of Technology at Cozentus is Ranjeet Das.
+  utter_avp_edi_practice_lead:
+  - text: The AVP and EDI Practice Lead at Cozentus is Siddharth Bihari.
+  utter_general_manager:
+  - text: The General Manager at cozentus is Nirupama Ojha.
+  - text: Nirupama Ojha holds the position of General Manager at Cozentus.
+  - text: The General Manager of Cozentus is Nirupama Ojha.
+  - text: Cozentus's General Manager is Nirupama Ojha.
+  - text: Nirupama Ojha serves as the General Manager at Cozentus.
+  - text: At Cozentus, the General Manager is Nirupama Ojha.
+  utter_co_founders:
+  - text: The Co-Founders of Cozentus are Devesh Sinha, Shailendra Upadhyay, and Rosalin Mohanty.
+  - text: Devesh Sinha, Shailendra Upadhyay, and Rosalin Mohanty are the Co-Founders of Cozentus.
+  - text: Cozentus was co-founded by Devesh Sinha, Shailendra Upadhyay, and Rosalin Mohanty.
+  - text: The Cozentus team includes Devesh Sinha, Shailendra Upadhyay, and Rosalin Mohanty as Co-Founders.
+  - text: Devesh Sinha, Shailendra Upadhyay, and Rosalin Mohanty established Cozentus as its Co-Founders.
+  - text: Cozentus's Co-Founders consist of Devesh Sinha, Shailendra Upadhyay, and Rosalin Mohanty.
+  utter_management_team_roles:
+  - text: 'The roles of the management team members at Cozentus are as follows: Devesh Sinha (CEO and Founder), Shailendra Upadhyay (COO and Co-Founder), Rosalin Mohanty (CGO and Co-Founder), Rajesh Sharma (EVP - Operations), Sudhir Mardikar (EVP and Head of Data Practice), Ranjeet Das (EVP and Head of Technology), Siddharth Bihari (AVP and EDI Practice Lead), and Nirupama Ojha (General Manager).'
+  utter_employee_count:
+  - text: There are 200+ employees in Cozentus.
+  utter_location:
+  - text: Cozentus has locations in Bhubaneswar, India (SRB Tower, 5th and 6th Floor, Infocity, Bhubaneswar -751024, Odisha, India), Bengaluru, India (Galaxy, MG Road, WeWork Galaxy, 43, Residency Rd, Bangalore 560025 Karnataka, India), and Europe (Ground Floor, Hygeia Building, 66-68 College Road, Harrow Middlesex, HA1 1BE, United Kingdom).
+  utter_foundationyear:
+  - text: Cozentus Technologies Pvt. Ltd. was founded in 2019.
+  utter_bhubaneswarlocation:
+  - text: 'The Bhubaneswar location : cozentus is SRB Tower, 5th and 6th Floor, Infocity, Bhubaneswar -751024, Odisha, India. You can react out.'
+  utter_bangalorelocation:
+  - text: 'The Bangalore location : Galaxy, MG Road, WeWork Galaxy, 43, Residency Rd, Bangalore 560025 Karnataka, India. you can reach out.'
+  utter_europelocation:
+  - text: 'Europe locations:  Ground Floor, Hygeia Building, 66-68 College Road, Harrow Middlesex, HA1 1BE, United Kingdom. You can reach out.'
+  utter_cozentus_mission:
+  - text: Cozentus Mission is Enabling businesses to move to the next level by delivering innovative digital SCM solutions
+  - text: Enabling businesses to move to the next level by delivering innovative digital SCM solutions is Cozentus Mission
+  - text: 'Mission:  Enabling businesses to move to the next level by delivering innovative digital SCM solutions'
+  utter_cozentus_culture:
+  - text: Cozentus culture is Delivering quality through a confluence of experience and innovation
+  utter_cozentus_growth:
+  - text: Cozentus has achieved 10X growth in just the last three years.
+  - text: In the past three years, Cozentus has experienced a remarkable 10X growth.
+  utter_cozentus_services:
+  - text: 'Cozentus mainly provides development services & digital services. you can see our website(https://www.cozentus.com/) for all services details. '
+  utter_cozentus_digitalservices:
+  - text: 'Our company (Cozentus Technologies) provides a variety of digital services including: Enterprise Data Management Services, Integrations, Testing as a Service, Maintenance and Support, and EDI services. '
+  utter_cozentus_developmentservices:
+  - text: 'We are (i.e. Cozentus) offering a variety of development services including Logistic Document Processing, Shipment Visibility, Risk Monitoring, Bill of Lading, Freight Audit, Drayage and Yard Management, Carrier selection and booking, Predict ETA, Quotation Management, and Contract Management Services. '
+  utter_devesh_sinha:
+  - text: Devesh is a seasoned tech entrepreneur with over 30 years of experience in IT, General Management, and Entrepreneurship. He has a strong background in delivering efficient business solutions in Supply Chain Management and Logistics to the US, UK, and other European markets. Devesh is a leader, speaker, and business consultant, and he also serves on the boards of several Government and Non-government organizations. He holds a B Tech degree from NIT Jamshedpur and is known for his self-discipline.
+  utter_shailendra_upadhyay:
+  - text: Shailendra, also known as Shailu, is a highly experienced professional with over two decades of expertise in the domains of manufacturing, steel industry, telecom, power generation, healthcare, supply chain, and logistics. As the co-founder and Chief of Operations at Cozentus, he possesses a deep understanding of these industries, allowing him to foster valuable relationships with global logistics providers. Shailu's diverse background includes stakeholder management, business domain understanding, delivery management, project management, and requirement management. He holds a B.E. in Mechanical Engineering from Karnataka University and firmly believes in the principle of understanding others before seeking to be understood.
+  utter_rosalin_mohanty:
+  - text: Rosalin Mohanty, the proud recipient of the National HRD Women Leadership Award and a certified life and leadership coach, performs a dual role at Cozentus. As a founding member, she drives business growth attracting supply chain service providers to partner with Cozentus while also building and maintaining strong internal teams. With over two decades of experience in developing leadership training interventions across diverse industries like Telecom, Communications, IT, and manufacturing, Rosalin understands how supply chains work and has a strong knowledge of IT and other technologies. She is a strategic planner, an effective business developer, and an efficient business growth executive. Rosalin holds an MBA from the Utkal University in Odisha India and possesses a heart of gold. Cozentus is proud to have her on board.
+  utter_Rajesh_Sharma:
+  - text: Rajesh Sharma is the Executive Vice President at Cozentus. With 25+ years of experience in Software Product Strategy, Product Planning, Product Management, Product Development, Application Development & Maintenance, Delivery Management and Pre-sales, he has a solid foundation in creating succesful business plans and strategy .
+  utter_Sudhir_Mardikar:
+  - text: Sudhir heads the Data Analytics and BI practice at Cozentus. With over 20 years of experience in data related technologies, his expertise in designing & developing data warehousing & BI system for logistics & supply chain customers is an asset for Cozentus.
+  - text: Heading the Data Analytics and BI division at Cozentus, Sudhir boasts over 20 years of experience in data technologies. His proficiency in creating data warehousing and BI solutions for logistics and supply chain sectors is a key advantage for Cozentus.
+  - text: Sudhir oversees the Data Analytics and BI practice at Cozentus, leveraging over 20 years of experience in data technologies. His deep knowledge in designing and implementing data warehousing and BI systems for logistics and supply chain industries positions him as a critical resource for the company.
+  - text: Sudhir, with over 20 years of experience in data technologies, heads the Data Analytics and BI practice at Cozentus. His specialization in designing and developing data warehousing and BI systems for logistics and supply chain customers is a significant benefit for the company.
+  - text: Sudhir leads the Data Analytics and Business Intelligence (BI) practice at Cozentus. With more than two decades of experience in data-related technologies, he brings valuable expertise in designing and developing data warehousing and BI systems, particularly for logistics and supply chain clients, making him a significant asset to the Cozentus team.
+  utter_Ranjeet_Das:
+  - text: Ranjeet is the Senior Technical Architect at Cozentus. His expertise lies in innovating while creating and designing large enterprise web-based applications, leveraging the various technologies for on-premise as well as cloud hosting.
+  utter_Siddharth_Bihari:
+  - text: 'Siddharth Kumar Bihari is the Associate Vice President at Cozentus. He has 13+ years of industry experience in Development & Support under EDI technology.  His functional Knowledge and Business Domain Experience: SCM, Logistics is a great asset for any business. '
+  utter_Nirupama_Ojha:
+  - text: Nirupama is a Senior Technical Architect at Cozentus. She is in General Manager Positionat Cozentus. She is an innovator with an experience in creating and designing large enterprise web applications using various technologies for on-premise and cloud hosting.
+  utter_EVP:
+  - text: Sudhir Mardikar, Rajesh Sharma and Ranjeet Das are Executive Vice Presidents (EVPs) of Cozentus.
+  - text: The Executive Vice-Presidents (EVPs) of Cozentus are Sudhir Mardikar, Rajesh Sharma, and Ranjeet Das.
+  - text: |-
+      The Executive Vice Presidents are :
+      Sudhir Mardikar: Head of Data Practice (EVP)
+      Rajesh Sharma: EVP of Operations (EVP)
+      Ranjeet Das: Head of Technology (EVP)
+  utter_AVP:
+  - text: Siddhart Bihari is Associate Vice President (AVP) of cozentus.He is also Head of EDI Practice.
+
+  utter_fallback:
+  - text: I'm not able to get your answer now, I'm still learning.
+
+
+  utter_ai_in_logistics:
+  - text: |
+      AI in Logistics involves various applications:
+      1. **AI-driven Logistics Optimization**: Optimization of logistics operations using AI algorithms to enhance efficiency, reduce costs, and improve decision-making. AI can be utilized for AI-driven logistics optimization to optimize routing and resource allocation.
+      2. **Automated Bill of Lading Software**: Software automating the creation, processing, and management of bills of lading to streamline logistics documentation workflows.
+      3. **Automated Carrier Selection**: Automation of the process for selecting carriers based on predefined criteria, such as cost, service level, and capacity availability. This supports data-driven logistics decisions for optimal carrier selection.
+      4. **Automated Freight Billing**: Automation of the billing process for freight transportation services, including invoice generation, validation, and payment processing.
+      5. **Automated Logistics Solutions**: Solutions leveraging automation technologies to streamline and optimize various logistics processes, such as order fulfillment, inventory management, and transportation.
+      6. **AI-powered Document Extraction for Logistics**: Identification and implementation of the most effective AI-powered solutions for extracting relevant information from logistics documents accurately and efficiently.
+  
+
+# actions:
+# - utter_cozentus_values
+# - utter_greet
+# - utter_fallback
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

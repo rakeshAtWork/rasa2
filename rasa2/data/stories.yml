@@ -1,0 +1,238 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+# added new story...
+
+- story: Respond to questions about bot emotion whether he is fine or not better
+  steps:
+  - intent: ask_bot_emotion
+  - action: utter_bot_emotion
+
+- story: Respond to questions about Cozentus values
+  steps:
+  - intent: ask_cozentus_values
+  - action: utter_cozentus_values
+
+- story: Respond to questions about available positions
+  steps:
+  - intent: ask_available_positions
+  - action: utter_available_positions
+
+- story: Respond to questions about Cozentus
+  steps:
+  - intent: ask_about_cozentus
+  - action: utter_about_cozentus
+
+- story: Respond to questions about contact details
+  steps:
+  - intent: ask_contact_details
+  - action: utter_contact_details
+
+- story: Respond to questions about email address
+  steps:
+  - intent: ask_email_address
+  - action: utter_email_address
+
+- story: Respond to questions about contact number
+  steps:
+  - intent: ask_contact_number
+  - action: utter_contact_number
+
+- story: Respond to questions about Founder and CEO
+  steps:
+  - intent: ask_founder_ceo
+  - action: utter_founder_ceo
+
+- story: Respond to questions about Co-Founder and COO
+  steps:
+  - intent: ask_cofounder_coo
+  - action: utter_cofounder_coo
+
+- story: Respond to questions about Co-Founder and CGO
+  steps:
+  - intent: ask_co_founder_cgo
+  - action: utter_co_founder_cgo
+
+- story: Respond to questions about EVP - Operations
+  steps:
+  - intent: ask_evp_operations
+  - action: utter_evp_operations
+- story: Respond to questions about EVP - Data Practice
+  steps:
+  - intent: ask_evp_data_practice
+  - action: utter_evp_data_practice
+- story: Respond to questions about EVP - Technology
+  steps:
+  - intent: ask_evp_technology
+  - action: utter_evp_technology
+- story: Respond to questions about AVP - EDI Practice Lead
+  steps:
+  - intent: ask_avp_edi_practice_lead
+  - action: utter_avp_edi_practice_lead
+- story: Respond to questions about General Manager
+  steps:
+  - intent: ask_general_manager
+  - action: utter_general_manager
+- story: Respond to questions about Co-Founders
+  steps:
+  - intent: ask_co_founders
+  - action: utter_co_founders
+
+- story: Respond to questions about management team roles
+  steps:
+  - intent: ask_management_team_roles
+  - action: utter_management_team_roles
+
+- story: Respond to questions about employee count
+  steps:
+  - intent: ask_employee_count
+  - action: utter_employee_count
+
+- story: Respond to questions about Cozentus location
+  steps:
+  - intent: ask_location
+  - action: utter_location
+
+- story: Respond to questions about cozentus foundationyear
+  steps:                                                                                                              
+  - intent: ask_foundationyear
+  - action: utter_foundationyear
+
+- story: Respond to questions about cozentus Bhubaneswar location
+  steps:                                                                                                              
+  - intent: ask_bhubaneswarlocation
+  - action: utter_bhubaneswarlocation
+
+- story: Respond to questions about cozentus Bangalore location
+  steps:                                                                                                              
+  - intent: ask_bangalorelocation
+  - action: utter_bangalorelocation
+- story: Respond to questions about cozentus europe or United kingdom(UK) location
+  steps:                                                                                                              
+  - intent: ask_europelocation
+  - action: utter_europelocation
+
+- story: Respond to questions about cozentus mission
+  steps:                                                                                                              
+  - intent: ask_cozentus_mission
+  - action: utter_cozentus_mission
+
+- story: Respond to questions about cozentus culture
+  steps:                                                                                                              
+  - intent: ask_cozentus_culture
+  - action: utter_cozentus_culture
+
+- story: Respond to questions about cozentus growth
+  steps:                                                                                                              
+  - intent: ask_cozentus_growth
+  - action: utter_cozentus_growth
+
+- story: Respond to questions about cozentus services
+  steps:                                                                                                              
+  - intent: ask_cozentus_services
+  - action: utter_cozentus_services
+
+- story: Respond to questions about cozentus digital services 
+  steps:                                                                                                              
+  - intent: ask_cozentus_digitalservices
+  - action: utter_cozentus_digitalservices
+
+- story: Respond to questions about cozentus development services
+  steps:                                                                                                              
+  - intent: ask_cozentus_developmentservices
+  - action: utter_cozentus_developmentservices
+
+- story: Respond to questions about Devesh Sinha
+  steps:
+  - intent: ask_devesh_sinha
+  - action: utter_devesh_sinha
+ 
+- story: Respond to questions about Shailendra Upadhyay
+  steps:
+  - intent: ask_shailendra_upadhyay
+  - action: utter_shailendra_upadhyay
+ 
+- story: Respond to questions about Rosalin Mohanty
+  steps:
+  - intent: ask_rosalin_mohanty
+  - action: utter_rosalin_mohanty
+
+- story: Respond to questions about Rajesh Sharma
+  steps:
+  - intent: ask_Rajesh_Sharma
+  - action: utter_Rajesh_Sharma
+
+- story: Respond to questions about Sudhir Mardikar
+  steps:
+  - intent: ask_Sudhir_Mardikar
+  - action: utter_Sudhir_Mardikar
+
+- story: Respond to questions about Ranjeet Das
+  steps:
+  - intent: ask_Ranjeet_Das
+  - action: utter_Ranjeet_Das
+
+- story: Respond to questions about Siddharth Bihari
+  steps:
+  - intent: ask_Siddharth_Bihari
+  - action: utter_Siddharth_Bihari
+
+- story: Respond to questions about Nirupama Ojha
+  steps:
+  - intent: ask_Nirupama_Ojha
+  - action: utter_Nirupama_Ojha
+
+- story: Respond to questions about Executive Vice Presidents(EVPs)
+  steps:
+  - intent: ask_EVP
+  - action: utter_EVP
+
+- story: Respond to questions about Associate Vice Presidents(AVPs)
+  steps:
+  - intent: ask_AVP
+  - action: utter_AVP
+
+- story: Handle fallback
+  steps:
+  - intent: nlu_fallback
+  - action: utter_fallback
+
+
+# story for Glossary
+
+- story: answer ai in logistics
+  steps:
+  - intent: ask_ai_in_logistics
+  - action: utter_ai_in_logistics
+
+# - story: answer bi in logistics
+#   steps:
+#     - intent: ask_bi_in_logistics
+#     - action: utter_bi_in_logistics
