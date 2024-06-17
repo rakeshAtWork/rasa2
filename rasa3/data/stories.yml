@@ -424,3 +424,224 @@ stories:
   steps:
   - intent: ask_yard_management_systems
   - action: utter_explain_yard_management_systems
+
+- story: respond to supply chain automation question
+  steps:
+  - intent: ask_supply_chain_automation
+  - action: utter_supply_chain_automation2
+
+- story: respond to supply chain automation tools question
+  steps:
+  - intent: ask_supply_chain_automation_tools
+  - action: utter_supply_chain_automation_tools
+
+- story: respond to impact of automation on supply chain question
+  steps:
+  - intent: ask_impact_of_automation_on_supply_chain
+  - action: utter_impact_of_automation_on_supply_chain
+
+- story: respond to supply chain limitations question
+  steps:
+  - intent: ask_supply_chain_limitations
+  - action: utter_supply_chain_limitations
+
+- story: respond to RPA in supply chain question
+  steps:
+  - intent: ask_rpa_in_supply_chain
+  - action: utter_rpa_in_supply_chain
+
+- story: respond to company experience question
+  steps:
+  - intent: company_experience
+  - action: utter_company_experience
+
+
+- story: respond to address industry gaps question
+  steps:
+  - intent: address_industry_gaps
+  - action: utter_address_industry_gaps
+
+- story: respond to EDI definition question
+  steps:
+  - intent: ask_edi_definition
+  - action: utter_edi_definition
+
+- story: respond to EDI technology question
+  steps:
+  - intent: ask_edi_technology
+  - action: utter_edi_technology
+
+- story: respond to EDI advantages question
+  steps:
+  - intent: ask_edi_advantages
+  - action: utter_edi_advantages
+
+- story: respond to future EDI trends question
+  steps:
+  - intent: ask_future_edi_trends
+  - action: utter_future_edi_trends
+
+- story: respond to EDI integration with business systems question
+  steps:
+  - intent: ask_edi_integration_business_systems
+  - action: utter_edi_integration_business_systems
+
+- story: respond to blockchain vs EDI question
+  steps:
+  - intent: ask_blockchain_vs_edi
+  - action: utter_blockchain_vs_edi
+- story: respond to EDI technology question
+  steps:
+  - intent: ask_edi_technology
+  - action: utter_edi_technology
+
+- story: respond to EDI advantages question
+  steps:
+  - intent: ask_edi_advantages
+  - action: utter_edi_advantages
+
+- story: respond to future EDI trends question
+  steps:
+  - intent: ask_future_edi_trends
+  - action: utter_future_edi_trends
+
+- story: respond to EDI integration with business systems question
+  steps:
+  - intent: ask_edi_integration_business_systems
+  - action: utter_edi_integration_business_systems
+
+- story: respond to blockchain vs EDI question
+  steps:
+  - intent: ask_blockchain_vs_edi
+  - action: utter_blockchain_vs_edi
+
+
+- story: respond to data lifecycle management question
+  steps:
+  - intent: ask_data_lifecycle_management
+  - action: utter_data_lifecycle_management
+
+- story: respond to DLM BI benefits question
+  steps:
+  - intent: ask_dlm_bi_benefits
+  - action: utter_dlm_bi_benefits
+
+
+- story: respond to DLM roles BI supply chain question
+  steps:
+  - intent: ask_dlm_roles_bi_supply_chain
+  - action: utter_dlm_roles_bi_supply_chain
+
+- story: respond to BI companies and platforms question
+  steps:
+  - intent: ask_bi_companies_platforms
+  - action: utter_bi_companies_platforms
+
+- story: respond to data modernization question
+  steps:
+  - intent: ask_data_modernization
+  - action: utter_data_modernization
+
+- story: respond to data modernization consultant question
+  steps:
+  - intent: ask_data_modernization_consultant
+  - action: utter_data_modernization_consultant
+
+- story: respond to supply chain advanced analytics question
+  steps:
+  - intent: ask_supply_chain_advanced_analytics
+  - action: utter_supply_chain_advanced_analytics
+
+- story: respond to Cozentus advanced analytics question
+  steps:
+  - intent: ask_cozentus_advanced_analytics
+  - action: utter_cozentus_advanced_analytics
+
+- story: respond to business communication with EDI question
+  steps:
+  - intent: ask_business_communication_edi
+  - action: utter_business_communication_edi
+
+- story: respond to operational excellence with Cozentus' EDI solutions
+  steps:
+  - intent: ask_operational_excellence_edi
+  - action: utter_operational_excellence_edi
+- story: respond to maintenance components question
+  steps:
+  - intent: ask_maintenance_components
+  - action: utter_maintenance_components
+
+- story: respond to seamless operation question
+  steps:
+  - intent: ask_seamless_operation
+  - action: utter_seamless_operation
+
+- story: respond to proactive measures question
+  steps:
+  - intent: ask_proactive_measures
+  - action: utter_proactive_measures
+
+- story: respond to reactive measures question
+  steps:
+  - intent: ask_reactive_measures
+  - action: utter_reactive_measures
+
+- story: respond to preventive measures question
+  steps:
+  - intent: ask_preventive_measures
+  - action: utter_preventive_measures
+
+- story: respond to agile methodologies question
+  steps:
+  - intent: ask_agile_methodologies
+  - action: utter_agile_methodologies
+
+- story: respond to role of maintenance professionals question
+  steps:
+  - intent: role_of_maintenance_professionals
+  - action: utter_role_of_maintenance_professionals
+
+- story: respond to expertise leverage question
+  steps:
+  - intent: expertise_leverage
+  - action: utter_expertise_leverage
+
+- story: respond to problem-solving abilities question
+  steps:
+  - intent: problem_solving_abilities
+  - action: utter_problem_solving_abilities
+
+- story: respond to proficiency and training question
+  steps:
+  - intent: proficiency_and_training
+  - action: utter_proficiency_and_training
+
+- story: respond to skills and qualifications question
+  steps:
+  - intent: skills_and_qualifications
+  - action: utter_skills_and_qualifications
+
+- story: respond to technological capabilities question
+  steps:
+  - intent: technological_capabilities
+  - action: utter_technological_capabilities
+
+- story: respond to customize solutions with technology question
+  steps:
+  - intent: customize_solutions_with_technology
+  - action: utter_customize_solutions_with_technology
+
+- story: respond to integrate technology in services question
+  steps:
+  - intent: integrate_technology_in_services
+  - action: utter_integrate_technology_in_services
+
+- story: respond to role of IT team question
+  steps:
+  - intent: role_of_IT_team
+  - action: utter_role_of_IT_team
+
+- story: respond to optimize data architecture question
+  steps:
+  - intent: optimize_data_architecture
+  - action: utter_optimize_data_architecture
