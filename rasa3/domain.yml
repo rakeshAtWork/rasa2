@@ -136,10 +136,121 @@ intents:
 - role_of_IT_team
 - optimize_data_architecture
 # - ask_bi_in_logistics
+- inquire_main_benefit
+- inquire_importance_of_efficiency
+- inquire_global_challenges
+- inquire_technology_used
+- inquire_document_handling
+- inquire_processing_accuracy
+- inquire_data_accuracy
+- inquire_cost_savings
+- inquire_roi
+- inquire_processing_speed
+- inquire_zero_touch_accuracy
+- inquire_logiglean_difference
+- inquire_integration
+- inquire_roi_meaning
+- inquire_avoiding_mistakes_delays
+- inquire_contributing_compliance
+- inquire_processing_speed_impact
+- inquire_handling_formats
+- inquire_software_partnership
+- inquire_achieving_data_accuracy
+- inquire_role_business_rules_engine
+- inquire_cost_reduction
+- inquire_cost_implications
+- inquire_accuracy_cost_savings
+- inquire_real_time_benefit
+- inquire_why_real_time_must_have
+- inquire_achieving_cohesive_visibility
+- inquire_role_cozentus
+- inquire_data_accuracy_reliability
+- inquire_benefits_proactive_risk_assessments
+- inquire_ui_analytics_decision_making
+- inquire_features_locating_shipments
+- inquire_shipment_tracking_handling
+- inquire_ai_powered_est_arrival_times
+- inquire_notifications_provided
+- inquire_handling_customer_queries
+- inquire_centralized_view_shipment_landscape
+- inquire_ui_offerings
+- inquire_benefits_real_time_visibility
+- inquire_human_tech_integration
+- inquire_ensuring_data_accuracy
+- inquire_proactive_risk_assessment_advantage
+- inquire_system_integration
+- inquire_dashboard_customization
+- inquire_transforming_data
+- inquire_operational_efficiency_enhancement
+- inquire_ai_arrival_times_cost_efficiency
+- inquire_notifications_risk_updates_cost_savings
+- inquire_customer_satisfaction_improvement
+- ask_primary_focus
+- ask_proactive_identification
+- ask_ai_ml_leverage
+- ask_benefits
+- ask_comprehensive_assessment
+- ask_minimizing_disruptions
+- ask_technologies_used
+- ask_enriching_data
+- ask_ui_analytics_platform
+- ask_tailored_solutions
+- ask_generative_ai_responses
+- ask_informed_decisions
+- ask_impact_proactive_identification
+- ask_alternate_routes_strategies
+- ask_alerts_notifications
+- ask_integration_existing_systems
+- ask_customization_options
+- ask_tailored_solutions_operations
+- ask_cost_efficiency
+- ask_cost_saving_benefits
+- ask_operational_efficiency
+- ask_customer_satisfaction
+- ask_benefits_bl_automation
+- ask_automation_importance
+- ask_productivity_improvement
+- ask_data_accuracy_impact
+- ask_compliance_regulatory_standards
+- ask_competitive_advantages
+- ask_specific_automation_aspects
+- ask_success_measurement
+- ask_data_accuracy_enhancement
+- ask_sustainability_benefits
+- ask_operational_efficiency_contribution
+- ask_enhanced_analytics_optimization
+- ask_customer_satisfaction_contribution
+- ask_seamless_integration
+- ask_customization_options_bl
+- ask_cost_savings_bl
+- ask_efficiency_benefits_bl
+- ask_smart_freight_solution
+- ask_freight_auditing_improvement
+- ask_competitive_advantage_freight_auditing
+- ask_decision_making_freight_management
+- ask_benefits_vendor_relationships
+- ask_customer_satisfaction_contribution_freight
+- ask_smart_freight_functionalities
+- ask_cost_optimization_freight_management
+- ask_compliance_financial_accuracy
+- ask_informed_decisions_freight
+- ask_financial_risks_mitigation
+- ask_transparency_vendor_relationships
+- ask_optimize_operations_services
+- ask_integration_existing_systems2
+- ask_customization_options_freight_auditing
+- ask_cost_effectiveness_freight_auditing
+- ask_efficiency_benefits_freight_management
+- ask_sustainability_freight_auditing
+- ask_freight_audit_payment_solution
+- ask_freight_audit_platform
+- manage_discrepancies_disputes_digitally
+- ask_freight_invoice_audit_system
+- ask_yard_management_services
+- ask_difference_yard_management_services_solutions
+- ask_components_yard_management_systems
 
 responses:
-  utter_capabilities:
-  - text: As a CozBot, We can assit with information and technologies about our company Cozentus.
   utter_greet:
   - text: Hey! How are you?
   - text: Hello! How can I assist you today?
@@ -480,22 +591,6 @@ responses:
     - text: "Yard Management Systems are software or systems designed to efficiently manage the movement and storage of trailers and containers within transportation yards or distribution centers."
     - text: "Software or systems for Yard Management efficiently manage trailer and container movement and storage within transportation yards or distribution centers."
     - text: "Yard Management Systems include features like cloud-based management for flexible and accessible logistics operations."
-
-  utter_supply_chain_automation:
-    - text: "Supply chain automation is the use of technology for various supply chain tasks so that they require minimum human intervention. Automation helps expedite processes, prevent bottlenecks, speed up delivery, reduce costs, and enhance revenue."
-
-  utter_benefits_of_automation:
-    - text: "The benefits of supply chain automation include faster processes, reduced errors, cost savings, improved efficiency, better inventory management, and enhanced customer satisfaction."
-
-  utter_challenges_of_automation:
-    - text: "The challenges of supply chain automation include high implementation costs, the need for skilled workers, integration with existing systems, data security risks, and potential job displacement."
-
-  utter_future_of_automation:
-    - text: "The future of supply chain automation involves advancements in AI, machine learning, IoT, blockchain, and robotics. These technologies will further streamline processes, enhance data visibility, and improve decision-making."
-
-  utter_examples_of_automation:
-    - text: "Examples of supply chain automation include automated warehousing systems, robotic process automation (RPA) in order processing, AI-driven demand forecasting, and autonomous delivery vehicles."
-
   utter_supply_chain_automation2:
     - text: "Supply chain automation is the use of technology for various supply chain tasks so that they require minimum human intervention. Automation helps expedite processes, prevent bottlenecks, speed up delivery, reduce costs, and enhance revenue."
     - text: "Using technology for various supply chain tasks to minimize human intervention is what supply chain automation is all about. It helps in speeding up processes, preventing bottlenecks, ensuring faster delivery, cutting costs, and increasing revenue."
@@ -691,8 +786,483 @@ responses:
         Cozentus uses technology to optimize data storage, enhance data security measures, and streamline data management processes for improved operational efficiency.
     - text: |
         Technology enables Cozentus to optimize data architecture and management, contributing to enhanced operational efficiency and reliability.
+# date : 17-06-24
+  utter_main_benefit:
+    - text: "The main benefit is boosting accuracy, slashing costs, and unlocking operational excellence."
+    - text: "Boosting accuracy, reducing costs, and achieving operational excellence are the primary benefits."
+    - text: "The key advantage is enhancing accuracy, cutting costs, and achieving operational excellence."
 
+  utter_importance_of_efficiency:
+    - text: "Efficient document processing is vital to meet operational, commercial, and compliance requirements, and to avoid mistakes, delays, penalties, client dissatisfaction, and elevated operational costs."
+    - text: "To meet operational, commercial, and compliance needs, and to prevent errors, delays, fines, client dissatisfaction, and high operational costs, efficient document processing is crucial."
+    - text: "Efficiency in document processing helps meet various requirements and avoid mistakes, delays, penalties, customer dissatisfaction, and increased costs."
 
+  utter_global_challenges:
+    - text: "The global nature of interactions with clients, vendors, and regulatory bodies adds complexity to the challenge of document processing."
+    - text: "Interacting with clients, vendors, and regulatory bodies globally adds significant complexity to document processing."
+    - text: "The global nature of logistics interactions introduces additional complexities to document processing."
+
+  utter_technology_used:
+    - text: "The Cozentus LogiGlean framework is powered by AI, Machine Learning (ML), Natural Language Processing (NLP), and a Logistics Business Rules Engine."
+    - text: "AI, ML, NLP, and a Logistics Business Rules Engine power the Cozentus LogiGlean framework."
+    - text: "LogiGlean utilizes AI, Machine Learning, NLP, and a Logistics Business Rules Engine."
+
+  utter_document_handling:
+    - text: "LogiGlean can conquer millions of documents in any format from multiple logistic sources."
+    - text: "Handling millions of documents in any format from various logistic sources is possible with LogiGlean."
+    - text: "LogiGlean manages documents from multiple logistic sources in any format efficiently."
+
+  utter_processing_accuracy:
+    - text: "LogiGlean achieves a zero-touch document pass-through accuracy of 99% over a six-month timeframe."
+    - text: "After six months, LogiGlean attains a zero-touch document processing accuracy of 99%."
+    - text: "Over a six-month period, LogiGlean reaches 99% accuracy in zero-touch document processing."
+
+  utter_data_accuracy:
+    - text: "The data-level accuracy without manual intervention is 95%."
+    - text: "LogiGlean achieves a data-level accuracy of 95% without manual intervention."
+    - text: "Without human intervention, the data-level accuracy of LogiGlean stands at 95%."
+
+  utter_cost_savings:
+    - text: "Every 0.5% increase in accuracy saves costs five times."
+    - text: "A 0.5% increase in accuracy results in five times cost savings."
+    - text: "Cost savings are quintupled with each 0.5% accuracy improvement."
+
+  utter_roi:
+    - text: "LogiGlean delivers a 5-10x ROI compared to off-the-shelf solutions."
+    - text: "Compared to off-the-shelf solutions, LogiGlean offers a 5-10x return on investment."
+    - text: "The ROI of LogiGlean is 5-10 times higher than that of off-the-shelf solutions."
+
+  utter_processing_speed:
+    - text: "The end-to-end automation of document data extraction and processing results in five times faster data processing."
+    - text: "Data processing is five times faster with LogiGlean's end-to-end automation."
+    - text: "Thanks to end-to-end automation, LogiGlean processes data five times quicker."
+
+  utter_zero_touch_accuracy:
+    - text: "Zero-touch document pass-through accuracy refers to the system's ability to accurately process documents without any manual intervention, achieving 99% accuracy over a six-month period."
+    - text: "It means that the system can process documents with 99% accuracy over six months without any manual intervention."
+    - text: "The term indicates that documents are processed automatically with 99% accuracy within six months, requiring no human touch."
+
+  utter_logiglean_difference:
+    - text: "LogiGlean's use of AI, ML, NLP, and Logistics Business Rules Engine, along with its custom-built framework and seamless integration into existing systems, differentiates it from other solutions."
+    - text: "What sets LogiGlean apart is its combination of AI, ML, NLP, and a Logistics Business Rules Engine, plus a custom-built framework that integrates smoothly into existing systems."
+    - text: "LogiGlean is different because it uses advanced technologies like AI, ML, and NLP, and integrates seamlessly into existing systems with a custom-built framework."
+
+  utter_integration:
+    - text: "The LogiGlean framework integrates seamlessly into existing ecosystems, functioning as a partnership rather than just a software product."
+    - text: "LogiGlean integrates smoothly into current ecosystems, acting more like a partner than merely a software tool."
+    - text: "Integration with existing ecosystems is seamless with LogiGlean, which works as a partner rather than just another software product."
+
+  utter_roi_meaning:
+    - text: "A 5-10x ROI means that businesses can expect a return on investment five to ten times higher than what they would get from using off-the-shelf document extraction solutions."
+    - text: "For businesses, a 5-10x ROI implies returns that are five to ten times greater than those from standard document extraction solutions."
+    - text: "Businesses using LogiGlean can see returns on investment that are five to ten times higher than those from typical off-the-shelf solutions."
+  utter_avoiding_mistakes_delays:
+    - text: "By boosting accuracy and expediting document processing, LogiGlean helps avoid mistakes and delays that could lead to penalties and client dissatisfaction."
+    - text: "LogiGlean improves accuracy and speeds up document processing, helping to prevent mistakes and delays, thus avoiding penalties and ensuring client satisfaction."
+    - text: "With increased accuracy and faster processing, LogiGlean minimizes mistakes and delays, avoiding potential penalties and keeping clients satisfied."
+
+  utter_contributing_compliance:
+    - text: "LogiGlean ensures efficient and accurate document processing, which is essential for meeting compliance requirements with various regulatory bodies globally."
+    - text: "To meet global compliance requirements, LogiGlean provides efficient and accurate document processing."
+    - text: "Ensuring compliance with global regulations is made possible by LogiGlean's efficient and precise document processing."
+
+  utter_processing_speed_impact:
+    - text: "LogiGlean's end-to-end automation results in five times faster data processing, significantly improving operational efficiency."
+    - text: "The automation in LogiGlean speeds up data processing by five times, greatly enhancing operational efficiency."
+    - text: "Operational efficiency is significantly boosted by LogiGlean's fivefold increase in data processing speed through end-to-end automation."
+
+  utter_handling_formats:
+    - text: "Yes, LogiGlean can handle millions of documents in any format from multiple logistic sources."
+    - text: "LogiGlean is capable of processing millions of documents in various formats from different logistic sources."
+    - text: "Handling millions of documents in any format from multiple logistics sources is possible with LogiGlean."
+
+  utter_software_partnership:
+    - text: "This means that LogiGlean is tailored to fit the specific needs and workflows of the client, ensuring seamless integration and optimal performance as part of the client's operational framework."
+    - text: "LogiGlean acts as a partnership by being customized to the client's specific needs and workflows, ensuring smooth integration and top performance within the client's operations."
+    - text: "Being a partnership means LogiGlean is tailored to integrate seamlessly and perform optimally according to the client's specific operational needs and workflows."
+
+  utter_achieving_data_accuracy:
+    - text: "LogiGlean uses advanced AI, ML, and NLP technologies along with a robust business rules engine to achieve high levels of data accuracy without the need for manual intervention."
+    - text: "High levels of data accuracy in LogiGlean are achieved using sophisticated AI, ML, and NLP technologies, supported by a strong business rules engine, eliminating the need for manual intervention."
+    - text: "Through advanced AI, ML, NLP technologies, and a solid business rules engine, LogiGlean ensures high data accuracy without requiring manual work."
+
+  utter_role_business_rules_engine:
+    - text: "The Logistics Business Rules Engine helps to enforce accuracy and expediency by applying specific logistics-related rules and conditions to the document processing workflow."
+    - text: "Accuracy and speed in document processing are ensured by the Logistics Business Rules Engine, which applies specific logistics rules and conditions."
+    - text: "LogiGlean's Logistics Business Rules Engine enforces accuracy and expedites processing by applying logistics-specific rules and conditions."
+
+  utter_cost_reduction:
+    - text: "By increasing accuracy and automating the document processing workflow, LogiGlean reduces the need for manual intervention and the associated costs, delivering a high return on investment."
+    - text: "LogiGlean lowers costs by enhancing accuracy and automating document processing, reducing manual work and delivering a high ROI."
+    - text: "Cost reduction is achieved with LogiGlean through improved accuracy and automation, minimizing the need for manual intervention and increasing ROI."
+
+  utter_cost_implications:
+    - text: "Using LogiGlean can result in significant cost savings and a 5-10x higher return on investment compared to off-the-shelf solutions due to its high accuracy and efficiency."
+    - text: "LogiGlean offers substantial cost savings and a 5-10x higher ROI compared to standard solutions, thanks to its superior accuracy and efficiency."
+    - text: "The cost implications of using LogiGlean include major savings and a 5-10x ROI increase over off-the-shelf solutions, due to its efficiency and accuracy."
+
+  utter_accuracy_cost_savings:
+    - text: "Each 0.5% increase in accuracy results in five times cost savings, as it reduces errors and the need for reprocessing or manual corrections."
+    - text: "Improved accuracy translates to cost savings in LogiGlean, with every 0.5% increase reducing errors and saving costs fivefold."
+    - text: "Cost savings in LogiGlean are achieved through increased accuracy, where each 0.5% improvement results in five times the savings by minimizing errors and reprocessing needs."
+  utter_real_time_benefit:
+    - text: "The primary benefit of real-time shipment tracking and visibility is providing precise real-time insights into the shipment's status and location."
+    - text: "Real-time shipment tracking and visibility offer the advantage of delivering precise updates on the status and location of shipments."
+
+  utter_why_real_time_must_have:
+    - text: "Real-time shipment visibility is essential for exceeding customer expectations, integrating systems, managing data, and meeting client demands."
+    - text: "For 3PLs, real-time shipment visibility is crucial for surpassing customer expectations, system integration, data management, and fulfilling client needs."
+
+  utter_achieving_cohesive_visibility:
+    - text: "3PLs can achieve cohesive visibility by blending cutting-edge technology with human experience to overcome obstacles and achieve real-time, cohesive visibility."
+    - text: "To achieve cohesive visibility, 3PLs should combine advanced technology with human insights to tackle challenges and maintain real-time, comprehensive visibility."
+
+  utter_role_cozentus:
+    - text: "Cozentus transforms shipment visibility into a competitive advantage with a cutting-edge framework for meticulous tracking and oversight, ensuring precision and efficiency."
+    - text: "The role of Cozentus in shipment tracking is to offer a state-of-the-art framework that enhances tracking precision and operational efficiency."
+
+  utter_data_accuracy_reliability:
+    - text: "Cozentus enhances data accuracy and reliability using advanced AI/ML algorithms, logistics business rules, and human insights to cleanse, augment, and harmonize data."
+    - text: "By leveraging AI/ML algorithms and human insights, Cozentus improves data accuracy and reliability through effective data cleansing and harmonization."
+
+  utter_benefits_proactive_risk_assessments:
+    - text: "Proactive risk assessments identify potential threats to shipments, enabling swift mitigation actions."
+    - text: "The benefits of proactive risk assessments include identifying potential shipment threats and facilitating quick mitigation measures."
+
+  utter_ui_analytics_decision_making:
+    - text: "The intuitive user interface and comprehensive analytics of Cozentus aid decision-making by providing an easy-to-use interface and comprehensive data analytics."
+    - text: "Cozentus' user interface and analytics support seamless decision-making through an intuitive design and detailed data analysis."
+
+  utter_features_locating_shipments:
+    - text: "Real-time data analysis, instant notifications, and AI-powered estimated arrival times help in locating shipments and responding to customer queries."
+    - text: "Features such as real-time data analysis, immediate notifications, and AI-estimated arrival times make it easy to locate shipments and handle customer queries."
+
+  utter_shipment_tracking_handling:
+    - text: "Cozentus provides customized solutions for meticulous shipment tracking and oversight using advanced AI/ML algorithms and logistics business rules."
+    - text: "For shipment tracking, Cozentus offers tailored solutions that leverage AI/ML algorithms and logistics business rules for precise oversight."
+
+  utter_ai_powered_est_arrival_times:
+    - text: "AI-powered estimated arrival times ensure perfect synchronization for everyone involved in the shipment process."
+    - text: "The role of AI-powered estimated arrival times in shipment tracking is to provide synchronization and accuracy for all stakeholders."
+
+  utter_notifications_provided:
+    - text: "Cozentus provides instant notifications when shipments cross predefined borders and real-time risk updates."
+    - text: "Notifications from Cozentus include instant alerts for border crossings and real-time updates on shipment risks."
+
+  utter_handling_customer_queries:
+    - text: "Cozentus allows instant responses to text-based user queries, converting them into comprehensible charts and graphs."
+    - text: "Customer queries are handled by Cozentus through instant text-based responses and converting information into easily understandable visual formats."
+
+  utter_centralized_view_shipment_landscape:
+    - text: "The centralized view of the entire shipment landscape offers a customizable dashboard for a comprehensive overview of all shipments."
+    - text: "Cozentus' centralized view provides a customizable dashboard that offers a complete overview of the entire shipment landscape."
+
+  utter_ui_offerings:
+    - text: "The intuitive user interface of Cozentus offers ease of use and seamless decision-making capabilities."
+    - text: "Cozentus' user interface is designed to be intuitive, enhancing ease of use and facilitating seamless decision-making."
+
+  utter_benefits_real_time_visibility:
+    - text: "Real-time visibility helps 3PLs manage data integration, meet client demands, and provide coherent insights for operational success."
+    - text: "For 3PL operations, real-time visibility is beneficial in managing data integration, meeting client demands, and offering clear operational insights."
+
+  utter_human_tech_integration:
+    - text: "Integrating human experience with technology helps overcome obstacles and achieve cohesive visibility, enhancing operational efficiency."
+    - text: "The combination of human experience and technology in shipment visibility helps address challenges and ensures cohesive visibility, boosting efficiency."
+
+  utter_ensuring_data_accuracy:
+    - text: "Cozentus ensures high accuracy and reliability in shipment data by cleansing, augmenting, and harmonizing data using AI/ML algorithms and human insights."
+    - text: "To maintain data accuracy and reliability, Cozentus utilizes AI/ML algorithms and human insights for effective data cleansing and harmonization."
+
+  utter_proactive_risk_assessment_advantage:
+    - text: "Proactive risk assessments provide an operational advantage by enabling swift mitigation actions to safeguard shipments and prevent potential losses."
+    - text: "The advantage of proactive risk assessments lies in their ability to quickly mitigate risks, protecting shipments from potential losses."
+
+  utter_system_integration:
+    - text: "Cozentus integrates seamlessly into existing logistics systems, offering a customizable framework for meticulous tracking and oversight."
+    - text: "The integration of Cozentus into existing logistics systems is seamless, providing a customizable framework for precise tracking and oversight."
+
+  utter_dashboard_customization:
+    - text: "Cozentus offers customizable dashboards for a centralized view of the entire shipment landscape."
+    - text: "The dashboard customization options in Cozentus allow for a centralized and personalized view of all shipment activities."
+
+  utter_transforming_data:
+    - text: "Cozentus transforms data into actionable insights by using AI/ML algorithms and human insights to cleanse, augment, and harmonize data, providing intuitive interfaces and analytics."
+    - text: "Data transformation in Cozentus involves the use of AI/ML algorithms and human insights to cleanse and harmonize data, turning it into actionable insights through intuitive interfaces and analytics."
+
+  utter_operational_efficiency_enhancement:
+    - text: "Cozentus enhances operational efficiency in shipment tracking by providing real-time data analysis, proactive risk assessments, and instant notifications."
+    - text: "Operational efficiency in shipment tracking is improved by Cozentus through real-time data analysis, proactive risk assessments, and immediate notifications."
+
+  utter_ai_arrival_times_cost_efficiency:
+    - text: "AI-powered estimated arrival times improve synchronization and reduce delays, leading to cost efficiency."
+    - text: "The impact of AI-powered estimated arrival times on cost efficiency is seen in better synchronization and reduced shipment delays."
+
+  utter_notifications_risk_updates_cost_savings:
+    - text: "Instant notifications and real-time risk updates contribute to cost savings by enabling timely mitigation of risks and issues, preventing potential losses and reducing costs."
+    - text: "Cost savings from Cozentus' notifications and risk updates arise from timely risk mitigation, which helps prevent losses and lowers costs."
+
+  utter_customer_satisfaction_improvement:
+    - text: "Cozentus improves customer satisfaction in logistics by ensuring precise tracking, timely updates, and responsive query handling."
+    - text: "Customer satisfaction is enhanced by Cozentus through accurate tracking, prompt updates, and efficient handling of customer queries."
+  utter_primary_focus:
+    - text: "The primary focus of Cozentus Risk Watch is on proactive risk identification and assessment for logistics operations."
+    - text: "Cozentus Risk Watch focuses primarily on proactive risk identification and assessment for logistics operations."
+    - text: "At Cozentus Risk Watch, the main focus is on proactive risk identification and assessment for logistics operations."
+
+  utter_proactive_identification:
+    - text: "Proactive risk identification is crucial to mitigate potential disruptions like weather events and geopolitical issues that can impact shipments and assets."
+    - text: "In global supply chains, proactive risk identification helps in anticipating and managing disruptions such as weather events and geopolitical issues."
+    - text: "Identifying risks proactively is essential in global supply chains to preemptively manage disruptions such as weather events and geopolitical issues."
+
+  utter_ai_ml_leverage:
+    - text: "Cozentus Risk Watch leverages AI and ML technologies to automatically collect, cleanse, harmonize, and enrich risk data from multiple sources."
+    - text: "AI and ML are used in Cozentus Risk Watch to gather, clean, harmonize, and enrich risk data from various sources automatically."
+    - text: "At Cozentus Risk Watch, AI and ML technologies are employed to collect, clean, harmonize, and enrich risk data from multiple sources."
+
+  utter_benefits:
+    - text: "Cozentus Risk Watch offers tailored solutions, intuitive UI, analytics, and generative AI capabilities to proactively manage risks and optimize logistics operations."
+    - text: "For logistics operations, Cozentus Risk Watch provides customized solutions, user-friendly interface, analytics, and generative AI to manage risks proactively."
+    - text: "Using Cozentus Risk Watch, logistics operations benefit from tailored solutions, intuitive UI, analytics, and generative AI to optimize risk management."
+
+  utter_comprehensive_assessment:
+    - text: "Cozentus provides a comprehensive picture of potential risks, precise risk scores, mitigation options, and guidance on optimal third-party information sources."
+    - text: "To ensure comprehensive risk assessment, Cozentus offers a detailed view of potential risks, accurate risk scoring, mitigation strategies, and advice on best third-party sources."
+    - text: "Cozentus ensures comprehensive risk assessment by presenting a thorough analysis of potential risks, precise risk scores, mitigation choices, and recommendations for reliable third-party sources."
+
+  utter_minimizing_disruptions:
+    - text: "Cozentus offers alternate shipment routes, sourcing strategies, operational adjustments, alerts, and notifications to minimize disruptions."
+    - text: "To minimize disruptions in logistics operations, Cozentus provides alternative shipment routes, sourcing tactics, operational tweaks, alerts, and notifications."
+    - text: "In minimizing disruptions within logistics operations, Cozentus provides alternative shipment routes, sourcing strategies, operational adjustments, alerts, and notifications."
+  utter_technologies_used:
+    - text: "Cozentus Risk Watch uses AI and ML technologies for comprehensive risk data capture and monitoring."
+    - text: "For risk data capture and monitoring, Cozentus Risk Watch employs AI and ML technologies."
+
+  utter_enriching_data:
+    - text: "Cozentus enriches risk data with logistics expertise to provide insights and tailored solutions for mitigating potential risks."
+    - text: "To enrich risk data, Cozentus integrates logistics expertise to offer customized solutions and insights on risk mitigation."
+
+  utter_ui_analytics_platform:
+    - text: "The intuitive UI and analytics platform of Cozentus Risk Watch offer a comprehensive view of risks, severity levels, impacted shipments/assets, and generative AI responses to user queries."
+    - text: "Cozentus Risk Watch's UI and analytics platform provide insights into risks, severity levels, impacted shipments/assets, and generative AI responses for user queries."
+
+  utter_tailored_solutions:
+    - text: "Tailored solutions in Cozentus Risk Watch are designed specifically to address the unique risk management needs of logistics operations."
+    - text: "Cozentus Risk Watch offers tailored solutions tailored to meet the specific risk management requirements of logistics operations."
+
+  utter_generative_ai_responses:
+    - text: "Cozentus uses generative AI technology to provide instant responses to user queries through text, graphs, and charts."
+    - text: "For instant responses to user queries, Cozentus employs generative AI technology to generate text, graphs, and charts."
+  
+  utter_informed_decisions:
+    - text: "Cozentus Risk Watch provides real-time insights through a comprehensive dashboard and analytics suite, aiding in informed decision-making."
+    - text: "For making informed decisions, Cozentus Risk Watch offers real-time insights via a comprehensive dashboard and analytics suite."
+
+  utter_impact_proactive_identification:
+    - text: "Proactive risk identification helps in minimizing disruptions, optimizing operations, and safeguarding shipments and assets."
+    - text: "In logistics operations, proactive risk identification minimizes disruptions, optimizes operations, and protects shipments and assets."
+
+  utter_alternate_routes_strategies:
+    - text: "Cozentus suggests alternate shipment routes, sourcing strategies, and operational adjustments based on its risk assessment capabilities."
+    - text: "Based on its risk assessment capabilities, Cozentus supports logistics operations with suggestions for alternate shipment routes, sourcing strategies, and operational adjustments."
+
+  utter_alerts_notifications:
+    - text: "Alerts and notifications help in minimizing disruptions by providing timely information on potential risks."
+    - text: "In Cozentus Risk Watch, alerts and notifications play a crucial role in minimizing disruptions by delivering timely information about potential risks."
+
+  utter_integration_existing_systems:
+    - text: "Cozentus integrates seamlessly with existing logistics systems to provide tailored risk management solutions."
+    - text: "For integration with existing logistics systems, Cozentus ensures seamless integration to deliver customized risk management solutions."
+
+  utter_customization_options:
+    - text: "Cozentus Risk Watch offers customizable solutions and dashboards to meet specific risk management needs."
+    - text: "In Cozentus Risk Watch, customization options include tailored solutions and dashboards to address unique risk management requirements."
+
+  utter_tailored_solutions_operations:
+    - text: "Cozentus tailors its solutions based on the unique requirements and challenges of different logistics operations."
+    - text: "For different logistics operations, Cozentus customizes its solutions to align with specific needs and challenges."
+
+  utter_cost_efficiency:
+    - text: "Cozentus Risk Watch helps in minimizing disruptions and optimizing operations, thereby contributing to cost efficiency."
+    - text: "In logistics operations, Cozentus Risk Watch enhances cost efficiency by reducing disruptions and optimizing processes."
+
+  utter_cost_saving_benefits:
+    - text: "Cozentus helps in identifying risks early, allowing for timely mitigation actions and reducing potential losses."
+    - text: "Through its risk assessment capabilities, Cozentus offers cost-saving benefits by identifying risks early and minimizing potential losses."
+
+  utter_operational_efficiency:
+    - text: "Cozentus improves operational efficiency by providing real-time insights, alternative strategies, and proactive risk management solutions."
+    - text: "In logistics, Cozentus enhances operational efficiency through real-time insights, alternative strategies, and proactive risk management."
+
+  utter_customer_satisfaction:
+    - text: "By ensuring smoother operations and fewer disruptions, Cozentus enhances customer satisfaction in logistics operations."
+    - text: "Cozentus enhances customer satisfaction by ensuring smoother operations and minimizing disruptions in logistics."
+  utter_benefits_bl_automation:
+    - text: "The main benefits of Cozentus' B/L Process Automation include streamlining BL management, enhancing efficiency, and deepening data insights."
+    - text: "Cozentus' B/L Process Automation streamlines BL management, enhances efficiency, and provides deeper data insights."
+
+  utter_automation_importance:
+    - text: "Automation in B/L process management digitizes operations, streamlines data entry, document generation, tracking, and matching draft and master B/Ls, thereby enhancing efficiency."
+    - text: "Automating B/L process management digitizes operations and streamlines tasks like data entry, document generation, tracking, and matching draft and master B/Ls, leading to improved efficiency."
+
+  utter_productivity_improvement:
+    - text: "Cozentus' automation solution reduces average process time per B/L, streamlines document approval cycles, and improves overall productivity tied to business KPIs."
+    - text: "In B/L processing, Cozentus' automation reduces process time per B/L, streamlines document approvals, and boosts productivity linked to business performance indicators."
+
+  utter_data_accuracy_impact:
+    - text: "Cozentus' emphasis on data accuracy reduces errors, increases customer satisfaction, and results in tangible cost savings."
+    - text: "Focusing on data accuracy enhances customer satisfaction, reduces errors, and delivers measurable cost savings."
+  utter_compliance_regulatory_standards:
+    - text: "Cozentus ensures compliance in B/L processing through rigorous error reduction, minimizing rework, and strict adherence to regulatory standards."
+    - text: "Maintaining compliance is a top priority for Cozentus in B/L processing, achieved through minimal errors, reduced rework, and full regulatory adherence."
+
+  utter_competitive_advantages:
+    - text: "Cozentus offers a competitive edge by reducing costs (including paper and printing costs), enhancing operational efficiency, and improving customer satisfaction."
+    - text: "With B/L automation, Cozentus gains a competitive advantage through cost reduction, improved operational efficiency, and enhanced customer satisfaction."
+
+  utter_specific_automation_aspects:
+    - text: "Cozentus automates data entry, document generation, tracking, and matching draft and master B/Ls in the B/L process."
+    - text: "Automation in B/L processing includes data entry, document generation, tracking, and draft and master B/L matching by Cozentus."
+
+  utter_success_measurement:
+    - text: "Success in B/L process automation at Cozentus is measured by reduced process time per B/L, streamlined document approval cycles, and improved business KPIs."
+    - text: "Metrics for B/L process automation success at Cozentus include faster processing times, efficient document approvals, and enhanced business performance indicators."
+
+  utter_data_accuracy_enhancement:
+    - text: "Cozentus ensures data accuracy in B/L processing to minimize errors, reduce rework, and lower costs associated with inaccuracies."
+    - text: "Enhancing data accuracy in B/L processing is a priority for Cozentus to minimize errors, reduce rework, and improve cost-effectiveness."
+
+  utter_sustainability_benefits:
+    - text: "Cozentus' automation reduces paper and printing costs, contributing to sustainability efforts while lowering operational expenses."
+    - text: "By reducing paper and printing costs, Cozentus supports sustainability goals and reduces operational expenses."
+
+  utter_operational_efficiency_contribution:
+    - text: "Automation in B/L processing accelerates document processing, reduces cycle times, and enhances overall productivity."
+    - text: "Operational efficiency in B/L processing is boosted by automation, speeding up document processing and reducing cycle times."
+
+  utter_enhanced_analytics_optimization:
+    - text: "Enhanced data analytics capabilities aid Cozentus in optimizing B/L processes, enabling informed decisions and continuous improvement."
+    - text: "Cozentus leverages enhanced data analytics to optimize B/L processes, making data-driven decisions for ongoing improvements."
+
+  utter_customer_satisfaction_contribution:
+    - text: "Cozentus improves customer satisfaction in B/L management by delivering timely, accurate B/L information, enhancing process visibility, and ensuring satisfaction."
+    - text: "Enhancing customer satisfaction in B/L management is achieved by Cozentus through accurate information delivery, improved visibility, and overall satisfaction."
+
+  utter_seamless_integration:
+    - text: "Cozentus ensures seamless integration of its B/L automation solution with existing systems, streamlining operations for enhanced efficiency."
+    - text: "Integration of Cozentus' B/L automation with current systems ensures smooth operations and improved efficiency."
+
+  utter_customization_options_bl:
+    - text: "Cozentus offers customizable B/L automation solutions tailored to specific process management needs, optimizing workflows accordingly."
+    - text: "Customization options in Cozentus' B/L automation allow tailored solutions to meet exact requirements, optimizing operational workflows."
+
+  utter_cost_savings_bl:
+    - text: "Cozentus' automation solution reduces operational costs, including paper and printing costs, while enhancing efficiency and achieving overall cost savings."
+    - text: "Cost savings with Cozentus' B/L automation are realized through reduced operational costs and improved efficiency."
+
+  utter_efficiency_benefits_bl:
+    - text: "Cozentus accelerates document processing, reduces cycle times, and enhances data accuracy, leading to improved efficiency in B/L operations."
+    - text: "Efficiency benefits from Cozentus' B/L automation include faster document processing, reduced cycle times, and enhanced accuracy."
+  
+  utter_smart_freight_solution:
+    - text: "Cozentus offers a solution for financial precision and operational excellence through smart freight invoice data extraction."
+    - text: "With its Smart Freight invoice data extraction solution, Cozentus ensures financial accuracy and operational efficiency."
+
+  utter_freight_auditing_improvement:
+    - text: "Cozentus' solution automates audit processes, providing visibility into expenses, validating carrier invoices, rectifying discrepancies, and streamlining payments."
+    - text: "Improvements in freight auditing processes by Cozentus include automation of audits, expense visibility, invoice validation, discrepancy rectification, and streamlined payments."
+
+  utter_competitive_advantage_freight_auditing:
+    - text: "Cozentus provides a competitive edge in freight auditing by addressing unique challenges, eliminating inefficiencies, and ensuring compliance with contracts."
+    - text: "In freight auditing, Cozentus stands out by tackling specific challenges, enhancing efficiency, and maintaining contract compliance."
+
+  utter_decision_making_freight_management:
+    - text: "Cozentus supports decision-making in freight management by mitigating financial risks, optimizing costs through error identification, and providing valuable audit insights."
+    - text: "For freight management decisions, Cozentus aids in risk mitigation, cost optimization through error identification, and offers valuable audit insights."
+
+  utter_benefits_vendor_relationships:
+    - text: "Cozentus helps build transparent relationships with vendors through accurate and timely payments, enhancing trust and operational efficiency."
+    - text: "Enhancing vendor relationships, Cozentus ensures transparency, timely payments, and improved operational efficiency."
+
+  utter_customer_satisfaction_contribution_freight:
+    - text: "Cozentus enhances customer satisfaction by ensuring accurate, transparent billing and delivering top-notch service through optimized operations."
+    - text: "Customer satisfaction is enhanced by Cozentus through accurate billing, transparent operations, and excellent service delivery."
+  utter_smart_freight_functionalities:
+    - text: "Cozentus' Smart Freight invoice data extraction includes functionalities such as invoice validation, discrepancy rectification, payment streamlining, and audit automation."
+    - text: "Functionalities of Cozentus' Smart Freight solution encompass invoice validation, discrepancy rectification, streamlined payments, and automated audits."
+
+  utter_cost_optimization_freight_management:
+    - text: "Cozentus optimizes costs in freight management by efficiently identifying billing errors and eliminating overpayments through its platform."
+    - text: "Cost optimization in freight management is achieved by Cozentus through effective identification of billing errors and prevention of overpayments."
+
+  utter_compliance_financial_accuracy:
+    - text: "Cozentus ensures compliance and financial accuracy through robust audit processes and comprehensive audit analysis."
+    - text: "Ensuring compliance and financial accuracy, Cozentus employs robust audit processes and thorough audit analysis."
+
+  utter_informed_decisions_freight:
+    - text: "Cozentus provides valuable insights from audit analysis, enabling informed decisions in freight management."
+    - text: "Informed decision-making in freight management is supported by Cozentus through insightful audit analysis."
+  utter_financial_risks_mitigation:
+    - text: "Cozentus mitigates financial risks in freight auditing by transforming the decision-making process and ensuring accuracy in financial transactions."
+    - text: "In freight auditing, Cozentus mitigates financial risks through enhanced decision-making processes and ensuring transactional accuracy."
+
+  utter_transparency_vendor_relationships:
+    - text: "Transparency in billing and payment processes helps Cozentus build stronger relationships with vendors, fostering trust and reliability."
+    - text: "In vendor relationships, transparency in billing and payments is crucial for Cozentus to build trust and reliability."
+
+  utter_optimize_operations_services:
+    - text: "Cozentus optimizes operations and offers cost-effective services, helping businesses stand out in the competitive market."
+    - text: "By optimizing operations and delivering cost-effective services, Cozentus enables businesses to excel in the competitive market."
+  utter_integration_existing_systems2:
+    - text: "Cozentus integrates seamlessly with existing financial systems to streamline audit processes and ensure compatibility with operational workflows."
+    - text: "Integration with existing financial systems is seamless, allowing Cozentus to streamline audit processes and align with operational workflows."
+
+  utter_customization_options_freight_auditing:
+    - text: "Cozentus offers customizable audit processes tailored to meet specific business needs and optimize freight management operations."
+    - text: "Customization options in Cozentus' freight auditing solution cater to specific business requirements and enhance operational efficiency."
+
+  utter_cost_effectiveness_freight_auditing:
+    - text: "Cozentus contributes to cost-effectiveness by identifying billing errors, eliminating overpayments, and optimizing financial processes."
+    - text: "Cost-effectiveness in freight auditing is achieved through Cozentus' ability to identify errors and optimize financial workflows."
+
+  utter_efficiency_benefits_freight_management:
+    - text: "Cozentus improves efficiency by automating audit processes, reducing manual effort, and providing actionable insights for decision-making."
+    - text: "Efficiency benefits in freight management are realized through Cozentus' automation of audit processes and provision of actionable insights."
+
+  utter_sustainability_freight_auditing:
+    - text: "Cozentus supports sustainability by reducing operational inefficiencies, minimizing errors, and optimizing resource utilization in freight management."
+    - text: "Sustainability efforts in freight auditing are strengthened by Cozentus' focus on reducing inefficiencies and optimizing resource usage."
+  utter_freight_audit_payment_solution:
+    - text: "Freight audit solutions, also known as freight audit and payment solutions, help 3PLs and other logistics businesses track and monitor expenses, audit for excess billing, negotiate better with carriers, and optimize their transportation strategy."
+    - text: "A freight audit and payment solution assists 3PLs and logistics businesses in tracking expenses, auditing for overbilling, negotiating with carriers, and optimizing transportation strategies."
+
+  utter_freight_audit_platform:
+    - text: "A freight audit platform is a SaaS product that automates freight invoice auditing and validates all expenses accurately and speedily by leveraging AI to read and process multi-formatted documents. It ensures contract compliance and speeds up dispute management. Some freight audit companies also offer proprietary software that integrates with existing systems or bespoke solutions tailored to business needs."
+    - text: "A freight audit platform is a software-as-a-service (SaaS) solution that automates freight invoice auditing, ensuring accurate validation of expenses using AI for processing multi-format documents. It includes features for contract compliance and efficient dispute resolution. Certain providers also offer proprietary software that can integrate seamlessly with existing systems or be customized for specific business requirements."
+  utter_manage_discrepancies_disputes_digitally:
+    - text: "Yes, a digitized freight audit system mitigates the possibility of human error and accelerates the resolution of discrepancies in freight invoice audits. Automated emails and alerts are sent to the concerned parties to swiftly resolve any remaining discrepancies or disputes."
+    - text: "Absolutely! Managing discrepancies and disputes digitally through a freight audit system reduces human error and speeds up the audit process. Automated notifications are used to promptly address any discrepancies or disputes that arise."
+  utter_freight_invoice_audit_system:
+    - text: "A freight invoice audit system, also known as Freight Audit and Payment, is used by logistics service providers such as 3PLs to validate shipping invoices against contracts and purchase orders. Its objective is to ensure the accuracy of the invoices."
+    - text: "A freight invoice audit system, or Freight Audit and Payment system, verifies shipping invoices against contracts and purchase orders to ensure accuracy. It's a critical process for logistics providers like 3PLs."
+  utter_yard_management_services:
+    - text: "Yard management services involve the coordination of goods entering, leaving, and moving within shipping yards. This includes gate management, drayage management, load optimization, and transportation management between warehouses and yards."
+    - text: "Yard management services provided by companies include coordinating the movement of goods within shipping yards, managing gates, drayage operations, optimizing loads, and facilitating transportation between warehouses and yards."
+  utter_difference_yard_management_services_solutions:
+    - text: "Yard management services typically focus on managing the movement of goods within the shipping yard and may involve transportation between warehouses. Yard management solutions, on the other hand, are comprehensive and involve analyzing existing processes, identifying inefficiencies, and implementing tailored solutions to optimize yard operations."
+    - text: "The difference lies in scope and approach. Yard management services handle the day-to-day coordination of goods within shipping yards and transportation logistics. In contrast, yard management solutions encompass a broader range of activities, including process analysis, problem identification, and the implementation of customized strategies for improved yard management."
+  utter_components_yard_management_systems:
+    - text: "The components of a yard and dray management system, or yard management software, typically include:
+      - Gate management
+      - Load and shipment tracking
+      - Dock scheduling
+      - Task optimization
+      These components ensure a smooth flow of goods across shipping yards, speed up container and ship loading, and facilitate timely delivery."
+    - text: "Yard management systems consist of several key components:
+      - Gate management for efficient entry and exit
+      - Load and shipment tracking to monitor cargo movement
+      - Dock scheduling to optimize loading and unloading processes
+      - Task optimization for efficient yard operations
+      These functionalities collectively ensure streamlined operations and timely delivery."
 
 session_config:
   session_expiration_time: 60

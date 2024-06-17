@@ -645,3 +645,567 @@ stories:
   steps:
   - intent: optimize_data_architecture
   - action: utter_optimize_data_architecture
+
+# date : 17-06-24
+
+- story: Provide main benefit
+  steps:
+  - intent: inquire_main_benefit
+  - action: utter_main_benefit
+
+- story: Explain importance of document processing
+  steps:
+  - intent: inquire_importance_of_efficiency
+  - action: utter_importance_of_efficiency
+
+- story: Describe challenges of global logistics interactions
+  steps:
+  - intent: inquire_global_challenges
+  - action: utter_global_challenges
+
+- story: Mention technology used in LogiGlean
+  steps:
+  - intent: inquire_technology_used
+  - action: utter_technology_used
+
+- story: Explain document handling by LogiGlean
+  steps:
+  - intent: inquire_document_handling
+  - action: utter_document_handling
+
+- story: Provide processing accuracy after six months
+  steps:
+  - intent: inquire_processing_accuracy
+  - action: utter_processing_accuracy
+
+- story: Mention data-level accuracy without manual intervention
+  steps:
+  - intent: inquire_data_accuracy
+  - action: utter_data_accuracy
+
+- story: Describe cost savings per accuracy increase
+  steps:
+  - intent: inquire_cost_savings
+  - action: utter_cost_savings
+
+- story: Explain ROI compared to off-the-shelf solutions
+  steps:
+  - intent: inquire_roi
+  - action: utter_roi
+
+- story: Mention speed of data processing with automation
+  steps:
+  - intent: inquire_processing_speed
+  - action: utter_processing_speed
+
+- story: Explain zero-touch document pass-through accuracy
+  steps:
+  - intent: inquire_zero_touch_accuracy
+  - action: utter_zero_touch_accuracy
+
+- story: Describe what makes LogiGlean different
+  steps:
+  - intent: inquire_logiglean_difference
+  - action: utter_logiglean_difference
+
+- story: Explain integration of LogiGlean framework
+  steps:
+  - intent: inquire_integration
+  - action: utter_integration
+
+- story: Describe meaning of 5-10x ROI for businesses
+  steps:
+  - intent: inquire_roi_meaning
+  - action: utter_roi_meaning
+
+- story: Explain avoiding operational mistakes and delays
+  steps:
+  - intent: inquire_avoiding_mistakes_delays
+  - action: utter_avoiding_mistakes_delays
+
+- story: Describe contribution to compliance
+  steps:
+  - intent: inquire_contributing_compliance
+  - action: utter_contributing_compliance
+
+- story: Explain impact of processing speed on efficiency
+  steps:
+  - intent: inquire_processing_speed_impact
+  - action: utter_processing_speed_impact
+
+- story: Describe handling of different document formats
+  steps:
+  - intent: inquire_handling_formats
+  - action: utter_handling_formats
+
+- story: Explain software partnership concept
+  steps:
+  - intent: inquire_software_partnership
+  - action: utter_software_partnership
+
+- story: Describe achieving high data accuracy
+  steps:
+  - intent: inquire_achieving_data_accuracy
+  - action: utter_achieving_data_accuracy
+
+- story: Explain role of Logistics Business Rules Engine
+  steps:
+  - intent: inquire_role_business_rules_engine
+  - action: utter_role_business_rules_engine
+
+- story: Describe cost reduction with LogiGlean
+  steps:
+  - intent: inquire_cost_reduction
+  - action: utter_cost_reduction
+
+- story: Explain cost implications compared to off-the-shelf solutions
+  steps:
+  - intent: inquire_cost_implications
+  - action: utter_cost_implications
+
+- story: Describe how accuracy translates to cost savings
+  steps:
+  - intent: inquire_accuracy_cost_savings
+  - action: utter_accuracy_cost_savings
+- story: Explain primary benefit of real-time shipment tracking
+  steps:
+  - intent: inquire_real_time_benefit
+  - action: utter_real_time_benefit
+
+- story: Explain why real-time shipment visibility is a must-have
+  steps:
+  - intent: inquire_why_real_time_must_have
+  - action: utter_why_real_time_must_have
+
+- story: Explain achieving cohesive visibility for 3PLs
+  steps:
+  - intent: inquire_achieving_cohesive_visibility
+  - action: utter_achieving_cohesive_visibility
+
+- story: Describe Cozentus' role in shipment tracking
+  steps:
+  - intent: inquire_role_cozentus
+  - action: utter_role_cozentus
+
+- story: Explain how Cozentus enhances data accuracy and reliability
+  steps:
+  - intent: inquire_data_accuracy_reliability
+  - action: utter_data_accuracy_reliability
+
+- story: Describe benefits of proactive risk assessments
+  steps:
+  - intent: inquire_benefits_proactive_risk_assessments
+  - action: utter_benefits_proactive_risk_assessments
+
+- story: Explain how Cozentus' UI and analytics aid decision-making
+  steps:
+  - intent: inquire_ui_analytics_decision_making
+  - action: utter_ui_analytics_decision_making
+
+- story: Describe features for locating shipments and handling queries
+  steps:
+  - intent: inquire_features_locating_shipments
+  - action: utter_features_locating_shipments
+
+- story: Explain how Cozentus handles shipment tracking
+  steps:
+  - intent: inquire_shipment_tracking_handling
+  - action: utter_shipment_tracking_handling
+
+- story: Describe role of AI-powered estimated arrival times
+  steps:
+  - intent: inquire_ai_powered_est_arrival_times
+  - action: utter_ai_powered_est_arrival_times
+
+- story: Explain notifications provided by Cozentus
+  steps:
+  - intent: inquire_notifications_provided
+  - action: utter_notifications_provided
+
+- story: Describe how Cozentus handles customer queries
+  steps:
+  - intent: inquire_handling_customer_queries
+  - action: utter_handling_customer_queries
+
+- story: Explain centralized view of shipment landscape
+  steps:
+  - intent: inquire_centralized_view_shipment_landscape
+  - action: utter_centralized_view_shipment_landscape
+
+- story: Describe offerings of Cozentus' UI
+  steps:
+  - intent: inquire_ui_offerings
+  - action: utter_ui_offerings
+
+- story: Explain benefits of real-time visibility for 3PL operations
+  steps:
+  - intent: inquire_benefits_real_time_visibility
+  - action: utter_benefits_real_time_visibility
+
+- story: Describe benefits of integrating human experience with technology
+  steps:
+  - intent: inquire_human_tech_integration
+  - action: utter_human_tech_integration
+
+- story: Explain how Cozentus ensures data accuracy
+  steps:
+  - intent: inquire_ensuring_data_accuracy
+  - action: utter_ensuring_data_accuracy
+
+- story: Describe operational advantage of proactive risk assessments
+  steps:
+  - intent: inquire_proactive_risk_assessment_advantage
+  - action: utter_proactive_risk_assessment_advantage
+
+- story: Explain how Cozentus integrates into logistics systems
+  steps:
+  - intent: inquire_system_integration
+  - action: utter_system_integration
+
+- story: Describe dashboard customization options in Cozentus
+  steps:
+  - intent: inquire_dashboard_customization
+  - action: utter_dashboard_customization
+
+- story: Explain how Cozentus transforms data into actionable insights
+  steps:
+  - intent: inquire_transforming_data
+  - action: utter_transforming_data
+
+- story: Describe how Cozentus enhances operational efficiency
+  steps:
+  - intent: inquire_operational_efficiency_enhancement
+  - action: utter_operational_efficiency_enhancement
+
+- story: Explain impact of AI-powered arrival times on cost efficiency
+  steps:
+  - intent: inquire_ai_arrival_times_cost_efficiency
+  - action: utter_ai_arrival_times_cost_efficiency
+
+- story: Describe cost-saving impact of notifications and risk updates
+  steps:
+  - intent: inquire_notifications_risk_updates_cost_savings
+  - action: utter_notifications_risk_updates_cost_savings
+
+- story: Explain how Cozentus improves customer satisfaction
+  steps:
+  - intent: inquire_customer_satisfaction_improvement
+  - action: utter_customer_satisfaction_improvement
+
+- story: ask primary focus
+  steps:
+  - intent: ask_primary_focus
+  - action: utter_primary_focus
+
+- story: ask proactive identification
+  steps:
+  - intent: ask_proactive_identification
+  - action: utter_proactive_identification
+
+- story: ask AI ML leverage
+  steps:
+  - intent: ask_ai_ml_leverage
+  - action: utter_ai_ml_leverage
+
+- story: ask benefits
+  steps:
+  - intent: ask_benefits
+  - action: utter_benefits
+
+- story: ask comprehensive assessment
+  steps:
+  - intent: ask_comprehensive_assessment
+  - action: utter_comprehensive_assessment
+
+- story: ask minimizing disruptions
+  steps:
+  - intent: ask_minimizing_disruptions
+  - action: utter_minimizing_disruptions
+
+- story: ask technologies used
+  steps:
+  - intent: ask_technologies_used
+  - action: utter_technologies_used
+
+- story: ask enriching data
+  steps:
+  - intent: ask_enriching_data
+  - action: utter_enriching_data
+
+- story: ask UI analytics platform
+  steps:
+  - intent: ask_ui_analytics_platform
+  - action: utter_ui_analytics_platform
+
+- story: ask tailored solutions
+  steps:
+  - intent: ask_tailored_solutions
+  - action: utter_tailored_solutions
+
+- story: ask generative AI responses
+  steps:
+  - intent: ask_generative_ai_responses
+  - action: utter_generative_ai_responses
+
+- story: ask informed decisions
+  steps:
+  - intent: ask_informed_decisions
+  - action: utter_informed_decisions
+
+- story: ask impact proactive identification
+  steps:
+  - intent: ask_impact_proactive_identification
+  - action: utter_impact_proactive_identification
+
+- story: ask alternate routes strategies
+  steps:
+  - intent: ask_alternate_routes_strategies
+  - action: utter_alternate_routes_strategies
+
+- story: ask alerts notifications
+  steps:
+  - intent: ask_alerts_notifications
+  - action: utter_alerts_notifications
+
+- story: ask integration existing systems
+  steps:
+  - intent: ask_integration_existing_systems
+  - action: utter_integration_existing_systems
+
+- story: ask customization options
+  steps:
+  - intent: ask_customization_options
+  - action: utter_customization_options
+
+- story: ask tailored solutions operations
+  steps:
+  - intent: ask_tailored_solutions_operations
+  - action: utter_tailored_solutions_operations
+
+- story: ask cost efficiency
+  steps:
+  - intent: ask_cost_efficiency
+  - action: utter_cost_efficiency
+
+- story: ask cost saving benefits
+  steps:
+  - intent: ask_cost_saving_benefits
+  - action: utter_cost_saving_benefits
+
+- story: ask operational efficiency
+  steps:
+  - intent: ask_operational_efficiency
+  - action: utter_operational_efficiency
+
+- story: ask customer satisfaction
+  steps:
+  - intent: ask_customer_satisfaction
+  - action: utter_customer_satisfaction
+- story: Benefits of Cozentus' B/L Process Automation
+  steps:
+  - intent: ask_benefits_bl_automation
+  - action: utter_benefits_bl_automation
+
+- story: Importance of automation in B/L process management
+  steps:
+  - intent: ask_automation_importance
+  - action: utter_automation_importance
+
+- story: Improving productivity with Cozentus' B/L automation
+  steps:
+  - intent: ask_productivity_improvement
+  - action: utter_productivity_improvement
+
+- story: Impact of data accuracy on customer satisfaction
+  steps:
+  - intent: ask_data_accuracy_impact
+  - action: utter_data_accuracy_impact
+
+- story: Compliance with regulatory standards
+  steps:
+  - intent: ask_compliance_regulatory_standards
+  - action: utter_compliance_regulatory_standards
+
+- story: Competitive advantages of Cozentus' B/L automation
+  steps:
+  - intent: ask_competitive_advantages
+  - action: utter_competitive_advantages
+
+- story: Specific automation aspects in B/L processing
+  steps:
+  - intent: ask_specific_automation_aspects
+  - action: utter_specific_automation_aspects
+
+- story: Measurement of success in B/L process automation
+  steps:
+  - intent: ask_success_measurement
+  - action: utter_success_measurement
+
+- story: Enhancement of data accuracy in B/L processing
+  steps:
+  - intent: ask_data_accuracy_enhancement
+  - action: utter_data_accuracy_enhancement
+
+- story: Sustainability benefits of Cozentus' B/L automation
+  steps:
+  - intent: ask_sustainability_benefits
+  - action: utter_sustainability_benefits
+
+- story: Contribution to operational efficiency through automation
+  steps:
+  - intent: ask_operational_efficiency_contribution
+  - action: utter_operational_efficiency_contribution
+
+- story: Optimization of B/L processes with enhanced data analytics
+  steps:
+  - intent: ask_enhanced_analytics_optimization
+  - action: utter_enhanced_analytics_optimization
+
+- story: Contribution to customer satisfaction in B/L management
+  steps:
+  - intent: ask_customer_satisfaction_contribution
+  - action: utter_customer_satisfaction_contribution
+
+- story: Seamless integration of B/L automation solution
+  steps:
+  - intent: ask_seamless_integration
+  - action: utter_seamless_integration
+
+- story: Customization options in Cozentus' B/L automation
+  steps:
+  - intent: ask_customization_options_bl
+  - action: utter_customization_options_bl
+
+- story: Cost savings with Cozentus' B/L automation
+  steps:
+  - intent: ask_cost_savings_bl
+  - action: utter_cost_savings_bl
+
+- story: Efficiency benefits of Cozentus' B/L automation
+  steps:
+  - intent: ask_efficiency_benefits_bl
+  - action: utter_efficiency_benefits_bl
+
+- story: Smart Freight invoice data extraction solution details
+  steps:
+  - intent: ask_smart_freight_solution
+  - action: utter_smart_freight_solution
+
+- story: Improvement in freight auditing processes
+  steps:
+  - intent: ask_freight_auditing_improvement
+  - action: utter_freight_auditing_improvement
+
+- story: Competitive advantage in freight auditing
+  steps:
+  - intent: ask_competitive_advantage_freight_auditing
+  - action: utter_competitive_advantage_freight_auditing
+
+- story: Support for decision-making in freight management
+  steps:
+  - intent: ask_decision_making_freight_management
+  - action: utter_decision_making_freight_management
+
+- story: Benefits for vendor relationships
+  steps:
+  - intent: ask_benefits_vendor_relationships
+  - action: utter_benefits_vendor_relationships
+
+- story: Contribution to customer satisfaction in freight
+  steps:
+  - intent: ask_customer_satisfaction_contribution_freight
+  - action: utter_customer_satisfaction_contribution_freight
+
+- story: Specific functionalities of Smart Freight invoice data extraction
+  steps:
+  - intent: ask_smart_freight_functionalities
+  - action: utter_smart_freight_functionalities
+
+- story: Cost optimization in freight management
+  steps:
+  - intent: ask_cost_optimization_freight_management
+  - action: utter_cost_optimization_freight_management
+
+- story: Compliance and financial accuracy assurance
+  steps:
+  - intent: ask_compliance_financial_accuracy
+  - action: utter_compliance_financial_accuracy
+
+- story: Support for informed decisions in freight management
+  steps:
+  - intent: ask_informed_decisions_freight
+  - action: utter_informed_decisions_freight
+
+- story: Mitigation of financial risks in freight auditing
+  steps:
+  - intent: ask_financial_risks_mitigation
+  - action: utter_financial_risks_mitigation
+
+- story: Role of transparency in vendor relationships
+  steps:
+  - intent: ask_transparency_vendor_relationships
+  - action: utter_transparency_vendor_relationships
+
+- story: Optimization of operations and services
+  steps:
+  - intent: ask_optimize_operations_services
+  - action: utter_optimize_operations_services
+
+- story: Integration with existing financial systems
+  steps:
+  - intent: ask_integration_existing_systems2
+  - action: utter_integration_existing_systems2
+
+- story: Customization options in freight auditing
+  steps:
+  - intent: ask_customization_options_freight_auditing
+  - action: utter_customization_options_freight_auditing
+
+- story: Cost-effectiveness in freight auditing
+  steps:
+  - intent: ask_cost_effectiveness_freight_auditing
+  - action: utter_cost_effectiveness_freight_auditing
+
+- story: Efficiency benefits in freight management
+  steps:
+  - intent: ask_efficiency_benefits_freight_management
+  - action: utter_efficiency_benefits_freight_management
+
+- story: Sustainability in freight auditing
+  steps:
+  - intent: ask_sustainability_freight_auditing
+  - action: utter_sustainability_freight_auditing
+
+- story: Freight audit and payment solution query
+  steps:
+  - intent: ask_freight_audit_payment_solution
+  - action: utter_freight_audit_payment_solution
+
+- story: Freight audit platform query
+  steps:
+  - intent: ask_freight_audit_platform
+  - action: utter_freight_audit_platform
+
+- story: Manage discrepancies and disputes digitally query
+  steps:
+  - intent: manage_discrepancies_disputes_digitally
+  - action: utter_manage_discrepancies_disputes_digitally
+
+- story: Freight invoice audit system query
+  steps:
+  - intent: ask_freight_invoice_audit_system
+  - action: utter_freight_invoice_audit_system
+
+- story: Yard management services query
+  steps:
+  - intent: ask_yard_management_services
+  - action: utter_yard_management_services
+
+- story: Difference between yard management services and solutions query
+  steps:
+  - intent: ask_difference_yard_management_services_solutions
+  - action: utter_difference_yard_management_services_solutions
+- story: Components of yard management systems query
+  steps:
+    - intent: ask_components_yard_management_systems
+    - action: utter_components_yard_management_systems

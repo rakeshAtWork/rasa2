@@ -1529,7 +1529,6 @@ nlu:
     - Provide insights into supply chain automation.
     - Describe the benefits of supply chain automation.
     - How does automation impact supply chain efficiency?
-    - What technologies are used in supply chain automation?
     - Give examples of supply chain processes automated by technology.
     - How does automation enhance supply chain management?
     - What are the challenges of implementing supply chain automation?
@@ -1544,7 +1543,6 @@ nlu:
     - What are some supply chain automation tools?
     - Can you list some supply chain automation tools?
     - Tell me about supply chain automation tools.
-    - What technologies are used in supply chain automation?
     - What are the tools for automating supply chain?
     - Which tools are used for supply chain automation?
     - Explain the role of technology in supply chain automation.
@@ -1659,7 +1657,6 @@ nlu:
     - How does Cozentus address industry gaps in logistics?
     - What technology gaps does Cozentus automate in the logistics chain?
     - Explain how Cozentus enhances user convenience in logistics.
-    - How does Cozentus improve operational efficiency in logistics?
     - What benefits does Cozentus provide for decision-making in logistics?
     - How does Cozentus improve customer satisfaction in logistics?
     - Describe Cozentus' strategy for closing logistics industry gaps.
@@ -2199,8 +2196,783 @@ nlu:
     - Describe Cozentus' technological solutions for enhancing data architecture and management efficiency.
     - How does Cozentus utilize cutting-edge technology to optimize data architecture and management?
     - What are Cozentus' technological capabilities for improving data architecture and management?
+# date : 17-06-24
+- intent: inquire_main_benefit
+  examples: |
+    - What is the main benefit of the custom-built document extraction framework?
+    - Can you tell me the main advantage of the custom-built document extraction framework?
+    - What's the key benefit of the custom-built document extraction framework?
+    - How does the custom-built document extraction framework benefit users?
+    - What advantages does the custom-built document extraction framework offer?
+    - Why should one choose the custom-built document extraction framework over alternatives?
+    - In what ways does the custom-built document extraction framework stand out?
+    - What are the primary benefits of using the custom-built document extraction framework?
+    - Could you explain the main benefits of the custom-built document extraction framework?
+    - What are the strengths of the custom-built document extraction framework?
+    - What makes the custom-built document extraction framework advantageous?
+    - What value does the custom-built document extraction framework bring to users?
+    - How does the custom-built document extraction framework improve document processing?
+    - What are the significant features of the custom-built document extraction framework?
+    - How does the custom-built document extraction framework enhance efficiency?
+    - What are the practical benefits of implementing the custom-built document extraction framework?
+    - What specific problems does the custom-built document extraction framework solve?
+    - What are the unique selling points of the custom-built document extraction framework?
+- intent: inquire_importance_of_efficiency
+  examples: |
+    - Why is efficient document processing vital for logistics operations?
+    - Can you explain why efficient document processing is important for logistics?
+    - What makes efficient document processing crucial for logistics operations?
+    - Why is efficient handling of documents essential in logistics?
+    - What are the benefits of streamlined document processing in logistics?
+    - How does efficient document processing impact logistics efficiency?
+    - What role does efficient document processing play in improving logistics workflows?
+    - In what ways does efficient document handling benefit logistics companies?
+    - What are the challenges of inefficient document processing in logistics?
+    - How does efficient document management contribute to logistics cost-effectiveness?
+    - Why should logistics companies prioritize efficient document processing?
+    - What are the consequences of inefficient document processing in logistics?
+    - How can optimized document processing enhance logistics service delivery?
+    - What strategies can improve document processing efficiency in logistics?
+    - What technologies are beneficial for automating document processing in logistics?
+    - How does streamlined documentation benefit supply chain management in logistics?
+
+- intent: inquire_global_challenges
+  examples: |
+    - What challenges does the global nature of logistics interactions add?
+    - How does the global nature of logistics interactions complicate things?
+    - Can you describe the challenges added by the global nature of logistics interactions?
+    - What are the complexities introduced by the global scope of logistics interactions?
+    - How do international logistics interactions pose challenges?
+    - What difficulties arise from managing logistics interactions on a global scale?
+    - In what ways does the global aspect of logistics interactions impact operational efficiency?
+    - What risks are associated with global logistics interactions?
+    - Why is navigating global logistics interactions challenging?
+    - How does cultural diversity affect logistics interactions on a global level?
+    - What regulatory issues arise from international logistics interactions?
+    - What strategies can mitigate challenges in global logistics interactions?
+    - How does technology help in managing complexities of global logistics interactions?
+    - What role does communication play in overcoming challenges in global logistics interactions?
+    - How can logistics companies adapt to the challenges of global supply chain interactions?
+- intent: inquire_technology_used
+  examples: |
+    - What technology powers the Cozentus LogiGlean framework?
+    - Can you tell me what technology is used in the Cozentus LogiGlean framework?
+    - What powers the Cozentus LogiGlean framework?
+    - Which technological tools are integrated into the Cozentus LogiGlean framework?
+    - How is technology leveraged in the Cozentus LogiGlean framework?
+    - What are the key technological components of the Cozentus LogiGlean framework?
+    - Could you describe the tech stack behind the Cozentus LogiGlean framework?
+    - What software solutions support the Cozentus LogiGlean framework?
+    - How does the Cozentus LogiGlean framework utilize modern technology?
+    - What role do digital tools play in the Cozentus LogiGlean framework?
+    - How does Cozentus LogiGlean integrate with existing technology infrastructures?
+    - What are the technological advancements featured in Cozentus LogiGlean?
+    - Which programming languages power Cozentus LogiGlean's functionality?
+    - What are the main components of Cozentus LogiGlean's technological architecture?
+    - What are the innovative technologies utilized by Cozentus LogiGlean?
+
+- intent: inquire_document_handling
+  examples: |
+    - How does LogiGlean handle documents from multiple logistic sources?
+    - Can you explain how LogiGlean deals with documents from different logistic sources?
+    - What is LogiGlean's approach to handling documents from various logistic sources?
+    - How does LogiGlean manage document integration from diverse logistic channels?
+    - What methods does LogiGlean employ to consolidate documents from various logistic sources?
+    - Can you describe the document aggregation process in LogiGlean across logistic channels?
+    - What strategies does LogiGlean use to standardize document formats from different logistic sources?
+    - How does LogiGlean ensure data integrity when processing documents from multiple logistic sources?
+    - What technologies enable LogiGlean to streamline document handling from various logistic partners?
+    - What are the challenges LogiGlean faces when integrating documents from diverse logistic sources?
+    - How does LogiGlean classify and organize documents received from multiple logistic sources?
+    - What role does artificial intelligence play in LogiGlean's document management across logistic channels?
+    - How does LogiGlean ensure security and compliance when processing documents from different logistic sources?
+    - What are the benefits of using LogiGlean for managing documents from various logistic sources?
+    - How does LogiGlean support scalability in document handling across multiple logistic sources?
+- intent: inquire_processing_accuracy
+  examples: |
+    - What is the document processing accuracy of LogiGlean after a six-month timeframe?
+    - How accurate is LogiGlean in processing documents after six months?
+    - Can you tell me the document processing accuracy of LogiGlean over six months?
+
+- intent: inquire_data_accuracy
+  examples: |
+    - What is the data-level accuracy of LogiGlean without manual intervention?
+    - How accurate is LogiGlean at the data level without human intervention?
+    - Can you tell me the data-level accuracy without manual intervention?
+
+- intent: inquire_cost_savings
+  examples: |
+    - How much cost savings can be achieved with every 0.5% increase in accuracy?
+    - Can you tell me the cost savings for every 0.5% increase in accuracy?
+    - What are the cost savings associated with a 0.5% increase in accuracy?
+
+- intent: inquire_roi
+  examples: |
+    - What ROI does LogiGlean deliver compared to off-the-shelf solutions?
+    - Can you tell me the ROI of LogiGlean compared to other solutions?
+    - What is the ROI of LogiGlean compared to off-the-shelf products?
+
+- intent: inquire_processing_speed
+  examples: |
+    - How much faster is the data processing with end-to-end automation in LogiGlean?
+    - Can you tell me how fast data processing is with LogiGlean's automation?
+    - What is the speed increase in data processing due to LogiGlean's end-to-end automation?
+- intent: inquire_zero_touch_accuracy
+  examples: |
+    - What does zero-touch document pass-through accuracy mean?
+    - Can you explain zero-touch document pass-through accuracy?
+    - What is meant by zero-touch document pass-through accuracy?
+
+- intent: inquire_logiglean_difference
+  examples: |
+    - What makes LogiGlean different from other document extraction solutions?
+    - How is LogiGlean different from other document extraction solutions?
+    - Can you tell me what differentiates LogiGlean from other document extraction solutions?
+
+- intent: inquire_integration
+  examples: |
+    - How does the LogiGlean framework integrate with existing ecosystems?
+    - Can you explain how LogiGlean integrates with existing systems?
+    - What is the integration process of LogiGlean with existing ecosystems?
+
+- intent: inquire_roi_meaning
+  examples: |
+    - What does a 5-10x ROI mean for businesses using LogiGlean?
+    - Can you explain the meaning of a 5-10x ROI for businesses using LogiGlean?
+    - What is the significance of a 5-10x ROI for businesses with LogiGlean?
+- intent: inquire_avoiding_mistakes_delays
+  examples: |
+    - How does LogiGlean help in avoiding operational mistakes and delays?
+    - How does LogiGlean prevent mistakes and delays?
+    - Can you explain how LogiGlean helps avoid operational errors and delays?
+
+- intent: inquire_contributing_compliance
+  examples: |
+    - In what ways does LogiGlean contribute to compliance in logistics operations?
+    - How does LogiGlean ensure compliance in logistics?
+    - What does LogiGlean do to help with compliance in logistics?
+
+- intent: inquire_processing_speed_impact
+  examples: |
+    - What is the impact of LogiGlean's document processing speed on operational efficiency?
+    - How does LogiGlean's processing speed affect operational efficiency?
+    - Can you describe the impact of LogiGlean's processing speed on efficiency?
+
+- intent: inquire_handling_formats
+  examples: |
+    - Can LogiGlean handle documents in different formats?
+    - Is LogiGlean capable of processing documents in various formats?
+    - Can LogiGlean manage documents in any format?
+
+- intent: inquire_software_partnership
+  examples: |
+    - What does it mean when it's said that LogiGlean is not just software, but a partnership?
+    - Can you explain what it means that LogiGlean is a partnership, not just software?
+    - What is meant by LogiGlean being a partnership instead of just a software product?
+
+- intent: inquire_achieving_data_accuracy
+  examples: |
+    - How does LogiGlean achieve high levels of data accuracy without manual intervention?
+    - What enables LogiGlean to maintain high data accuracy without manual work?
+    - How does LogiGlean ensure data accuracy without human intervention?
+
+- intent: inquire_role_business_rules_engine
+  examples: |
+    - What role does the Logistics Business Rules Engine play in LogiGlean's framework?
+    - Can you explain the role of the Logistics Business Rules Engine in LogiGlean?
+    - How does the Logistics Business Rules Engine contribute to LogiGlean's framework?
+
+- intent: inquire_cost_reduction
+  examples: |
+    - How does LogiGlean's framework help in cost reduction?
+    - In what ways does LogiGlean reduce costs?
+    - Can you explain how LogiGlean helps cut costs?
+
+- intent: inquire_cost_implications
+  examples: |
+    - What are the cost implications of using LogiGlean compared to off-the-shelf solutions?
+    - How does using LogiGlean affect costs compared to off-the-shelf solutions?
+    - Can you describe the cost implications of LogiGlean versus standard solutions?
+
+- intent: inquire_accuracy_cost_savings
+  examples: |
+    - How does increased accuracy translate to cost savings in LogiGlean?
+    - Can you explain how accuracy improvements lead to cost savings with LogiGlean?
+    - What is the relationship between increased accuracy and cost savings in LogiGlean?
+- intent: inquire_real_time_benefit
+  examples: |
+    - What is the primary benefit of real-time shipment tracking and visibility?
+    - Can you tell me the main benefit of real-time shipment tracking?
+    - What is the key advantage of real-time shipment visibility?
+
+- intent: inquire_why_real_time_must_have
+  examples: |
+    - Why is real-time shipment visibility considered a must-have for 3PLs?
+    - Why is real-time shipment visibility essential for 3PLs?
+    - What makes real-time shipment visibility a must-have for 3PLs?
+
+- intent: inquire_achieving_cohesive_visibility
+  examples: |
+    - How can 3PLs achieve cohesive visibility for operational success?
+    - How do 3PLs get cohesive visibility in their operations?
+    - What is needed for 3PLs to achieve cohesive visibility?
+
+- intent: inquire_role_cozentus
+  examples: |
+    - What role does Cozentus play in shipment tracking and visibility?
+    - How does Cozentus contribute to shipment tracking and visibility?
+    - Can you explain Cozentus' role in shipment visibility?
+
+- intent: inquire_data_accuracy_reliability
+  examples: |
+    - How does Cozentus enhance data accuracy and reliability?
+    - What does Cozentus do to improve data accuracy and reliability?
+    - How is data accuracy and reliability enhanced by Cozentus?
+
+- intent: inquire_benefits_proactive_risk_assessments
+  examples: |
+    - What are the benefits of proactive risk assessments in shipment tracking?
+    - How do proactive risk assessments benefit shipment tracking?
+    - Can you explain the benefits of proactive risk assessments?
+
+- intent: inquire_ui_analytics_decision_making
+  examples: |
+    - How does the intuitive user interface and comprehensive analytics of Cozentus aid decision-making?
+    - How do Cozentus' UI and analytics help in decision-making?
+    - What role does Cozentus' UI and analytics play in decision-making?
+
+- intent: inquire_features_locating_shipments
+  examples: |
+    - What features help in locating shipments and responding to customer queries with ease?
+    - How does Cozentus help locate shipments and respond to customer queries?
+    - What are the features of Cozentus for locating shipments and handling queries?
+
+- intent: inquire_shipment_tracking_handling
+  examples: |
+    - How does Cozentus handle shipment tracking?
+    - Can you explain how Cozentus manages shipment tracking?
+    - What is Cozentus' method for shipment tracking?
+
+- intent: inquire_ai_powered_est_arrival_times
+  examples: |
+    - What is the role of AI-powered estimated arrival times in shipment tracking?
+    - How do AI-powered estimated arrival times benefit shipment tracking?
+    - Can you explain the impact of AI-powered estimated arrival times?
+
+- intent: inquire_notifications_provided
+  examples: |
+    - What kind of notifications does Cozentus provide?
+    - Can you tell me about the notifications offered by Cozentus?
+    - What notifications does Cozentus offer for shipment tracking?
+
+- intent: inquire_handling_customer_queries
+  examples: |
+    - How does Cozentus handle customer queries?
+    - Can you explain how Cozentus manages customer queries?
+    - How are customer queries handled by Cozentus?
+
+- intent: inquire_centralized_view_shipment_landscape
+  examples: |
+    - What does the centralized view of the entire shipment landscape offer?
+    - Can you explain the centralized view feature of Cozentus?
+    - What is provided by the centralized view of shipments in Cozentus?
+
+- intent: inquire_ui_offerings
+  examples: |
+    - What does the intuitive user interface of Cozentus offer?
+    - Can you describe the intuitive user interface of Cozentus?
+    - What are the features of Cozentus' user interface?
+
+- intent: inquire_benefits_real_time_visibility
+  examples: |
+    - How does real-time visibility benefit 3PL operations?
+    - What are the benefits of real-time visibility for 3PLs?
+    - Can you explain the advantages of real-time visibility for 3PLs?
+
+- intent: inquire_human_tech_integration
+  examples: |
+    - What are the benefits of integrating human experience with technology in shipment visibility?
+    - How does combining human experience with technology benefit shipment visibility?
+    - Can you explain the advantage of integrating human insights with technology?
+
+- intent: inquire_ensuring_data_accuracy
+  examples: |
+    - How does Cozentus ensure high accuracy and reliability in shipment data?
+    - What methods does Cozentus use to ensure data accuracy and reliability?
+    - How is data accuracy and reliability maintained by Cozentus?
+
+- intent: inquire_proactive_risk_assessment_advantage
+  examples: |
+    - What operational advantage does proactive risk assessment provide?
+    - How does proactive risk assessment benefit operations?
+    - Can you explain the advantage of proactive risk assessments?
+
+- intent: inquire_system_integration
+  examples: |
+    - How does Cozentus integrate into existing logistics systems?
+    - Can you explain how Cozentus integrates with current logistics systems?
+    - What is the integration process of Cozentus into existing systems?
+
+- intent: inquire_dashboard_customization
+  examples: |
+    - What customization options does Cozentus offer in its dashboard?
+    - Can you describe the dashboard customization features of Cozentus?
+    - How can the Cozentus dashboard be customized?
+
+- intent: inquire_transforming_data
+  examples: |
+    - How does Cozentus transform data into actionable insights?
+    - Can you explain how Cozentus converts data into insights?
+    - How does Cozentus make data actionable?
+
+- intent: inquire_operational_efficiency_enhancement
+  examples: |
+    - How does Cozentus enhance operational efficiency in shipment tracking?
+    - What does Cozentus do to improve operational efficiency in tracking shipments?
+    - How is operational efficiency in shipment tracking improved by Cozentus?
+
+- intent: inquire_ai_arrival_times_cost_efficiency
+  examples: |
+    - What impact does AI-powered estimated arrival times have on cost efficiency?
+    - How do AI-powered arrival times contribute to cost efficiency?
+    - Can you explain the cost benefits of AI-powered arrival times?
+
+- intent: inquire_notifications_risk_updates_cost_savings
+  examples: |
+    - How do instant notifications and real-time risk updates contribute to cost savings?
+    - What is the cost-saving impact of instant notifications and risk updates?
+    - How do Cozentus' notifications and risk updates help save costs?
+
+- intent: inquire_customer_satisfaction_improvement
+  examples: |
+    - What does Cozentus do to enhance customer satisfaction in logistics?
+    - Can you explain how customer satisfaction is improved by Cozentus?
+
+- intent: ask_primary_focus
+  examples: |
+    - What is the primary focus of Cozentus Risk Watch?
+    - Can you tell me the primary focus of Cozentus Risk Watch?
+    - I'm curious about the main focus of Cozentus Risk Watch.
+
+- intent: ask_proactive_identification
+  examples: |
+    - Why is proactive risk identification crucial in global supply chains?
+    - How important is proactive risk identification in global supply chains?
+    - What role does proactive risk identification play in global supply chains?
+
+- intent: ask_ai_ml_leverage
+  examples: |
+    - How does Cozentus Risk Watch leverage AI and ML?
+    - Can you explain how AI and ML are used in Cozentus Risk Watch?
+    - What AI and ML technologies does Cozentus Risk Watch utilize?
+
+- intent: ask_benefits
+  examples: |
+    - What benefits does Cozentus Risk Watch offer for logistics operations?
+    - How does Cozentus Risk Watch benefit logistics operations?
+    - What advantages does using Cozentus Risk Watch provide for logistics operations?
+
+- intent: ask_comprehensive_assessment
+  examples: |
+    - How does Cozentus ensure comprehensive risk assessment?
+    - What does Cozentus do to ensure a thorough risk assessment?
+    - Can you explain how Cozentus conducts comprehensive risk assessments?
+
+- intent: ask_minimizing_disruptions
+  examples: |
+    - How does Cozentus help in minimizing disruptions in logistics operations?
+    - What strategies does Cozentus employ to reduce disruptions in logistics operations?
+    - In what ways does Cozentus mitigate disruptions in logistics operations?
+- intent: ask_technologies_used
+  examples: |
+    - What technologies does Cozentus Risk Watch use for risk data capture and monitoring?
+    - Can you tell me about the technologies used by Cozentus Risk Watch for risk data capture and monitoring?
+    - How does Cozentus Risk Watch capture and monitor risk data?
+
+- intent: ask_enriching_data
+  examples: |
+    - How does Cozentus enrich risk data with logistics expertise?
+    - What methods does Cozentus use to enrich risk data with logistics expertise?
+    - Can you explain how Cozentus incorporates logistics expertise into risk data enrichment?
+
+- intent: ask_ui_analytics_platform
+  examples: |
+    - What does the intuitive UI and analytics platform of Cozentus Risk Watch offer?
+    - Can you describe the features of the UI and analytics platform in Cozentus Risk Watch?
+    - How does Cozentus Risk Watch's UI and analytics platform help in risk management?
+
+- intent: ask_tailored_solutions
+  examples: |
+    - What are Tailored solutions mentioned in Cozentus Risk Watch?
+    - How does Cozentus Risk Watch provide tailored solutions for logistics operations?
+    - Can you explain the concept of tailored solutions in Cozentus Risk Watch?
+
+- intent: ask_generative_ai_responses
+  examples: |
+    - How does Cozentus provide instant, tailored responses to user queries?
+    - What technology does Cozentus use for providing instant responses to user queries?
+    - Can you describe Cozentus Risk Watch's generative AI capabilities for user queries?
+
+- intent: ask_informed_decisions
+  examples: |
+    - How does Cozentus Risk Watch help in making informed decisions?
+    - Can you explain how Cozentus Risk Watch provides insights for informed decision-making?
+    - What does Cozentus Risk Watch offer for making informed decisions?
+
+- intent: ask_impact_proactive_identification
+  examples: |
+    - What impact does proactive risk identification have on logistics operations?
+    - How does proactive risk identification benefit logistics operations?
+    - Can you describe the impact of proactive risk identification on logistics operations?
+
+- intent: ask_alternate_routes_strategies
+  examples: |
+    - How does Cozentus support alternate shipment routes and sourcing strategies?
+    - What strategies does Cozentus suggest for alternate shipment routes and sourcing?
+    - Can you explain how Cozentus assists with alternate shipment routes and sourcing strategies?
+
+- intent: ask_alerts_notifications
+  examples: |
+    - What role do alerts and notifications play in Cozentus Risk Watch?
+    - How do alerts and notifications help in Cozentus Risk Watch?
+    - Can you describe the function of alerts and notifications in Cozentus Risk Watch?
+
+- intent: ask_integration_existing_systems
+  examples: |
+    - How does Cozentus integrate with existing logistics systems?
+    - Can you explain how Cozentus integrates with existing logistics systems?
+    - What integration options does Cozentus provide with existing logistics systems?
+
+- intent: ask_customization_options
+  examples: |
+    - What customization options are available in Cozentus Risk Watch?
+    - Can you describe the customization features in Cozentus Risk Watch?
+    - How can Cozentus Risk Watch be customized to meet specific needs?
+
+- intent: ask_tailored_solutions_operations
+  examples: |
+    - How does Cozentus tailor its solutions for different logistics operations?
+    - What methods does Cozentus use to tailor solutions for various logistics operations?
+    - Can you explain how Cozentus customizes its solutions for different logistics scenarios?
+
+- intent: ask_cost_efficiency
+  examples: |
+    - How does Cozentus Risk Watch contribute to cost efficiency in logistics operations?
+    - What role does Cozentus Risk Watch play in achieving cost efficiency in logistics operations?
+    - Can you describe how Cozentus Risk Watch helps in reducing costs in logistics operations?
+
+- intent: ask_cost_saving_benefits
+  examples: |
+    - What cost-saving benefits does Cozentus offer through its risk assessment capabilities?
+    - How does Cozentus save costs through its risk assessment features?
+    - Can you explain the cost-saving benefits of using Cozentus Risk Watch for risk assessment?
+
+- intent: ask_operational_efficiency
+  examples: |
+    - What does Cozentus do to enhance operational efficiency in logistics?
+    - Can you describe the impact of Cozentus on operational efficiency in logistics?
+
+- intent: ask_customer_satisfaction
+  examples: |
+    - How does Cozentus enhance customer satisfaction through risk management?
+    - What role does Cozentus Risk Watch play in improving customer satisfaction in logistics?
+    - Can you explain how Cozentus improves customer satisfaction through risk management?
+
+- intent: ask_benefits_bl_automation
+  examples: |
+    - What are the main benefits of Cozentus' B/L Process Automation?
+    - Can you list the benefits of Cozentus' B/L Process Automation?
+    - How does Cozentus' B/L Process Automation benefit organizations?
+
+- intent: ask_automation_importance
+  examples: |
+    - Why is automation important in Bill of Lading (B/L) process management?
+    - How does automation improve Bill of Lading (B/L) process management?
+    - What advantages does automation bring to B/L process management?
+
+- intent: ask_productivity_improvement
+  examples: |
+    - How does Cozentus' automation solution improve productivity in B/L processing?
+    - What productivity improvements does Cozentus' automation solution offer in B/L processing?
+    - Can you explain how Cozentus' automation enhances productivity in B/L processing?
+
+- intent: ask_data_accuracy_impact
+  examples: |
+    - What impact does Cozentus' emphasis on data accuracy have on customer satisfaction?
+    - How does Cozentus' focus on data accuracy affect customer satisfaction?
+    - Can you describe the influence of data accuracy on customer satisfaction in Cozentus' B/L automation?
+
+- intent: ask_compliance_regulatory_standards
+  examples: |
+    - How does Cozentus ensure compliance with regulatory standards in B/L processing?
+    - What measures does Cozentus take to maintain regulatory compliance in B/L processing?
+    - Can you explain Cozentus' approach to regulatory compliance in B/L processing?
+    
+- intent: ask_competitive_advantages
+  examples: |
+    - What competitive advantages does Cozentus offer through its B/L automation?
+    - How does Cozentus gain a competitive edge with its B/L automation?
+    - What are the competitive benefits of Cozentus' B/L automation solution?
+
+- intent: ask_specific_automation_aspects
+  examples: |
+    - What specific aspects of the B/L process does Cozentus automate?
+    - Can you list the tasks automated by Cozentus in the B/L process?
+    - How does Cozentus apply automation to different aspects of the B/L process?
+    - What customization options are available in Cozentus' B/L automation solution?
+    - How can Cozentus' B/L automation solution be customized to fit specific needs?
+    - What efficiency benefits does Cozentus' automation bring to B/L processing?
+    - Can you describe the efficiency improvements from using Cozentus' B/L automation solution?
+    - What cost-saving benefits does Cozentus offer through its B/L automation solution?
+    - Can you explain the financial benefits of using Cozentus' B/L automation?
+
+- intent: ask_success_measurement
+  examples: |
+    - How does Cozentus measure success in B/L process automation?
+    - What metrics does Cozentus use to gauge success in B/L automation?
+    - Can you explain the criteria Cozentus uses to measure the success of its B/L automation solution?
+    - How does Cozentus leverage data analytics to optimize B/L processes?
+    - Can you explain the impact of enhanced analytics on B/L process optimization?
+    - How does Cozentus ensure data accuracy in its B/L analytics approach?
+    - What types of data are analyzed by Cozentus to improve B/L processes?
+    - How does Cozentus use predictive analytics to forecast B/L processing times?
+    - What benefits does Cozentus' data-driven approach offer for B/L management?
+
+- intent: ask_data_accuracy_enhancement
+  examples: |
+    - How does Cozentus enhance data accuracy in B/L processing?
+    - What methods does Cozentus use to improve data accuracy in B/L processing?
+    - Can you describe Cozentus' approach to enhancing data accuracy in B/L processing?
+    - How does automation in B/L processing contribute to operational efficiency?
+    - Can you describe the impact of automation on operational efficiency in B/L processing?
+    - What sustainability benefits does Cozentus' automation offer?
+    - How does Cozentus contribute to sustainability through its B/L automation?
+    - Can you explain the environmental benefits of Cozentus' B/L automation solution?
 
 
+- intent: ask_sustainability_benefits
+  examples: |
+    - How does Cozentus ensure eco-friendly practices in its B/L automation approach?
+    - What are the long-term environmental impacts of Cozentus' B/L automation efforts?
+    - Can you describe Cozentus' strategy for promoting sustainability in B/L management?
+    - How does Cozentus' automation solution reduce carbon footprint in B/L processing?
+    - What role does renewable energy play in Cozentus' sustainable B/L automation?
+    - How does Cozentus support green initiatives through its B/L automation practices?
+    - What sustainability certifications or standards does Cozentus adhere to in B/L automation?
+- intent: ask_operational_efficiency_contribution
+  examples: |
+    - What role does automation play in enhancing operational efficiency in B/L processing?
+- intent: ask_enhanced_analytics_optimization
+  examples: |
+    - What role does enhanced data analytics play in optimizing B/L processes?
+    - How does real-time data analysis contribute to agile B/L processing?
+    - Can you describe Cozentus' strategy for continuous improvement in B/L analytics?
+    - What are the challenges in implementing data analytics for B/L optimization?
+- intent: ask_customer_satisfaction_contribution
+  examples: |
+    - How does Cozentus' solution contribute to customer satisfaction in B/L management?
+    - What benefits does Cozentus offer to enhance customer satisfaction in B/L management?
+    - Can you describe how Cozentus improves customer satisfaction through its B/L automation?
+    - How does Cozentus' B/L automation enhance efficiency in B/L processing?
+- intent: ask_seamless_integration
+  examples: |
+    - How does Cozentus ensure seamless integration of its B/L automation solution?
+    - Can you explain Cozentus' approach to integrating its B/L automation with existing systems?
+    - What integration capabilities does Cozentus offer for its B/L automation solution?
 
+- intent: ask_customization_options_bl
+  examples: |
+    - Can you describe the customization features of Cozentus' B/L automation solution?
+    - What flexibility does Cozentus offer for customizing its B/L automation solution?
+    - How does Cozentus tailor its B/L automation to meet unique requirements?
+    - What configurable settings does Cozentus provide in its B/L automation solution?
+    - Can you outline the options for personalization in Cozentus' B/L automation?
+    - How does Cozentus accommodate diverse business processes with its B/L automation customization?
+    - What role does user input play in customizing Cozentus' B/L automation solution?
+    - How does Cozentus ensure scalability in its B/L automation through customization?
+    - What are the benefits of choosing Cozentus for tailored B/L automation solutions?
+    - How does Cozentus' approach to customization differ from other B/L automation providers?
+    - Can you provide examples of successful customizations in Cozentus' B/L automation deployments?
+    - What support does Cozentus offer for integrating custom features into its B/L automation solution?
+    - How does Cozentus maintain flexibility while ensuring compliance with customized B/L requirements?
+- intent: ask_cost_savings_bl
+  examples: |
+    - How does Cozentus' automation solution contribute to cost savings in B/L management?
+    - How does Cozentus' B/L automation reduce operational expenses?
+    - What role does Cozentus' automation play in optimizing financial performance in B/L management?
+    - What are the specific cost efficiencies gained from Cozentus' B/L automation?
+    - How does Cozentus' automation solution lower overhead costs in B/L processing?
+    - Can you quantify the savings achieved with Cozentus' B/L automation implementation?
+    - What strategies does Cozentus employ to maximize cost savings through B/L automation?
+    - How does Cozentus ensure cost-effectiveness with its B/L automation solution?
+    - What financial metrics demonstrate the benefits of Cozentus' B/L automation?
+    - How do customers perceive the return on investment from Cozentus' B/L automation?
+    - What competitive advantages does Cozentus gain in cost savings with its B/L automation?
+    - How does Cozentus' automation solution compare with traditional methods in terms of financial impact?
+    - Can you provide examples of cost-saving scenarios facilitated by Cozentus' B/L automation?
+- intent: ask_efficiency_benefits_bl
+  examples: |
+    - How does Cozentus streamline B/L processing through automation?
+    - What are the specific advantages of Cozentus' automation in B/L documentation?
+    - How does Cozentus' automation solution optimize B/L processing workflows?
+    - What role does technology play in Cozentus' B/L automation for efficiency gains?
+    - Why is Cozentus' automation preferred for improving B/L processing efficiency?
+    - What are the measurable benefits of Cozentus' automation in B/L management?
+    - How does Cozentus ensure accuracy and speed in B/L processing with automation?
+    - Can you explain the impact of Cozentus' automation on operational costs in B/L processing?
+    - What challenges does Cozentus' automation address in B/L processing efficiency?
+    - How does Cozentus' automation integrate with existing B/L processing systems?
+    - What customer feedback has Cozentus received regarding its B/L automation efficiency?
+    - How does Cozentus' automation solution compare with traditional methods in B/L processing?
+- intent: ask_smart_freight_solution
+  examples: |
+    - What does Cozentus offer with its Smart Freight invoice data extraction solution?
+    - Can you describe Cozentus' Smart Freight invoice data extraction solution?
+    - What are the features of Cozentus' Smart Freight invoice data extraction solution?
+- intent: ask_freight_auditing_improvement
+  examples: |
+    - How does Cozentus' solution improve freight auditing processes?
+    - What improvements does Cozentus bring to freight auditing?
+    - Can you explain Cozentus' approach to enhancing freight auditing processes?
+    
+- intent: ask_competitive_advantage_freight_auditing
+  examples: |
+    - What competitive advantage does Cozentus provide in freight auditing?
+    - How does Cozentus stand out in freight auditing compared to competitors?
+    - What makes Cozentus' approach to freight auditing unique?
 
+- intent: ask_decision_making_freight_management
+  examples: |
+    - How does Cozentus support decision-making in freight management?
+    - What role does Cozentus play in helping with decisions in freight management?
+    - Can you describe Cozentus' contribution to decision-making in freight management?
 
+- intent: ask_benefits_vendor_relationships
+  examples: |
+    - What benefits does Cozentus' solution offer for vendor relationships?
+    - How does Cozentus improve vendor relationships through its solution?
+    - Can you explain the impact of Cozentus' solution on vendor relationships?
+
+- intent: ask_customer_satisfaction_contribution_freight
+  examples: |
+    - How does Cozentus' solution contribute to customer satisfaction?
+    - What does Cozentus do to enhance customer satisfaction with its solution?
+    - Can you describe how Cozentus ensures customer satisfaction through its solution?
+
+- intent: ask_smart_freight_functionalities
+  examples: |
+    - What specific functionalities does Cozentus' Smart Freight invoice data extraction include?
+    - Can you list the functionalities of Cozentus' Smart Freight invoice data extraction solution?
+    - What features are included in Cozentus' Smart Freight invoice data extraction solution?
+    
+- intent: ask_cost_optimization_freight_management
+  examples: |
+    - How does Cozentus optimize costs in freight management?
+    - What does Cozentus do to reduce costs in freight management?
+    - Can you explain Cozentus' approach to cost optimization in freight management?
+    
+- intent: ask_compliance_financial_accuracy
+  examples: |
+    - What does Cozentus do to ensure compliance and financial accuracy?
+    - How does Cozentus ensure compliance and accuracy in financial processes?
+    - Can you describe Cozentus' methods for ensuring compliance and financial accuracy?
+    
+- intent: ask_informed_decisions_freight
+  examples: |
+    - How does Cozentus help in making informed decisions?
+    - What role does Cozentus play in enabling informed decisions in freight management?
+    - Can you explain how Cozentus provides insights for informed decision-making in freight management?
+- intent: ask_financial_risks_mitigation
+  examples: |
+    - How does Cozentus' solution mitigate financial risks in freight auditing?
+    - Can you explain how Cozentus reduces financial risks in freight auditing?
+    - What does Cozentus do to mitigate financial risks in its freight auditing processes?
+    
+- intent: ask_transparency_vendor_relationships
+  examples: |
+    - What role does transparency play in Cozentus' approach to vendor relationships?
+    - How does Cozentus use transparency to build vendor relationships?
+    - Can you describe the importance of transparency in Cozentus' vendor relationships?
+    
+- intent: ask_optimize_operations_services
+  examples: |
+    - How does Cozentus optimize operations and services in the market?
+    - What strategies does Cozentus employ to optimize operations and services?
+    - Can you explain how Cozentus helps businesses optimize operations and services?
+- intent: ask_integration_existing_systems2
+  examples: |
+    - How does Cozentus integrate its Smart Freight invoice data extraction solution with existing financial systems?
+    - Can you explain how Cozentus integrates with existing financial systems for freight audit processes?
+    - What integration capabilities does Cozentus offer for its Smart Freight solution with existing financial systems?
+#--    
+- intent: ask_customization_options_freight_auditing
+  examples: |
+    - What customization options are available in Cozentus' solution for freight auditing?
+    - Can Cozentus' freight auditing solution be customized to meet specific business needs?
+    - How flexible is Cozentus' freight auditing solution in terms of customization?
+    
+- intent: ask_cost_effectiveness_freight_auditing
+  examples: |
+    - How does Cozentus contribute to cost-effectiveness in freight auditing?
+    - What cost-saving measures does Cozentus' freight auditing solution offer?
+    - Can you explain the cost-effectiveness of Cozentus' approach to freight auditing?
+    
+- intent: ask_efficiency_benefits_freight_management
+  examples: |
+    - What efficiency benefits does Cozentus bring to freight management?
+    - How does Cozentus improve efficiency in freight auditing and management?
+    - Can you describe the efficiency improvements from using Cozentus' freight auditing solution?
+    
+- intent: ask_sustainability_freight_auditing
+  examples: |
+    - How does Cozentus support sustainability efforts through its freight auditing solution?
+    - What sustainability benefits does Cozentus' freight auditing solution offer?
+    - Can you explain Cozentus' approach to sustainability in freight auditing?
+
+- intent: ask_freight_audit_payment_solution
+  examples: |
+    - What is a freight audit and payment solution?
+    - Can you explain what a freight audit and payment solution does?
+    - How do freight audit and payment solutions benefit 3PLs and logistics businesses?
+
+- intent: ask_freight_audit_platform
+  examples: |
+    - What is a freight audit platform?
+    - Can you explain what a freight audit platform does?
+    - How does a freight audit platform work?
+    - What are the features of a freight audit platform?
+
+- intent: manage_discrepancies_disputes_digitally
+  examples: |
+    - Is it possible to manage discrepancies and disputes digitally?
+    - Can discrepancies and disputes be resolved using digital methods?
+    - How does a digitized system handle discrepancies and disputes in freight audits?
+    - Does a digital freight audit system help in resolving disputes efficiently?
+
+- intent: ask_freight_invoice_audit_system
+  examples: |
+    - What is a freight invoice audit system?
+    - Can you explain what a freight invoice audit system does?
+    - How do freight invoice audit systems work?
+    - What is the objective of a freight invoice audit?
+
+- intent: ask_yard_management_services
+  examples: |
+    - What are yard management services?
+    - Can you explain what yard management companies do?
+    - How do yard management services work?
+    - What is included in yard management services?
+
+- intent: ask_difference_yard_management_services_solutions
+  examples: |
+    - What is the difference between yard management services and yard management solutions?
+    - Can you explain how yard management services differ from yard management solutions?
+    - How are yard management services and yard management solutions distinct?
+    - What do yard management solutions include that yard management services don't?
+
+- intent: ask_components_yard_management_systems
+  examples: |
+    - What are the components of yard management systems?
+    - Can you list the components of a yard and dray management system?
+    - What functionalities does yard management software include?
+    - How does yard management software ensure smooth operations?
